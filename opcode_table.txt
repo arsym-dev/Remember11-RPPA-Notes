@@ -1,0 +1,307 @@
+Array from 4b00f8:
+   0: sub_40e5c0 'nop'            0. 2
+   1: sub_40ab50 'end'            0. 2
+   2: sub_40abe0 'if'             0. 10?# variable width
+   3: sub_40ada0 'int_goto'       0. 4   03??ADDR
+   4: sub_40adc0 'int_call'       0. 4
+   5: sub_40ae20 'int_return'     0. 
+   6: sub_40aeb0 'ext_goto'       0. 2
+   7: sub_40af00 'ext_call'       0.
+   8: sub_40af90 'ext_return'     0. 2
+   9: sub_40b010 'reg_calc'       0. 6?
+   a: sub_40b330 'count_clear'    0. 2   0A??
+   b: sub_40b380 'count_wait'     0. 4
+   c: sub_40b480 'time_wait'      0. 4?
+   d: sub_40b520 'pad_wait'       0. 4?
+   e: sub_40b610 'pad_get'        0. 4?
+   f: sub_40b640 'file_read'      0. 4?
+  10: sub_40b680 'file_wait'      0. 2?
+  11: sub_40b6b0 'msg_wind'       0. 2?
+  12: sub_40b6e0 'msg_view'       0. 6?
+  13: sub_40b770 'msg_mode'       0. 2
+  14: sub_40b7f0 'msg_pos'        0. 6
+  15: sub_40b820 'msg_size'       0. 6
+  16: sub_40b850 'msg_type'       0. 2
+  17: sub_40b880 'msg_cursor'     0.
+  18: sub_40b8b0 'msg_set'        0. 4
+  19: sub_40b8f0 'msg_wait'       0.
+  1a: sub_40b940 'msg_clear'      0.
+  1b: sub_40b960 'msg_line'       0.
+  1c: sub_40b990 'msg_speed'      0.
+  1d: sub_40b9c0 'msg_color'      0.
+  1e: sub_40b9f0 'msg_anim'       0.
+  1f: sub_40bce0 'msg_disp'       0. 10
+  20: sub_40c3c0 'sel_set'        0. 4
+  21: sub_40c3f0 'sel_entry'      0.
+  22: sub_40c430 'sel_view'       0.
+  23: sub_40c460 'sel_wait'       0.
+  24: sub_40c4e0 'sel_style'      0. 2
+  25: sub_40c510 'sel_disp'       0. 4+8x
+  26: sub_40e420 'fade_start'     0.
+  27: sub_40e4a0 'fade_wait'      0.
+  28: sub_40c860 'graph_set'     	0. 4
+  29: sub_40c8b0 'graph_del'      0. 2?
+  2a: sub_40cbc0 'graph_copy'     0. 4?
+  2b: sub_40c8e0 'graph_view'     0. 4?
+  2c: sub_40c970 'graph_pos'      0. 6?
+  2d: sub_40c9c0 'graph_move'     0. 8?
+  2e: sub_40ca90 'graph_prio'     0. 4
+  2f: sub_40cac0 'graph_anim'     0. 4?
+  30: sub_40caf0 'graph_pal'      0. 4
+  31: sub_40cb50 'graph_lay'      0. 4?
+  32: sub_40cb80 'graph_wait'     0. 4
+  33: sub_40d9f0 'graph_disp'     0. 14
+  34: sub_40e3b0 'effect_start'   0.
+  35: sub_40e3f0 'effect_end'     0.
+  36: sub_40e5c0 'effect_wait'    0.
+  37: sub_40dc30 'bgm_set'        0. 4
+  38: sub_40dcc0 'bgm_del'        0. 2
+  39: sub_40dce0 'bgm_req'        0.
+  3a: sub_40dd10 'bgm_wait'       0. 2
+  3b: sub_40e0a0 'bgm_speed'      0. 6
+  3c: sub_40dd40 'bgm_vol'        0.
+  3d: sub_40dd80 'se_set'         0. 2
+  3e: sub_40ddc0 'se_del'         0. 2
+  3f: sub_40ddf0 'se_req'         0. 4
+  40: sub_40de20 'se_wait'        0. 4
+  41: sub_40df10 'se_speed'       0. 4
+  42: sub_40df50 'se_vol'         0. 4
+  43: sub_40dfb0 'voice_set'      0. 2
+  44: sub_40dfe0 'voice_del'      0. 2
+  45: sub_40e000 'voice_req'      0. 2
+  46: sub_40e030 'voice_wait'     0. 2
+  47: sub_40e0a0 'voice_speed'    0.
+  48: sub_40e0d0 'voice_vol'      0.
+  49: sub_40e160 'menu_lock'      0.
+  4a: sub_40e250 'save_lock'      0. 2
+  4b: sub_40e290 'save_check'     0. 4
+  4c: sub_40f4e0 'save_disp'      0. 4
+  4d: sub_40f690 'disk_change'    0.
+  4e: sub_40e2d0 'skip_start'     0.
+  4f: sub_40e310 'skip_end'       0.
+  50: sub_40e100 'task_entry'     0.
+  51: sub_40e140 'task_del'       0.
+  52: sub_40f0a0 'cal_disp'       0.
+  53: sub_40f420 'title_disp'     0. 2
+  54: sub_40e550 'vib_start'      0.
+  55: sub_40e590 'vib_end'        0.
+  56: sub_40e5c0 'vib_wait'       0. 2
+  57: sub_40ab10 'map_view'       0.    # Not implemented
+  58: sub_40ab10 'map_entry'      0.    # Not implemented
+  59: sub_40ab10 'map_disp'       0.    # Not implemented
+  5a: sub_40ab10 'edit_view'      0.    # Not implemented
+  5b: sub_40ab10 'chat_send'      0.    # Not implemented
+  5c: sub_40ab10 'chat_msg'       0.    # Not implemented
+  5d: sub_40ab10 'chat_entry'     0.    # Not implemented
+  5e: sub_40ab10 'chat_exit'      0.    # Not implemented
+  5f: sub_0 'null'                0.
+  60: sub_40e6f0 'movie_play'     0. 2
+  61: sub_40cbf0 'graph_pos_auto' 0. 12
+  62: sub_40cc70 'graph_pos_save' 0.
+  63: sub_40ccd0 'graph_uv_auto'  0. 2?
+  64: sub_40cca0 'graph_uv_save'  0. 4
+  65: sub_40e870 'effect_ex'      0. 6
+  66: sub_40ec30 'fade_ex'        0. 6
+  67: sub_40ef80 'vib_ex'         0.
+  68: sub_40f000 'clock_disp'     0. 6?
+  69: sub_40d9f0 'graph_disp_ex'  0. 16
+  6a: sub_40ab10 'map_init_ex'    0.    # Not implemented
+  6b: sub_40ab10 'map_point_ex'   0.    # Not implemented
+  6c: sub_40ab10 'map_route_ex'   0.    # Not implemented
+  6d: sub_40e340 'quick_save'     0. 4
+  6e: sub_40c350 'trace_spc'      0.
+  6f: sub_40f550 'sys msg'        0. 4
+  70: sub_40e1c0 'skip lock'      0. 2
+  71: sub_40e190 'key lock'       0. 2
+  72: sub_40d9f0 'graph_disp2'    0.
+  73: sub_40bce0 'msg_disp2'      0. 10
+  74: sub_40c510 'sel_disp2'      0. 6+8x
+  75: sub_40f050 'date_disp'      0.
+  76: sub_40ab10 'vr_disp'        0.    # Not implemented
+  77: sub_40ab10 'vr_select'      0.    # Not implemented
+  78: sub_40ab10 'vr_reg_calc'    0.    # Not implemented
+  79: sub_40ab10 'vr_msg_disp'    0.    # Not implemented
+  7a: sub_40ab10 'map_select'     0.    # Not implemented
+  7b: sub_40ab10 'ecg_set'        0.    # Not implemented
+  7c: sub_40ab10 'ev_init'        0.    # Not implemented
+  7d: sub_40ab10 'ev_disp'        0.    # Not implemented
+  7e: sub_40ab10 'ev_anim'        0.    # Not implemented
+  7f: sub_40e1f0 'eye_lock'       0.
+  80: sub_40c3a0 'msg_log'        0. 4?
+  81: sub_40ccd0 'graph_scale_auto' 0. 16
+  82: sub_40e5e0 'movie_start'    0. 4
+  83: sub_40e6d0 'movie_end'      0. 2
+  84: sub_40edc0 'fade_ex_start'  0. 6
+  85: sub_40eef0 'fade_ex_wait'   0. 2
+  86: sub_40e220 'breath_lock'    0. 2
+
+
+====02: if====
+eg: 02 00 5E 1D 00 60 00 00 00 00 
+
+Offset  Length  Desc
+0x00    1       [02] Opcode
+0x01    1       [00]
+0x02    2       Address to jump to if true
+0x04    6       ???
+  
+====16: msg_type====
+Length = 2
+
+Offset  Length  Desc
+0x00    1       [16] Opcode
+0x01    1       Type
+                  [00] = SELF
+                  [01] = Kokoro
+                  [02] = Satoru
+
+
+====33: graph_disp====
+Length = 14?
+
+From SHORTCUT01, BGUV test
+L: 33 01 01 FF FF 00 43 30 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 38 30 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 2D 30 00 00 40 01 00 00 
+X: 33 01 01 FF FF 00 4E 30 00 00 40 01 00 00
+
+Sprite of Kokoro?
+
+Size (offset = 0x06):
+X = 4E
+L = 43
+M = 38
+S = 2D
+
+From SHORTCUT01, Character test
+==Kokoro==
+L: 33 01 01 FF FF 00 17 30 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 0C 30 00 00 40 01 00 00
+S: 33 01 01 FF FF 00 01 30 00 00 40 01 00 00
+
+==Yukidoh==
+L: 33 01 01 FF FF 00 6F 30 00 00 40 01 00 00
+M: 33 01 01 FF FF 00 64 30 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 59 30 00 00 40 01 00 00 
+
+==Mayuzumi==
+L: 33 01 01 FF FF 00 F3 30 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 E8 30 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 DD 30 00 00 40 01 00 00 
+
+==Yomogi==
+L: 33 01 01 FF FF 00 4B 31 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 40 31 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 35 31 00 00 40 01 00 00
+
+==Utsumi==
+L: 33 01 01 FF FF 00 A3 31 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 98 31 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 8D 31 00 00 40 01 00 00 
+
+==Inubushi==
+L: 33 01 01 FF FF 00 27 32 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 1C 32 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 11 32 00 00 40 01 00 00 
+
+==Yuni==
+L: 33 01 01 FF FF 00 AB 32 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 A0 32 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 95 32 00 00 40 01 00 00 
+
+==Hotori==
+L: 33 01 01 FF FF 00 30 33 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 27 33 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 1E 33 00 00 40 01 00 00
+
+==Enomoto==
+L: 33 01 01 FF FF 00 54 33 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 4B 33 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 42 33 00 00 40 01 00 00
+
+==Sayaka==
+L: 33 01 01 FF FF 00 9C 33 00 00 40 01 00 00 
+M: 33 01 01 FF FF 00 93 33 00 00 40 01 00 00 
+S: 33 01 01 FF FF 00 8A 33 00 00 40 01 00 00
+
+====73: 'msg_disp2'====
+@desc: Displays a dialogue message box with the character's name and their spoken text
+
+Offset  Length  Desc
+0x00    1       [73] Opcode
+0x01    1       [00] ???
+0x02    2       Address to message
+0x04    2       Message ID
+0x06    2       ID of associated voice clip?
+                If nobody speaks (ie. internal monologue), the value is FF FF
+0x08    2       ID of speaker
+                  00 00: None. Do not display speaker's name above dialog
+                  01 00: Kokoro
+                  02 00: Satoru
+                  04 00: Yomogi
+                  07 00: Yuni
+
+  
+====74:sel_disp2====
+@desc: Displays a dialog with choices for the player to choose from
+
+Offset      Length  Desc
+0x00        1       [74] Opcode
+0x01        1       Number of choices
+0x02        4       [09 60 00 00]
+0x06 +8i    2       Address to choice text
+0x06 +8i+2  4       [FF FF 01 00]
+0x06 +8i+6  2       Choice ID
+
+Where "i" represents the i-th choice
+
+
+
+
+Array from 4af580:
+   0: sub_402710 'fade_noeffect' 0.
+   1: sub_402720 'fade_black' 0.
+   2: sub_402760 'fade_black_in' 0.
+   3: sub_4027c0 'fade_black_out' 0.
+   4: sub_402810 'fade_white' 0.
+   5: sub_402850 'fade_white_in' 0.
+   6: sub_4028b0 'fade_white_out' 0.
+   7: sub_402a40 'fade_blind_l_in' 0.
+   8: sub_402a80 'fade_blind_l_out' 0.
+   9: sub_402ac0 'fade_blind_r_in' 0.
+   a: sub_402b00 'fade_blind_r_out' 0.
+   b: sub_402c50 'fade_box_in' 0.
+   c: sub_402c90 'fade_box_out' 0.
+   d: sub_403140 'fade_lozenge_l_in' 0.
+   e: sub_403180 'fade_lozenge_l_out' 0.
+   f: sub_4031c0 'fade_lozenge_r_in' 0.
+  10: sub_403200 'fade_lozenge_r_out' 0.
+  11: sub_403470 'fade_circle_in' 0.
+  12: sub_4034b0 'fade_circle_out' 0.
+  13: sub_4034f0 'fade_alpha' 0.
+  14: sub_403520 'fade_alpha_in' 0.
+  15: sub_403570 'fade_alpha_out' 0.
+  16: sub_404040 'fade_closs' 0.
+  17: sub_4035c0 'fade_slide_l' 0.
+  18: sub_403740 'fade_slide_r' 0.
+  19: sub_403950 'fade_scale_w' 0.
+  1a: sub_403a50 'fade_scale_h' 0.
+  1b: sub_403b60 'fade_blind_l' 0.
+  1c: sub_403cc0 'fade_blind_r' 0.
+  1d: sub_403e00 'fade_mosaic_in' 0.
+  1e: sub_403e70 'fade_mosaic_out' 0.
+  1f: sub_403ee0 'fade_shade_in' 0.
+  20: sub_403f50 'fade_shade_out' 0.
+  21: sub_404080 'fade_screen' 0.
+  22: sub_4041d0 'fade_shade_zoom_in' 0.
+  23: sub_404210 'fade_shade_zoom_out' 0.
+  24: sub_404460 'fade_shade_y_in' 0.
+  25: sub_404490 'fade_shade_y_out' 0.
+  26: sub_404600 'fade_shade_rot_in' 0.
+  27: sub_404630 'fade_shade_rot_out' 0.
+  28: sub_404bb0 'fade_shade_circle_in' 0.
+  29: sub_404bf0 'fade_shade_ciecle_out' 0.
+  2a: sub_404f20 'fade_line_l_in' 0.
+  2b: sub_404f60 'fade_line_l_out' 0.
+  2c: sub_404fa0 'fade_line_r_in' 0.
+  2d: sub_404fd0 'fade_line_r_out' 0.

@@ -1,0 +1,597 @@
+
+窓の向こうは相変わらずの吹雪だった。%K%P
+Beyond the window was the usual snowstorm.
+
+天候が回復しなければ救助隊が来ることはないだろう。%K%P
+If the weather doesn’t improve, the rescue team probably won’t be able to come.
+
+ゆうべ黄泉木もそう言っていた。%K%P
+Yomogi had said this last night as well.
+
+まだ昼間だというのに、空は絶望的な薄墨色……。%K%P
+Even though it was still daylight hours, the sky remained a despair-ridden ink colour.
+
+このまま永遠に吹雪が続くような気さえした。%K%P
+It felt like the snowstorm would continue like this forever.
+
+暗雲は、天だけにとどまらず、小屋の内部にまでひたひたと忍び込んでいた。%K%P
+The dark clouds hadn’t stop at the heavens, but continued to creep into the interior of the shelter cabin as well.
+
+そんな不穏な気配を振り払うかのように……。%K%P
+And as if to shake off that feeling of unrest….
+ 
+黄泉木「うーっし、沸いたみたいだぞぉ」%K%P
+Oooh, looks like it’s boiling well
+//check
+
+黄泉木は活気に満ちた声でそう言った。%K%P
+Yomogi had shouted in a voice full of energy.
+
+揉み手をしながらストーブの傍らに近づいていく黄泉木。%K%P
+He was rubbing his hands while approaching the side of the stove.
+
+服の袖を鍋つかみの代わりにし、ヤカンの取っ手を握った。%K%P
+Using his shirt sleeve as a substitute oven mitt, he grabbed onto the handle of the kettle.
+
+これからフリーズドライの雑炊を作るのだという。%K%P
+Apparently we’re going to make freeze-dried vegetable hodgepodge after this.
+//can’t remember which we used for the vegetable soup that ate
+
+オレ、ゆに、鈴の３人は、『雑炊の素』の入ったお碗を手にして、黄泉木がお湯を注ぐのを待っていた。%K%P
+Me, Yuni, and Lin were holding out our bowls with the “hodgepodge ingredients” inside, waiting for Yomogi to pour in the boiling water.
+//closer to ‘base’ than ‘ingredients’, I think
+
+黄泉木「一番がいいひとー！」%K%p
+Who wants it first!?
+
+返事をする
+Answer
+
+返事をしない
+Don’t answer
+
+悟「はいっ！」%K%P
+Me!
+
+黛「はいっ！」%K%P
+Me!
+
+ゆに「はぁーい！！」%K%P
+Meee!
+
+黄泉木「それじゃあ、一番元気がよかった……ゆにくんに決定！」%K%P
+Then, the one with the most energy was… Yuni!
+
+ゆに「わーい、やったー！」%K%P
+Yes, I did it!
+
+黛「ちょっと待ちなさいよー！　私が先に返事したじゃなーい！」%K%P
+Wait just a minute!  I replied before he did!
+
+悟「なに言ってんだよ！　オレの方が早かっただろ！？」%K%P
+What’re you talking about!?  I was the fastest, wasn’t I!?
+
+黛「黙れ！　詐欺師！」%K%P
+Shut up!  You swindler!
+//check swindler
+
+黛「刑法第２４６条：人を欺いて財物を交付させた者は、十年以下の懲役に処する」%K%P
+Article 246 of the criminal code: those guilty of cheating someone during the delivery of property shall be imprisoned with a maximum penalty of ten years
+//someone should probably check this
+
+黛「ぶち込むわよ？」%K%P
+I’ll throw you in prison!
+//check, this isn’t a full sentence
+
+悟「おまえにその権限はねーだろ！」%K%P
+You don’t have the freakin’ authority!
+
+黄泉木「こらこら、やめないか……」%K%P
+Now now, stop it…
+
+黄泉木「僕は早いもん勝ちなんてひとことも言ってないだろう？」%K%P
+I never once said that I’d be choosing the fastest, did I?
+
+黄泉木「元気のいいやつが優先……山の常識だ」%K%P
+Those that have the most vigor are top priority… it’s a basic rule of the mountains
+
+悟「嘘つくなよ！」%K%P
+Don’t lie!
+
+黛「逆でしょ、普通！」%K%P
+It’s normally the opposite, isn’t it?
+
+黄泉木「……………………」%K%P
+…………
+
+ゆに「……………………」%K%P
+…………
+
+黄泉木「というわけで……」%K%P
+So anyway…
+
+黄泉木「はいはーい、ゆにくーん、お湯を注ぐよ～？」%K%P
+Here you go Yuni-kun, I’m pouring in the water now, okay～?
+
+ゆに「ありがとうございまーす、黄泉木さん」%K%P
+Thank you veeery much, Yomogi-san
+
+黄泉木「うーん、礼儀正しくって気分がいいなぁ～」%K%P
+Mmm, it feels nice to be received with good manners～
+//check
+
+ゆに「てへへ♪」%K%P
+Tehehe♪
+
+お湯を注ぎ終わると、ゆには黄泉木の背後へとまわり込み……。%K%P
+After the water finished pouring, Yuni went around Yomogi’s back….
+
+ゆに「べー」%K%P
+Mweeeeh
+
+オレ達の方に向けて舌を出した。%K%P
+Then turned towards us and stuck out his tongue.
+
+悟「オッサン！」%K%P
+Old man!
+
+黛「後ろ後ろ！」%K%P
+Behind!  Behind!
+
+黄泉木「ん？」%K%P
+Hn?
+
+黄泉木が振り返る。%K%P
+Yomogi turned around.
+
+そのときにはすでに、ゆにはお行儀よくちょこんと椅子の上に腰を下ろしていた。%K%P
+By that time, Yuni was already sitting on top of the chair, behaving in a well-mannered way.
+//check, unfamiliar with one word
+
+悟「ちっ、くそガキ……」%K%P
+Tsk, damn brat…
+
+黛「なめやがって……」%K%P
+Making fun of us…
+
+黄泉木が向き直る。%K%P
+Yomogi turned around again.
+
+首を傾げる彼の後ろで、ゆにはくすくすと笑いをかみ殺していた。%K%P
+As he tilted his neck, Yuni was stifling his laughter behind him.
+
+食事を前にしたとたん、なぜか食欲が失せてしまった。%K%P
+For some reason, my appetite began to disappear before the meal was even made.
+
+黛「はいっ！」%K%P
+Me!
+
+ゆに「はいはいはいはいはいはいはいはいっ！！」%K%P
+Memememememememeee!!
+
+黄泉木「それじゃあ、一番元気がよかった……ゆにくんに決定！」%K%P
+Then, the one with the most energy was… Yuni!
+
+ゆに「わーい、やったー！」%K%P
+Yes, I did it!
+
+黛「ちょっと待ちなさいよー！　私が先に返事したじゃなーい！」%K%P
+Wait just a minute!  I replied before he did!
+
+黄泉木「僕は早いもん勝ちなんてひとことも言ってないが……？」%K%P
+I said anything about the fastest one being the winner…
+
+黄泉木「元気のいいやつが優先……」%K%P
+The winner is the one most full of life…
+
+黄泉木「これ、山の常識」%K%P
+Those are the basics of the mountain
+
+黛「嘘つかないでよ！」%K%P
+Stop lying!
+
+黄泉木「というと……？」%K%P
+What do you mean…?
+
+黛「こういった非常時には、体力のない子どもや女性が優先されるのが常識でしょう！？」%K%P
+In situations of crisis, it’s common sense to prioritize women and children without stamina, isn’t it!?
+
+黄泉木「えっ？　えっ？　今なんて？」%K%P
+What?  What?  What did you say just now?
+
+黛「だからぁー、体力のない子どもや女性が……」%K%P
+I said, women and children without stamina…
+
+黛「…………あ…………」%K%P
+……Ah……
+
+黄泉木「まあ、そういうわけだ、黛さん」%K%P
+Well, that’s how it is, Mayuzumi-san
+
+黄泉木「子どもが１番、女性は２番、な？」%K%P
+Children are first, women are second, okay?
+
+黛「ず、ずるいわよ、そんなの」%K%P
+T, that’s so unfair!
+
+黛「日本国憲法第１４条、すべて国民は、法の下に平等であって……」%K%P
+Article 14 of the Japanese Constitution, all citizens are equal under the law…
+
+黄泉木「はいはーい、ゆにくーん、お湯を注ぐよ～？」%K%P
+Here you go Yuni-kun, I’m pouring in the water now, okay～?
+
+
+主張を続ける鈴をよそに、黄泉木は猫撫で声でそう言った。%K%P
+Yomogi spoke in a soft voice, phasing out Lin’s continuing assertion.
+
+ゆに「ありがとうございます、黄泉木さん」%K%P
+Thank you very much, Yomogi-san
+
+瞳をらんらんと輝かせながら、ゆにが答える。%K%P
+Yuni answered with sparkling eyes.
+
+黄泉木「うーん、礼儀正しくって気分がいいなぁ～」%K%P
+Mmm, it feels nice to be received with good manners～
+//check
+
+ゆに「てへへ♪」%K%P
+Tehehe♪
+
+黄泉木「さてと、次は……」%K%P
+Well then, next is…
+
+お湯を注ぎ終えた黄泉木は、オレと鈴を交互に見て言った。%K%P
+After he finished pouring the water, Yomogi glanced back and forth between me and Lin, and said,
+
+黄泉木「優希堂くん、だな」%K%P
+Yukidoh-kun, I guess
+
+悟「えっ？　オレ？」%K%P
+Eh?  Me?
+
+黛「なんでよ！　なんでこの女が先なのよ！」%K%P
+Why!?  Why is this woman first!?
+
+黄泉木「女性だからだ」%K%P
+Because she’s a girl
+
+黛「私だって女性よ！」%K%P
+I’m a girl too!
+
+黄泉木「あれ？　そうだったのか？」%K%P
+Huh?  Is that right?
+
+黛「くっそぉ……この山オタク……」%K%P
+Damn… this mountain maniac…
+
+黄泉木は笑いをかみ殺しながら、ヤカンをオレのお碗に傾けた。%K%P
+While stifling his laughter, he tilted the kettle towards my bowl.
+
+『雑炊の素』が溶けていく。%K%P
+The “vegetable hodgepodge ingredients” began to thaw.
+
+液体とも個体ともつかない離乳食のようなカユ状の物質が、お碗いっぱいに広がった。%K%P
+Everything mixes into a single liquid as a baby food-like substance began to spread through the bowl.
+
+オレはそれを、なにも言わずに鈴の前へと差し出した。%K%P
+I stuck it in front of Lin without saying a word.
+
+悟「オレは最後でいいよ」%K%P
+I can go last
+
+黛「……えっ？　……いいの？」%K%P
+…What?  …Is it okay?
+
+悟「ああ、オレは男だからな」%K%P
+Yeah, I’m a guy after all
+
+鈴と黄泉木は、顔を見あわせてきょとんとしている。%K%P
+Lin and Yomogi stared at me with vacant expressions.
+//check
+
+オレはお碗を強引に鈴に押しつけて、テーブル近くの丸太椅子に座った。%K%P
+I forcefully pushed the bowl towards Lin and sat on a log chair at the nearby table.
+
+オレの前には雑炊の入ったお碗が置かれていた。%K%P
+I placed the bowl of vegetable hodgepodge in front of me.
+
+『無理にでもいいから食べておけ』と黄泉木は言ったが、食欲はなかった。%K%P
+Although Yomogi had told me “You should try to eat something even if you don’t want to”, I didn’t have an appetite.
+
+他の３人は黙々と雑炊をくちに運んでいる。%K%P
+The other 3 people were silently scooping the hodgepodge into their mouths.
+
+オレはスプーンを右手に握ったまま、お碗の底をコンコンと意味もなくつついていた。%K%P
+Gripping the spoon in my right hand, I meaninglessly poked the bottom of the pole over and over again.
+//check, onomatopoeias that I’m too lazy to look up
+
+身体はエネルギーを欲している。%K%P
+My body wants energy.
+
+自分の肉体ではないけれど、そのぐらいのことはわかった。%K%P
+It wasn’t my own body, but I was at least able to figure that out.
+
+神経はオレの意識と直結しているのだ。%K%P
+Her body’s nerves were connected directly to my consciousness.
+
+痛みも感じれば、空腹感も覚える。%K%P
+If it can feel her pain, then it can remember her hunger as well.
+//doesn’t really say ‘her’
+
+食べなければいけない、とも思う。%K%P
+I must try to eat, is what I thought.
+
+冬川こころのことを考えれば、食糧に手をつけないわけにはいかなかった。%K%P
+Thinking of Fuyukawa Kokoro’s well being, I couldn’t help but reach my hand for the food.
+
+オレは目の前の雑炊をひとさじすくって、くちの中に放り込んだ。%K%P
+I took a scoop of the hodgepodge in front of me and dumped it into my mouth.
+
+ごくりと飲み込む。%K%P
+I swallow with a gulp.
+
+味気がしない。%K%P
+The taste was dull.
+//check for accuracy
+
+やはり食は進まなかった。%K%P
+It hadn’t progressed far enough.
+
+悟「はぁ……」%K%P
+Ha…
+
+オレは小さくため息をついた。%K%P
+A small sigh left my mouth.
+
+今頃冬川こころはどうしているのだろう？%K%P
+What was Fuyukawa Kokoro doing right about now?
+
+彼女は%TS050今%TE、スフィアのオレの肉体に宿っていて……。%K%P
+Right %TS050now%TE, she was inside my body at SPHIA….
+ 
+そうだ！　大事なことを忘れるところだった！%K%P
+That’s right!  I was just about to forget something important!
+
+悟「悪い、ちょっとはずすよ」%K%P
+Sorry, I need to step away for a minute
+
+オレは３人にそう告げて席を立った。%K%P
+Telling that to the 3, I stood from my seat.
+
+地下倉庫へと降り立つ。%K%P
+I started heading down to the basement.
+
+ポケットを探って、先ほど見つけたＶＲ（ボイスレコーダー）を取り出した。%K%P
+Searching around my pockets, I took out the Voice Recorder from before.
+
+今回の転移前、オレは重要なことをこころに伝えそびれていた。%K%P
+I missed my chance to tell Kokoro something important before the last transfer.
+
+オレは言わなければならないことを頭の中で整理し、ＲＥＣボタンを押した。%K%P
+I sorted out what I had to say inside my mind and pushed on to REC button.
+
+悟「こころ、さっきのメッセージの続きだ」%K%P
+Kokoro, this is a continuation of my message from before.
+
+悟「またいつ転移が起こるかわからないから、用件だけ話すぞ？」%K%P
+Since I don't know when we'll transfer again, I'll just get down to business.
+
+悟「いいか？　落ち着いて聞いてくれ」%K%P
+Calm down and listen, okay?
+
+悟「実は……どうやらオレは……オレの身体は……」%K%P
+Actually... it seems that I... my body...
+
+悟「何者かに命を狙われているらしい」%K%P
+It seems someone is after my life.
+
+悟「いや、まだ断言はできないんだが、なんとなくそんな気がするんだ」%K%P
+No, I can’t really confirm that yet, but it somehow feels that way
+
+悟「事故にしては不自然なことが、２度も続けて起こった」%K%P
+2 incidents that feel too unnatural to be accidents happened one after another
+
+悟「犯人が誰なのかはわからない」%K%P
+I don’t know who the culprit is
+
+悟「見当もつかない」%K%P
+I don’t have any guesses as to who it is either
+
+悟「そこにいる内海さん、ゆに、それから犬伏……」%K%P
+Here, there’s Utsumi-san, Yuni, and Inubushi...
+
+悟「いや、涼蔭穂鳥と言ったほうがいいかな」%K%P
+“No, it might be better if I called her Suzukage Hotori”
+
+悟「ともかく３人のうちの誰かがオレを殺そうと……」%K%P
+Anyway, one of these three is trying to kill me...
+
+ここまで言って、オレは言葉に詰まってしまった。%K%P
+After saying that much, my words became blocked.
+
+このまま録音を続けていいものだろうか……？%K%P
+Would it be wise for me to continue recording like this…?
+
+冬川こころはこれを聞いてどう思うだろう。%K%P
+What would Fuyukawa Kokoro think after hearing this?
+
+彼女の精神状態がわからない。顔色をうかがうこともできない。%K%P
+I don’t know her mental state.  It’s not possible for me to check her facial expressions either.
+
+もしかしたら彼女は、この転移現象に巻き込まれて恐怖を感じているかも知れないのだ。%K%P
+She might be terrified from being caught up in this transference phenomenon.
+
+だとしたら、このオレのメッセージは、彼女にさらなる不安を与えてしまうことにもなりかねない。%K%P
+If that’s so, then my recording this message may cause her even more anxiety.
+
+どうするか……。%K%P
+What should I do….
+
+迷った挙げ句、やはり録音は継続することにした。%K%P
+My hesitation ending, I had decided to continue after all.
+
+たとえ不安をあおることになってしまったとしても、無防備でいるよりはマシだと判断したのだ。%K%P
+Even if it does cause her to feel anxiety, it’s better than being defenseless, or so I decided.
+
+悟「もちろん、オレだってこんなことは考えたくないさ」%K%P
+Of course, I don’t want to consider this myself
+
+悟「杞憂であってくれればいいと思っている」%K%P
+ It’d be nice if this was just baseless anxiety
+
+悟「だが、用心するに越したことはない」%K%P
+However, it wouldn’t be going overboard to stay cautious
+
+悟「そうだろう？」%K%P
+ Isn’t that right?
+
+悟「その身体は、オレのものであると同時に、今はおまえのものでもあるんだ」%K%P
+That body is mine, but at the same time it’s yours.
+
+悟「おまえがその身体に入ったまま、もしも命を失ってしまったとしたら……」%K%P
+If you happen to lose your life while you’re in that body...
+
+悟「だいたい、想像はつくよな？」%K%P
+You can probably use your imagination, right?
+
+悟「頼んだぞ、こころ」%K%P
+I’m counting on you, Kokoro
+
+悟「オレもこっちにいるときは、できる限りのことをするから」%K%P
+I’m doing what I can while I’m here, too
+
+悟「それじゃあ、またな」%K%P
+Later then
+
+『オンセイデータヲ　ホゾンシマシタ』%K%P
+“Data2 Saved”
+//check, really have no idea, something about saved data
+
+液晶画面に『ＤＡＴＡ２　ＳＡＶＥＤ』の文字が浮かぶ。%K%P
+Those words appeared on the LCD screen.
+
+オレはＶＲをポケットに戻した。%K%P
+I returned the voice recorder to my pocket.
+
+続いて倉庫の中を見まわす。%K%P
+I continued to look around the basement warehouse.
+
+悟「何か書くもの、書くものは……」%K%P
+Something to write on, something to write on…
+
+工具箱の中を引っかきまわすと、１本の古ぼけたサインペンが見つかった。%K%P
+Scrounging around the bottom of the toolbox, I managed to find a single old looking felt tipped pen.
+
+悟「紙はどこだ……？」%K%P
+Is there any paper…?
+
+ノートやメモ用紙のようなものは見当たらない。%K%P
+I didn’t find anything like a notebook or memo pad.
+
+悟「ダンボールでいいか」%K%P
+A cardboard box will do
+
+オレはダンボールの表面の薄い紙を剥ぎ取って、その上にサインペンを走らせた。%K%P
+I tore off a piece of thin paper from the cardboard  box and ran my pen over it.
+//check just in case
+
+『ボイスレコーダーを聞いてくれ』%K%P
+“Please listen to the voice recorder”
+
+２段階のメッセージは、面倒ではあったがやむを得ない。%K%P
+A 2 stage method was troublesome, but there was nothing that could be done about it.
+
+できればこの人格交換現象は、他の３人には知られたくなかった。%K%P
+If possible, I didn’t want the other 3 to know about this personality exchange phenomenon.
+
+いや、知られても別にかまわないのだけれど、説明したところで信用してもらえないだろう。%K%P
+No, I wouldn’t mind if they knew, but they would probably lose trust in me after I try to explain it to them.
+
+無駄なことはしたくない。%K%P
+I didn’t want to attempt the useless.
+
+このメッセージはこころにだけ伝わればいいのだ。%K%P
+Only Kokoro needed to know the contents of this message
+
+オレは切れ端を折り畳んで手のひらに握り、上の階に戻った。%K%P
+Folding up the scrap of paper, I gripped it in my hand and returned to the above floor.
+
+ゆに「ねえ？　下で何やってたの？」%K%P
+Hey, what were you doing underneath?
+
+ハシゴをのぼり切ったところで、ゆにが尋ねてきた。%K%P
+Yuni had suddenly asked as soon as I got up the ladder.
+
+悟「いや、ちょっとな」%K%P
+No, it’s nothing
+
+オレはひと言だけ答えて、元の席についた。%K%P
+I left only that and returned to my seat.
+
+ゆに「変な悟……」%K%P
+You’re weird, Satoru…
+
+呟いて、食事を再開するゆに……。%K%P
+Muttering that, Yuni returned to his meal….
+
+オレは折り畳んだ紙切れを黄泉木に向かって差し出した。%K%P
+I faced Yomogi and held out the folded scrap of paper.
+
+悟「こころが戻ってきたら、これを渡してくれ」%K%P
+Can you hand this to Kokoro when she gets back?
+
+黄泉木「戻って来たとき？」%K%P
+When she gets back?
+
+黄泉木は首を傾げた。%K%P
+Yomogi tilted his neck.
+
+不本意ではあったが、オレはこう言わざるを得なかった。%K%P
+I still had some negative feelings about it, but I didn’t have any other way of saying it.
+
+悟「人格が、こころに換わったとき、これを……」%K%P
+When my personality changes back into Kokoro, please give this to her…
+
+納得したのか、黄泉木は素直にそれを受け取ってくれた。%K%P
+Perhaps he understood, as Yomogi obediently took it from me.
+
+悟「忘れないでくれよ？」%K%P
+Don’t forget, okay?
+
+黄泉木「ああ」%K%P
+Alright
+
+彼はあっさりと答えて、紙切れをポケットにねじ込んだ。%K%P
+He answered abruptly and slipped the scrap of paper in his pocket.
+
+人格が換わるという現象について、黄泉木はもはや何の疑問も抱いていないようだ。%K%P
+It seemed that Yomogi wasn’t harboring any remaining doubts about the personality exchange phenomenon.
+
+ゆににしても同じだった。%K%P
+Yuni was the same.
+
+オレが席についたとき、ゆにはオレのことを当たり前のように『悟』と呼んだ。%K%P
+As soon as I took my seat, Yuni had called me “Satoru” like it was the natural thing to do.
+
+恐らく彼らの中では、この件は決着済みのことなのだろう。%K%P
+It’s most likely that he had completely settled this matter inside his head.
+
+きっと彼らは、オレのことを『冬川こころの中に芽生えたもうひとりの人格』として受け入れているのだ。%K%P
+He had probably accepted me as “another personality that had sprouted inside of Fuyukawa Kokoro”.
+//Kokoro’s mind might sound better, but it doesn’t say that
+
+鈴だけがＤＩＤ説を訝っているようだが、それでもやはり、ゆうべやさっきのように、あからさまに嫌疑の態度を示すことはなかった。%K%P
+Only Lin was still suspicious of the DID claim, but even so, last night as well as before, she quite plainly wasn't putting her suspicious attitude on display for us any longer.
+//check for wording
+
+あきらめたのか、それとも単にめんどくさいと思っているだけなのか……。%K%P
+Did she give up, or did she merely think it was too troublesome to continue….
+
+いずれにせよ、もはやここには、オレがオレとして振る舞うことに対して拒絶反応を示す者はいなくなっていた。%K%P
+In any case, all those who rejected me acting like myself had already disappeared.
+
+果たしてこれは悦ばしいことなのだろうか……？%K%P
+Now, was this something to be happy about…?
+
+そんなことをぼんやりと考えながら、オレは雑炊の中に、スプーンを……。%K%P
+While absent-mindedly thinking that, I picked up the spoon and placed it in the hodgepo….

@@ -1,0 +1,426 @@
+
+その前にもう一度だけ、サークル外を確認しておこうと思った。%K%P
+Before that, I thought that I should check outside the circle just one more time.
+
+
+念には念を入れておかねばならない。%K%P
+I should put more attention into being cautious.
+//check for better wording
+
+オレは玄関の扉を開いて外へ出た。%K%P
+I opened the front door and I stepped outside.
+// check: "玄関の扉" is in CO3_05, SA4_13 and SA5_08 as well, as "door" and "door of the entrance"
+
+ここにとどまっていられる時間は３３分間――。%K%P
+33 minutes had almost passed since I arrived here——.
+
+もうあまり時間がない。%K%P
+I didn’t have much time left.
+
+玄関前の床板を力強く蹴って、雪原の中へと飛び込んでいった。%K%P
+I resolvedly kicked off the slab in front of the entrance and jumped into the snow.
+
+積雪をわさわさと掻き分けて進む。%K%P
+I pushed my way through the fallen snow.
+
+雪が足に絡みついて、これ以上速度をあげることはできなかった。%K%P
+The snow became caught up around my feet, and I was unable to raise my speed any further.
+
+サークル外を確認する、なんてことはせずに、思い切って３人を連れ出すべきだったのではないかと後悔する。%K%P
+Rather than checking outside the circle, I regretted not thinking to bring the other 3 out with me.
+//check, does it say something about regretting bringing out the 3 if he didn’t at least check outside first?
+
+だが悔やんでも仕方がない。もうここまで来てしまったのだ。%K%P
+But it was no use mourning over it now.
+
+避難小屋からサークルの円周までは１１０ｍ……。%K%P
+The circumference to the Mount Akakura circle was 110m…
+
+いくら雪の抵抗があるとは言え、急げば片道５分とかからないだろう。%K%P
+Even with the snow’s resistance, it should take me about 5 minutes for a one way trip if I hurried.
+
+なだらかな上り斜面になってはいるけれど、それも計算に入れての５分だ。%K%P
+There was a slightly uphill slope on the way, but that was already calculated in the 5 minutes.
+
+オレは雪面を乗り越えるようにして丘を登り続けた。%K%P
+I continued to climb over the snow up the hill.
+
+天を見上げてみる。%K%P
+My eyes raised towards the heavens.
+
+微かに薄雲が漂ってはいるが、夜空は皮肉なほど晴れ渡っていた。%K%P
+There were faint clouds of snow floating about, but the night sky was mockingly clear.
+
+時空間転移が発生すれば、この星空もたちまち掻き消されてしまうのだろう。%K%P
+When the space-time transfer occurred, this starry sky would probably be erased in an instant as well.
+
+オレの意識は常に青鷺島に残留したままだから、それを見ることはできないけれど……。%K%P
+Though my consciousness would remain at Aosagi Island, so I wouldn’t be able to witness that…
+
+黙々と斜面を登り続け……。%K%P
+I silently continued climbing up the hill…
+
+やがてオレはサークルのふちにたどりついた。%K%P
+And eventually reached the edge of the circle.
+
+そこがエッジだとわかったのは、雪面に小さな段差を見つけたからだ。%K%P
+I knew it was the edge because of the slight change in elevation of the snow.
+
+外側の方が明らかに積雪量が少ない。%K%P
+The outside had an obviously less amount of snowfall.
+
+その鮮やかな切り口は、段差が人為的に作られたものであることを如実に物語っていた。%K%P
+It was the fact that the cleanly cut end in the difference of levels was obviously man-made that told me.
+//check for wording
+
+顔をあげると、眼前には２日前に見たものと変わらぬ光景が広がっていた。%K%P
+I raised my head, and in spread out before my eyes was the scene I had seen 2 days ago, completely unchanged.
+
+遥か彼方には、まっすぐ伸びた水平線……。%K%P
+Far, far away, a line of water divided the horizon…
+
+その上には累々たる星々の瞬きがあり、下には黒い艶をまとった豊かな海原が広がっている。%K%P
+Above it were heaps of twinkling stars, below it was spread a plentiful ocean, glossed over in black.
+
+やはりここは青鷺島なのだ。%K%P
+This was Aosagi Island after all.
+
+確認を済ませたオレは、息つく間もなく来た道を引きかえした。%K%P
+After I finished checking, I let out a breath and immediately turned back to the path from which I came.
+ 
+ほどなく、視界の片隅に奇妙な影を捉えた。%K%P
+Instantly, I saw a weird shadow in the corner of my eye.
+
+まだ１０ｍか、２０ｍか、そのぐらいしか進んでいない。%K%P
+I had only walked 10 or 20m from the shore.
+
+その影はサークルのすぐ内側にあった。%K%P
+The shadow was just inside of the circle.
+
+肌色の布地のような質感……。%K%P
+There was a flesh-colored cloth or material…
+//check for wording
+
+どうやら衣服のようだ。%K%P
+It seemed to be clothes.
+
+オレは吸い寄せられるように、そこへと向かった。%K%P
+Drawn to it, I changed my route and started heading towards it.
+
+ひとめ見て、死体だとわかった。%K%P
+I recognized it as a corpse at a single glance.
+
+ひとりの女の子の亡骸が雪の中に埋ずもれている。%K%P
+The remains of a single girl were buried inside the snow.
+
+抱き起こしてみたがピクリとも動かない。%K%P
+I tried lifting her arm, but she didn’t move an inch.
+
+いや、動くとか、動かないとか、そういう状態ではなかった。%K%P
+No, she wasn’t in a state where I had to look for movement.
+
+まさに氷の彫像そのものだったのだ。%K%P
+She had already become an ice sculpture.
+//lit. this was what they called an ice sculpture.
+
+身体はガチガチに凍り尽くしていて、すでに周囲の雪と同化してしまっていた。%K%P
+She was completely frozen, and had assimilated into the surrounding snow.
+
+ただ、眠るような死に顔が、かつてそこに生命の宿っていたことをかろうじて教えてくれた。%K%P
+Only her dead face barely told me that there was once life there.
+
+白く透き通った肌……。%K%P
+Her white, transparent skin…
+
+氷に閉ざされたその顔は、星々の淡い光に照らされ魅惑的な美しさを放っていた。%K%P
+Her face, enclosed in ice, shined under the faint light of the moon with a fascinating beauty.
+
+不謹慎かも知れないが、オレはしばし時を忘れて彼女の死に顔に見とれてしまった。%K%P
+It may have been imprudent, but I had forgotten the time as I stared at her dead face.
+
+もちろん、彼女に見覚えはない。%K%P
+Of course, I don’t recall ever meeting her.
+
+いったい誰なんだろう、この子は……？%K%P
+Just who was this kid…?
+
+そもそもどうしてこんなところに女の子が……？%K%P
+Why was there a girl in a place like this in the first place…?
+
+我に返ったオレは、彼女の着衣を探って財布を取り出した。%K%P
+Finding myself, I search her clothes and take out a wallet.
+
+中に運転免許証が差し込まれている。%K%P
+There was a driver’s license inside.
+
+抜き出して、視線を落とした。%K%P
+I pulled it out and lowered my eyes to it.
+
+%N
+%LC%FS『涼蔭穂鳥』――。%FE%K%O
+“Suzukage Hotori”——.
+
+氏名の欄にはそう書かれていた。%K%P
+That’s what was written in the ID line.
+
+オレは彼女の亡骸をその場に残し、走り出した。%K%P
+I left had remains there and began to run.
+
+当然、後ろめたい想いがないわけではない。%K%P
+Naturally, it wasn’t like I didn’t have any guilty thoughts of it.
+
+けれどそんな悠長なことを言っている場合ではなかった。%K%P
+But this wasn’t a situation where I could show it so leisurely.  
+
+雪を蹴り上げて走る。%K%P
+I kicked snow up as I ran.
+
+斜面を転がるように駆け下りていく。%K%P
+I descended the hill as if rolling down.
+
+思考の断片が頭の中を駆けめぐっていた。%K%P
+Fragmented thoughts spun inside my head.
+
+『涼蔭穂鳥』――。%K%P
+“Suzukage Hotori”——.
+
+彼女の名前は『穂鳥』――。%K%P
+The girl’s name was “Hotori”——.
+
+もう動かなくなってしまったけれど、彼女こそが正真正銘の涼蔭穂鳥の姿だったのだ。%K%P
+Though she wasn’t moving anymore, that girl was the true form of Suzukage Hotori.
+
+同時に、オレは今、避難小屋の３人をサークル外へと導かなければならないのだった。%K%P
+At the same time, I had to guide those 3 people in the shelter cabin out of the circle.
+
+頭が混乱する……。錯乱する……。%K%P
+My head was in chaos… it was going mad…
+
+どうにか理性を繋ぎとめながら、両足を懸命に振り上げ続けた。%K%P
+I continued moving my feet while somehow trying to regain my reason.
+
+すると、そのとき――。%K%P
+At that moment——.
+
+大気を切り刻むような律動の音が聞こえてきた。%K%P
+I heard the sound of something chopping through the atmosphere.
+
+見上げると、そこには１機のヘリコプターが……。%K%P
+Looking up, I saw a single helicopter…
+
+自衛隊の輸送ヘリか何かだろう。%K%P
+It was probably a transport helicopter from the self-defense force.
+
+回転する翼は前後に２ヶ所設置されていて、重々しい機体を宙に浮かべていた。%K%P
+Its 2 wings rotated in circles, keeping the heavy aircraft floating in the air.
+
+ここは朱倉岳ではない。青鷺島だ。%K%P
+This wasn’t Mount Akakura.  It was Aosagi Island.
+
+輸送ヘリが上空を通過したとしても、不思議なことは何もなかった。%K%P
+It wouldn’t have been odd at all for a transport helicopter to pass above.
+ 
+だが、それはオレが事実を知っているからこそ思うことであり……。%K%P
+But, I was only able to think that because I knew the truth…
+
+避難小屋の黄泉木と鈴は……。%K%P
+Yomogo and Lin inside the shelter cabin…
+
+そんなことを思っていると、案の定、ふたりが小屋から飛び出してきた。%K%P
+I had thought that, and sure enough, the two came running out of the cabin.
+
+あわてふためくように……。これが最期とばかりにうろたえながら……。%K%P
+Panicking… as if this was their last chance…
+
+黄泉木「おぉぉぉーーーい！！　ここだぁぁぁーーー！！」%K%P
+Heeeeeey!!  Over heeeere!!
+
+黄泉木「こっちだぁぁぁーーー！！」%K%P
+We’re heeeere!!
+
+黛「助けてぇぇぇーーー！！」%K%P
+Save us——!
+
+黛「もうっ！　こっちよ！　こっち！」%K%P
+Geez!  Here!  Over here!
+
+黛「どこ行くつもりなのよぉー！」%K%P
+Where do you think you’re going!
+
+ヘリの音に誘われて出て来たのだろう。%K%P
+That had probably been called out by the sound of the helicopter.
+
+ふたりは機影に向かって大きく手を振っていた。%K%P
+They were waving their arms frantically at the aircraft.
+
+黄泉木の手のひらには懐中電灯が握りしめられている。%K%P
+Yomogi was gripping onto a flashlight in his hand.
+
+続いてゆにも、ふらふらとよろめきながら姿を見せた。%K%P
+After a while, Yuni appeared as well, staggering as he ran.
+
+３人が顔を見あわせてうなずく。%K%P
+I faced the 3 and nodded.
+//check for wording
+
+ヘリの後を追って走り出した。%K%P
+Then, I started running after the helicopter.
+
+都合よく、それはオレの立っている方向と同じだった。%K%P
+Conveniently, it was going into the direction I was standing.
+
+オレはその場に立ち止まったまま、彼らが来るのを待った。%K%P
+I stood in place and waited for them to come to me.
+
+振り返り、肩で息をしながら視線で機影を追う。%K%P
+I turned my head and chased after it, breathing hard.
+
+ヘリの高度は高かった。%K%P
+The helicopter’s altitude was high.
+
+輪郭から輸送ヘリらしいということだけはわかったが、この距離ではそれ以外の情報をつかむのは困難だった。%K%P
+I could tell what it was from the outline, but it was difficult to see anything else about it from this distance.
+
+ヘリは星空の中を滑るように遠ざかっていく。%K%P
+The helicopter glided further away into the starry sky.
+
+やがて黄泉木ら３人がオレのもとへとたどりつき……。%K%P
+Eventually, the 3 of them reached where I was…
+
+黄泉木「おい、なにやってんだよ、冬川さん！」%K%P
+Hey, what are you doing, Fuyukawa-san!?
+
+黄泉木「わからないのか！？」%K%P
+Haven’t you understood!?
+
+黄泉木「ほら！　あれだよ、あれ！　ヘリ！」%K%P
+Look!  Over there!  It’s a helicopter!
+
+黄泉木「ヘリが来たんだよ！」%K%P
+A helicopter’s come!
+
+黄泉木は鼻息を荒げてそう言った。%K%P
+Yomogi said, breathing roughly.
+//check for wording
+
+指先はまっすぐ機体の方に向けられている。%K%P
+He pointed his finger right at the aircraft.
+//check, did he only point one finger, or all (like reaching out for it)?
+
+黄泉木「おぉぉぉーーーい！！　待ってくれぇぇぇーーー！！」%K%P
+Heeeeey!!  Please waaaaait!!
+
+大声を張り上げ、再び走り出す黄泉木……。%K%P
+Letting out a large voice, Yomogi began to chase after it again…
+
+鈴とゆにがその後に続く。%K%P
+Lin and Yuni followed after him.
+
+オレも彼らの背中を追った。%K%P
+I also followed their backs.
+
+引き止める理由など何もない。%K%P
+There was no reason to stop.
+
+このまま行けば、彼ら３人はサークル外へと脱出することになるだろう。%K%P
+If they continued on like this, the 3 of them would probably escape the circle.
+
+待てよ……。彼ら３人……？%K%P
+Wait… the 3 of them…?
+
+じゃあ、このオレは……？%K%P
+Then, what about me…?
+
+こころの肉体は……どうすればいいんだ……？%K%P
+What would happen… to Kokoro’s body…?
+
+考えながらも、ひたすら足を振り上げて追跡を続けた。%K%P
+Thinking that, I single-mindedly moved my legs, continuing my pursuit.
+
+ゆにに追いつく。%K%P
+I caught up to Yuni.
+
+彼はオレと並走したまま言った。%K%P
+Running parallel to me, he began to speak.
+
+ゆに「はぁ、はぁ、はぁ、悟……！」%K%P
+Hah, hah, hah, Satoru…!
+
+悟「なんだ……！？」%K%P
+What is it…!?
+
+ゆに「実は、伝えなきゃ、いけないことが、あるんだ……！」%K%P
+Truth is, there’s something, I need to tell you…!
+
+息を切らして、途切れ途切れに言葉を繋ぐ。%K%P
+Out of breath, he tried to connect his broken words.
+
+悟「だから、なんだよ！」%K%P
+What is it already!?
+
+ゆに「いい！？　悟……」%K%P
+Listen, Satoru…!
+//Okay, Satoru…!?
+
+ゆに「ぼくらは、きっと、サークルの外には、出れない……！」%K%P
+We'll surely never make it out of the circle…!
+
+悟「えっ！？」%K%P
+Huh!?
+
+ゆに「もうすぐなんだ……！」%K%P
+It’s going to happen soon…!
+
+ゆに「時空間転移が、起こるのは……！」%K%P
+The time-space transfer’s going to happen…!
+
+オレはチラリと腕時計に目を向けた。%K%P
+I glanced over at my wristwatch.
+
+針は『午後１０時５２分』を示している。%K%P
+The needles indicated “10:52 PM”.
+
+サークルのエッジまでは、まだ遠い……。%K%P
+The edge of the circle was still far off…
+
+ゆに「悟、落ち着いて、聞いてね……！？」%K%P
+Satoru, come closer, and listen, okay…!?
+
+ゆに「ぼくらが、ここで、こうして会うのは……！」%K%P
+This’ll be, the last time,
+
+ゆに「これが最後なんだよ……！」%K%P
+We’ll meet like this…!
+
+その言葉に、思わず立ち止まってしまった。%K%P
+I stopped at his words.
+
+ゆにもつられたように動きを止め、オレの方を向く。%K%P
+Yuni stopped running and turned to face me.
+//check, つられた = to hang?  How does that fit in here?
+
+ゆに「なんでかって言うと……」%K%P
+How should I say this…
+
+ゆに「１７日にならないと、その次の転移が、起こらないからなんだ！」%K%P
+Because the next transfer won’t happen until the 17th!
+//check
+
+悟「おまえ、どうしてそんなこと、知ってるんだ！？」%K%P
+Why do you know something like that!?
+
+ゆに「いいから黙って聞いてよ！　時間がないんだから！」%K%P
+Just be quiet and listen!  We have no time!
+
+ゆに「次の転移が発生するのは１７日の午前４時４８分！」%K%P
+The next transfer will happen on the 17th, at 4:48 AM!
+
+ゆに「繰り返すよ！？」%K%P
+I’ll repeat myself!
+
+ゆに「次の転移が発生するのは１７日の午前４時４８分なんだ！」%K%P
+The next transfer’ll happen on the 17th, at 4:48 AM!
+
+ゆに「だから、そのときまでに……！」%K%P
+That’s why, until then, you…!
+//maybe it should be –– at the end to show him getting cut off

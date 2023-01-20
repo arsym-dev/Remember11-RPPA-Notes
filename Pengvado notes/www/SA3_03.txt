@@ -1,0 +1,306 @@
+
+悟「チーズ……？」%K%P
+Cheese...?
+
+その黄色い三角形の個体は、チーズ以外のなにものにも見えなかった。%K%P
+That yellow triangular form couldn't be anything other than cheese.
+
+見慣れた形状をしたその物体は、手のひら大の皿の上に盛られていた。%K%P
+That object with the familiar shape was served on a plate the size the palm of a hand.
+ 
+なにか、液体のようなものがかけられている。%K%P
+It oozed some kind of liquid.
+
+粘性度は水と変わりなくサラサラで、わずかに褐色を帯びていた。%K%P
+Flowing uniformly viscous water, tinged with faint brown.
+//check
+
+一見すると、薄められたほうじ茶のように見えなくもない。%K%P
+At first glance, it wasn't unlike a diluted roasted green tea.
+
+皿を手に取って、鼻を近づけてみる。%K%P
+Picking up the plate, I brought my nose near it.
+
+乳製品独特のねっとりとした匂いがしたが、ふりかけられた液体自体は無臭のようだった。%K%P
+It had the peculiar sticky smell of a dairy product, but the fluid itself sprinkled over it had no odor of its own.
+
+悟「ん？」%K%P
+Nn?
+
+よく見ると、カケラの端の方に小動物が齧りついたような跡が残されていた。%K%P
+Up close, bite marks left by the teeth of a small animal could be seen near the edges.
+
+悟「ネズミか……？」%K%P
+A rat...?
+
+この倉庫に自由に出入りできる小動物といえば、それ以外には考えられない。%K%P
+I can't think of any other animals that could freely come and go from this warehouse.
+
+ネズミ――。%K%P
+A rat――
+
+その言葉から真っ先に思い浮かんだのは、ゆうべ穂鳥が見せた常軌を逸した行動だった。%K%P
+That word made me recall the aberrant action Hotori took last evening before my eyes.
+
+『穂鳥の人格』がやったわけではないと思うけれど……。%K%P
+I don't think it was "Hotori's personality", but...
+
+まだ完全には命を失っていなかったあのネズミ。%K%P
+That rat that wasn't completely dead yet.
+
+『穂鳥の肉体』はその尻尾をつかんで、思い切りテーブルの角にたたきつけたのだ。%K%P
+"Hotori's body" grabbed it by its tail and smashed it against the edge of the table with all her strength.
+
+穂鳥「死んだわ……」%K%P
+It died...
+
+絶命したネズミをぷらぷらとぶらさげながら、彼女はひと言だけ呟いた。%K%P
+While the dead rat slowly dangled, she muttered only those two words.
+
+ボロ雑巾でも投げ捨てるような扱い方で、その死骸を無造作に放り投げ……。%K%P
+Like handling some used dust cloth, she casually threw away the corpse...
+
+そして、彼女はつまらなそうに頬を歪めて見せたのだった。%K%P
+Then, she made a bored face.
+
+あのときの表情、言葉、忘れようと思っても忘れられない。%K%P
+That expression, those words, I couldn't forget even if I wanted to.
+
+ゆうべの光景は、オレの脳裏に克明に刻みつけられていた。%K%P
+The scene last evening had been engraved in every detail in my mind.
+
+オレはチーズの乗った皿を両手に持ちながら、考えた。%K%P
+As I held with both hands the plate with the cheese on it, I thought.
+
+昨日、オレがキッチンで初めてあのネズミを目撃したとき、それはすでに瀕死の状態にあった。%K%P
+Yesterday, the rat was already on the verge of death before I even stepped into the kitchen.
+
+四肢は痙攣し、瞳は虚ろで、くちをパクパクと開きながら懸命に呼吸をしようとしていた。%K%P
+Its limbs convulsing, its eyes hollow, its mouth flapping open and close, it was desperately trying to breath.
+
+苦しみもがくそのさまは、何らかの毒物による中毒症状を思わせた。%K%P
+Squirming in pain like that, it gave me the impression it had been poisoned.
+ 
+つまり『穂鳥の肉体』がトドメを刺す前の段階で、あのネズミは生体にとって有害な何かを摂取していたらしいということだ。%K%P
+In other words, it seems "Hotori's body", some time before dealing the finishing blow, had it take in something harmful to an organism.
+
+そして今、オレの手元には、得体の知れぬ液体の振りまかれたひとカケラのチーズがある。%K%P
+And now, in my hands, there is the piece of cheese saturated with some unknown liquid.
+
+その隅のところには、小動物の齧った痕跡がしっかりと残されている。%K%P
+In that corner, there are clear bite traces of a small animal.
+
+あとは、考えるまでもないことだった。%K%P
+I didn't even have to think about the rest.
+
+オレは、ひと目につかぬようあたりをうかがいながら、チーズの乗った皿をこっそりと自分の部屋に運んだ。%K%P
+Making sure not to be seen, I stealthily carried the plate to my room.
+//check
+
+皿を机の上に置き、うろうろと室内を歩きまわる。%K%P
+I put it down on the desk and began to wander aimlessly around the room.
+
+持ち帰ってきたのはいいが、どのように対処すればいいのかわからなかった。%K%P
+Alright, I carried it back home; now but I didn't know how to deal with this.
+
+チーズにかけられた液体が、本当に毒物なのかどうかも定かではない。%K%P
+I'm not even sure if the liquid on the cheese is really some sort of poison or not.
+
+悟「試しに舐めてみる、ってわけにもいかないしなぁ」%K%P
+I could try licking it to test it... obviously not
+
+ぶつぶつと呟いていると……。%K%P
+As I continued grumbling...
+
+部屋の扉をたたく音が聞こえた。%K%P
+I heard someone knocking on the door.
+
+悟「うわっ、まずい！」%K%P
+Agh, This is bad!
+
+あわててチーズを隠そうとしたのだが、手遅れだった。%K%P
+I tried to hide the cheese in a hurry, but I was too late.
+
+何者かが、オレの返答も待たずに扉を開いた。%K%P
+They opened the door without waiting for my reply.
+
+振り向いたオレは、とっさにチーズを背中の裏へ……。%K%P
+I turned around at once trying to have the cheese behind my back...
+
+内海「優希堂くん、昼食の準備ができたけど……」%K%P
+Yukidoh-kun, lunch is ready...
+
+悟「ああ、内海さんか……」%K%P
+Aaah it's you, Utsumi-san...
+
+悟「わかったよ、すぐいく」%K%P
+Alright, I'm coming now
+
+内海「ん？」%K%P
+Nn?
+
+悟「えっ？」%K%P
+Eh?
+
+内海「優希堂くん、背中になにか、隠してなぁい？」%K%P
+Yukidoh-kun, aren't you hiding something, behind your back?
+
+悟「い、いや……」%K%P
+N, no...
+
+内海「嘘、絶対なにか隠してるわ」%K%P
+You're lying, you're definitely hiding something
+
+そう言って、内海はこちらに向かって近づいてきた。%K%P
+Utsumi got closer to me.
+
+オレの肩に手をかけて、テーブルの上をのぞき込む。%K%P
+With an hand on my shoulder, she sneaked a look at the table.
+//check
+
+内海「なぁに、これ……？」%K%P
+What is this...?
+
+内海「チーズ……？」%K%P
+Cheese...?
+
+オレは降参し、彼女に事情を説明することにした。%K%P
+I surrendered, and explained the matter to her.
+
+内海「ふーん、なるほどねぇ」%K%P
+Huuun, I see
+
+内海「彼女のやりそうなことだわ」%K%P
+Sounds like something she would do
+
+悟「彼女っ、て？」%K%P
+She?
+
+内海「言わなくてもわかるでしょう？」%K%P
+I don't really have to tell you right?
+
+悟「穂鳥のことか？」%K%P
+You're talking about Hotori?
+
+内海は深刻そうな顔つきで、小さくうなずいて見せた。%K%P
+Wearing a serious expression, she replied me with a small nod.
+
+内海「よく考えてみてよ？　彼女がここにいる理由」%K%P
+Think about it. The reason she's here
+
+なるほど、犬伏景子はＤＩＤであり、殺人者である。%K%P
+I see, Inubushi Keiko has DID and is a murderer.
+
+阿波墨での犯行の動機は依然として不明だが、少なくとも彼女が生き物を殺すことに何のためらいも持っていないことだけは事実だ。%K%P
+The motive behind the crime at Awazumi is as yet unclear, but it's a fact she has no qualms about killing people.
+
+ネズミ１匹殺すことなど、彼女にとっては造作ないことなのだろう。%K%P
+I guess killing one rat would be no trouble for her.
+
+けれど、それはあくまでも、犬伏景子の中に潜むいずれかの人格が行なったことであって、穂鳥自体に罪は……ない。%K%P
+However, in the end, that's something another personality lying dormant inside Inubushi Keiko committed. Hotori has... no fault.
+
+オレはそう信じていた。%K%P
+I believed so.
+
+内海「これ、ちょっと借りてくわね？」%K%P
+Will you let me borrow this for a while?
+
+そう告げて、内海は皿を手に取った。%K%P
+She informed me, and picked the plate up.
+
+悟「どうするつもりなんだ？」%K%P
+What do you want to do with it?
+
+内海「ここにかけられてる液体が本当に毒物なのかどうか、調べるのよ」%K%P
+I'll see whether the liquid on this is poisonous or not
+
+悟「どうやって……？」%K%P
+How...?
+
+内海「ふふっ」%K%P
+Hu hu
+
+内海は答えずに、意味深な笑みを浮かべて部屋を出ていった。%K%P
+Utsumi just smiled suggestively and left the room.
+
+内海の用意してくれた昼食……。%K%P
+The lunch Utsumi made...
+
+まったく手をつけることができなかった。%K%P
+I didn't touch any of it.
+
+朝から何もくちにしていないというのに、食欲がまったくわかない。%K%P
+Though I hadn't been eating anything since morning, I had absolutely no appetite.
+
+自分ではあまり意識することはできないが、心の奥深いところでは、かなりの精神的なストレスが溜まっているようだ。%K%P
+I myself couldn't be much conscious of it, but deep in my heart, I had accumulated a fair amount of mental stress.
+
+胃が食べ物を受けつけないというのが、正直なところだった。%K%P
+My stomach really couldn't take any food.
+
+昼食に手をつけなかった理由は、もうひとつある。%K%P
+There was another reason I didn't touch the meal.
+
+あのチーズに振り撒かれた液体のこと……。%K%P
+The liquid sprinkled on that cheese...
+
+あれがもしも本当に毒物だとしたら……。%K%P
+If that was really poison...
+
+そして、それをネズミに与えた誰かと、オレを狙っている犯人が、もしも同一人物だとすれば……。%K%P
+And, if the one who gave it to that rat and the killer after me were the very same person...
+
+考えたくないことではあったが、用心するに越したことはない。%K%P
+I didn't want to think about it, but it's best to take precautions.
+
+オレは……。%K%P
+I...
+
+悟「悪い、ちょっと胃の調子が悪くて……」%K%P
+Sorry, my stomach doesn't feel all that right...
+
+内海にそう告げて、席を立った。%K%P
+I notified Utsumi and left my seat.
+
+部屋に戻る。%K%P
+I returned to my room.
+
+ベッドに腰を下ろして腕組みをした。%K%P
+I sat on the bed and folded my arms.
+
+左腕はまだズキズキと痛んでいる。%K%P
+My left arm was still throbbing in pain.
+
+オレは腕組みを解いて、傷口のあたりに右手を添えた。%K%P
+Unfolding them back, I led my right arm to the wound.
+
+痛みは、昨日のことを否が応でも思い出させた。%K%P
+The pain reminded me, willing or not, of yesterday.
+
+ゆうべ何者かに襲われたこと……。%K%P
+I was attacked by someone last night...
+
+ともすれば、オレ自身でさえ忘れてしまいがちだった。%K%P
+Even I mysef tended to forget.
+
+３人の平然とした振る舞い、陽気な雰囲気の中に身を浸していると、どうしても命を狙われているという実感が薄れていってしまう。%K%P
+Soaked in their calm behaviour and cheerful atmosphere, the feeling someone was out to kill me was becoming dim.
+
+しかし傷痕は告げていた。%K%P
+But the scar warned me.
+
+オレは確かに何者かに殺されそうになったのだ。%K%P
+Someone certainly almost killed me.
+
+そして恐らくその犯人は、いまだオレに対する殺意を捨ててはいないだろう。%K%P
+And I daresay that criminal still hasn't given up on trying.
+
+虎視眈々と、次の機会を狙っているに違いない。%K%P
+I'm sure they're waiting for the next opportunity to prey upon me.
+
+そう思うと、居ても立ってもいられなくなった。%K%P
+Thinking that, it became impossible for me to just stand around.
+
+オレは事実を確かめるべく、部屋を出た。%K%P
+In order to uncover the truth, I left the room.

@@ -1,0 +1,910 @@
+
+ゆにはスルスルとハシゴを下りて姿を消してしまった。%K%P
+Yuni swiftly descended down the ladder and disappeared.
+
+オレは床に穿たれた長方形の穴をのぞき込んだ。%K%P
+I peeked down the rectangular hole in the ground.
+
+どうやら階下は倉庫になっているようだ。%K%P
+The lower floor is apparently some kind of storehouse.
+
+男「なあ？　きみ……」%K%P
+Uhm? You...
+
+背後から声をかけられ振り向いた。%K%P
+I turned around, in response to the voice I heard.
+//old:I turned around, hearing the call from behind.
+
+男「名前、教えてもらえないかな？」%K%P
+Would you tell me your name?
+
+男「何かと不便だろ？　名前を知らないと」%K%P
+Isn't it a bother? Not knowing each others' names?
+
+男は丸太の椅子に腰を下ろして、タバコの煙をくゆらせていた。%K%P
+The man smoked a cigarette as he sat on a wooden chair.
+
+黄泉木「僕は黄泉木だ」%K%P
+I am Yomogi.
+
+黄泉木「黄泉木聖司」%K%P
+Yomogi Seiji.
+
+悟「黄泉木……聖司……？」%K%P
+Yomogi...Seiji...?
+
+まただ……。%K%P
+Again...
+
+またしてもオレは、奇妙な感覚に捕らわれた。%K%P
+Yet again, I was hit by a strange feeling.
+
+ゆにのときと同じように、オレはこの男の名前も知っていた。%K%P
+Just like with Yuni, I knew the name of this man.
+
+黄泉木聖司――。%K%P
+Yomogi Seiji――
+
+年齢は３５。職業は登山家。%K%P
+35 years-old. Profession: mountaineer.
+
+確か妻と子どもがいたはずだ。%K%P
+If I'm not mistaken, he should have a wife and kids.
+
+なぜ……？%K%P
+Why...?
+
+どうしてこんなにもスラスラと、彼に関する記憶が蘇ってくるんだ……。%K%P
+How am I recalling memories concerning him so clearly...
+
+オレはこの男に会ったことなんて一度もない。%K%P
+I've never met this man.
+
+なのに……なぜだ……。%K%P
+Despite this...why...
+
+黄泉木「どうしたんだい？　何か気になることでも？」%K%P
+What's the matter? Is there something wrong?
+
+オレの表情から何かを悟ったのだろう、黄泉木は不思議そうに首をかしげて見せた。%K%P
+Yomogi tilted his neck, a puzzled look on his face; perhaps he has realized something was wrong from my expression.
+//added 'was wrong'
+
+オレは……。%K%p
+I...
+
+『いや、たいしたことじゃない』
+No, it's nothing important.
+
+『オレに会ったことあるだろう？』
+Have we ever met before?
+
+悟「いや、たいしたことじゃない」%K%P
+No, it's nothing important.
+
+悟「気にしないでくれ……」%K%P
+Don't worry...
+
+そう言って、彼の前を離れた。%K%P
+Saying this, I moved away from him.
+
+黄泉木「で？　名前は？」%K%P
+So? Your name?
+
+声だけが背中を追い駆けてくる。%K%P
+Again, I heard a voice from behind.
+//old:Only the voice came following my back.
+
+オレは狭い室内をうろうろと歩きながら答えた。%K%P
+I answered while walking around the narrow room aimlessly.
+
+悟「優希堂、悟だ」%K%P
+Yukidoh Satoru.
+
+悟「あんた、やっぱりオレに会ったこと、あるだろう？」%K%P
+As I thought, we have met before, right?
+
+そう言って、彼の前に顔を近づけた。%K%P
+Saying this, I approached him.
+
+黄泉木はしばし考え込んでから……。%K%P
+After thinking for a short while...
+
+黄泉木「いや」%K%P
+No.
+
+怪訝そうに首を振った。%K%P
+He shook his head in doubt of that notion.
+
+悟「そうか……」%K%P
+I see...
+
+黄泉木「だが、きみの言ってるのが『ここに来る前』という意味だとしたら、答えはＹＥＳになる」%K%P
+But, if you mean "before coming here", the answer would be yes.
+
+黄泉木「もっとも『会った』というよりも、『見かけた』という程度のものだけれど……」%K%P
+Although, rather than "met", it's more of "happened to see".
+
+悟「いつ？　どこで見かけたんだ？」%K%P
+When? Where was it?
+
+黄泉木「あの小型旅客機の中でだよ」%K%P
+In the small passenger plane.
+
+悟「小型旅客機……？」%K%P
+Small passenger plane...?
+
+そう言えば、ついさっきも彼らは『機体』だの『墜落』だのという言葉をくちにしていた。%K%P
+Come to think of it, a little while ago he spoke about a "crash" and a "plane".
+
+自分で言うのもなんだが、オレはそれほど頭の回転が鈍い方ではない。%K%P
+I tend to be very skillful at adapting to situations quickly.
+//old:I'm saying this about myself, but I’m quick to learn and pick up about the situation.
+
+これだけのキーワードを提示されれば、これまでに何があったのか、ある程度推測することができる。%K%P
+If so many keywords are presented, I can guess what happened to some extent.
+
+簡単なことだ。%K%P
+It's a simple thing.
+
+オレを除く他の３人は、小型旅客機とやらに乗りあわせていた。%K%P
+These three people were all on the same plane, besides me.
+//old:These three people have, except me, boarded together a small passenger plane.
+
+そして、その旅客機は墜落してしまった。%K%P
+Then, that passenger plane had ended up crashing.
+
+生存者がどれぐらいいたのかはわからないが、少なくとも、ここにいる３人は自力でこの山小屋へとたどりつくことができたのだろう。%K%P
+I don't know how far the survivors have gone but, at the very least, these 3 people managed to get to this mountain hut by themselves.
+//more of a rhetorical question, but was mountain hut the same words in Japanese that we localized as shelter cabin? 
+//To clear away any doubts: no, we localize 避難小屋 as shelter cabin. Here it was written 山小屋. I think Satoru begins using "shelter cabin" only later -lors
+
+けれど、オレは……？%K%P
+However, I...?
+
+オレは飛行機に乗った覚えなどないのだが……？%K%P
+I don't remember something like getting on an airplane, but...?
+
+悟「なあ？　あんた今、機内でオレの姿を見かけたって、そう言ったよな？」%K%P
+Hey? Just now, you said that you saw me inside the plane?
+
+黄泉木「ああ」%K%P
+Yeah.
+
+悟「本当か？」%K%P
+Really?
+
+黄泉木「ははっ、嘘なんてついてどうする？」%K%P
+Ah ah, why should I lie?
+
+黄泉木「本当さ」%K%P
+It's the truth.
+
+黄泉木「トイレに行こうと思って席を立ったとき、僕はきみ達の姿を見かけたんだ」%K%P
+When I left my seat to go to the restroom, I noticed you two.
+
+悟「きみ『達』……？」%K%P
+You "two"...?
+
+悟「オレの他にも、誰かそこにいたって言うのか？」%K%P
+You're saying there was someone besides me?
+
+黄泉木はタバコの煙を深く吸い込み、困惑の色を浮かべて見せた。%K%P
+Yomogi seemed to be bewildered at what I said as he inhaled the smoke of a cigarette.
+
+黄泉木「覚えてないのか？」%K%P
+You don't remember?
+
+悟「なにを？」%K%P
+What?
+
+黄泉木「なにをって、全部だよ」%K%P
+I'm talking about everything that happened.
+//old:What do you mean "what", everything.
+
+悟「だから全部ってなんだよ！」%K%P
+What do you mean!?
+//old:What's this everything!
+
+黄泉木「あの飛行機が離陸してから、この雪山に墜落するまで……」%K%P
+After the airplane took off, until it crashed in this snowy mountain...
+
+黄泉木「その間の記憶のことを言ってるんだ」%K%P
+I'm talking about that.
+//old:I'm talking about the memories of all that.
+
+混乱……混乱……混乱……。%K%P
+Chaos...chaos...chaos...
+
+大量の情報が怒涛のごとく流れ込んできて頭が張り裂けそうだった。%K%P
+A large quantity of information was streaming into my head like raging billows threatening to burst the dam from the overflow.
+
+黄泉木「ゆにがきみの隣に座ってただろう？」%K%P
+Yuni was sitting next to you, right?
+
+黄泉木「機体の右舷、確か後ろの方だったな」%K%P
+The starboard of the airplane, in the back if I remember right.
+
+黄泉木「きみは通路側の座席に、ゆには窓側の座席に、それぞれ腰を下ろしていた」%K%P
+You sat on the aisle seat and Yuni on the window seat.
+ 
+黄泉木「楽しそうに話してたじゃないか」%K%P
+It looked like you were having fun talking.
+
+黄泉木「忘れたのかい？」%K%P
+Did you forget?
+
+まったく身に覚えのないことだった。%K%P
+I really don't remember.
+
+オレが小型旅客機とやらに乗っていた？%K%P
+Did I get on a small passenger plane?
+
+隣のゆにと楽しそうに話していた？%K%P
+Did I had fun talking with Yuni beside me?
+
+じゃあ、ゆにの顔と名前に心当たりがあったのは、そのせいだったっていうのか？%K%P
+Then, is that the reason that I have some knowledge of Yuni's face and name?
+
+そう言えば、ゆにはこんなことも言っていた。%K%P
+Come to think of it, Yuni had said something like this too.
+
+『この人は、忘れちゃってるだけなんだから……』%K%P
+"This person merely forgot..."
+
+つまり、記憶喪失……。%K%P
+In short, memory loss...
+
+そういうことなのか……？%K%P
+Is it like that...?
+
+黄泉木「まあ、そう思いつめるな」%K%P
+Well, that's about it.
+
+黄泉木「軽い脳震盪だろう」%K%P
+Maybe it's a light concussion.
+
+黄泉木「記憶はすぐに元に戻るさ」%K%P
+Your memory will return soon.
+
+悟「…………」%K%P
+...
+
+黄泉木「それよりも、そろそろ教えてもらえないかな？」%K%P
+That aside, won't you tell me now?
+
+黄泉木「名前……」%K%P
+Your name...
+
+黄泉木「まさか自分の名前さえも忘れてしまったわけじゃ……」%K%P
+Don't tell me you even ended up forgetting your own name...
+
+悟「いや、覚えてる、覚えてるよ……」%K%P
+No, I remember it, I remember...
+
+錯乱寸前の精神状態……。%K%P
+My mind was teetering on the verge of insanity...
+ 
+オレは懸命に理性をつなぎとめながら、こう答えた。%K%P
+While desperately trying to keep sane, I answered.
+
+悟「オレの名前は……」%K%P
+My name...
+
+悟「優希堂、悟だ」%K%P
+Is Yukidoh Satoru.
+
+黄泉木・黛「優希堂悟！？」%K%P
+Yukidoh Satoru!?
+
+黄泉木と鈴は、示し合わせたかのように、ほぼ同時に声をあげた。%K%P
+Yomogi and Lin raised their voice at almost the same time, it was so perfectly in sync that it seemed as though they had arranged it beforehand.
+
+黄泉木の方は、なにか得体の知れぬものでも見るような目つきで、オレの姿を確かめていた。%K%P
+For Yomogi, he gave me a look that seemed like he was seeing something weird.
+
+鈴の方は、くちを真一文字に結んだまま、オレを目がけてまっしぐらに突き進んできた。%K%P
+As for Lin, she came right at me at full speed with her mouth firmly shut.
+
+もしや……。オレは思った。%K%P
+I thought perhaps...by some chance...
+
+鈴はようやくオレのことを思い出してくれたのでは……？%K%P
+Lin had remembered me at last...?
+
+悟「鈴……」%K%P
+Lin...
+
+小さく名前を呼んで、オレも鈴の元へと近づいていった。%K%P
+Calling her name in a small voice, I approached her.
+
+互いに向かい合う形でストーブの前に立った。%K%P
+We stood in front of the stove facing each other.
+
+不思議な違和感に包まれる。%K%P
+I was engulfed in a strange uneasiness.
+
+その違和感は『視線』のせいだということに、すぐに気がついた。%K%P
+I became aware of that uneasiness, especially because of “the glance”.
+
+オレは、鈴を、見上げていた。%K%P
+I was looking up at Lin.
+
+鈴は、オレを、見下ろしていた。%K%P
+Lin was looking down at me.
+
+実際には『見上げる』『見下ろす』と表現するほどの差はなかったかも知れない。%K%P
+There was practically no difference between the expression "looking up" and "looking down".
+
+けれど、そもそも『視線の高さに大差がないこと』――それ自体がオレにとっては驚愕すべき事態だった。%K%P
+But, "the fact there is no difference in the glancing heights" to begin with――to me that was a shocking thing.
+
+オレはこの不可解な現象を解析しようと試みた。%K%P
+I tried to analyze this inexplicable phenomenon.
+
+視線を下に向ける。%K%P
+I looked downward.
+
+自分の足元を確かめようと思った。%K%P
+I thought about checking my feet.
+
+しかし、そのとき――！%K%P
+But, at that moment――!
+
+初め、自分の身に何が起こったのか、状況をうまく把握できなかった。%K%P
+At first, I couldn't grasp the situation well...what had happened to my body.
+
+視界がぐらりと揺れた。%K%P
+My field of vision shook.
+
+足に力が入らず、床に両膝をついた。%K%P
+Losing strength in my feet, I fell to the ground.
+//removed with both knees
+
+そのあと襲ってきたのは、烈々たる痛みだった。%K%P
+Then, the sensation that came to assail me was violent pain.
+
+激痛はオレの顔面から首筋にかけて、頭部をすっぽりと覆い尽くすように燃え盛っていた。%K%P
+Burning pain struck me from my face to neck, covering my head entirely.
+
+殴られた、のか……？%K%P
+Was I...hit?
+
+だとしても、どこをどう殴られたのかさえわからなかった。%K%P
+If that's the case, I don't have a clue where and how I was hit.
+//old:If that's the case, I didn't even get from where and how I was hit.
+
+なぜ殴られなければならなかったのかも……。%K%P
+And why I had to be hit...
+
+ひとつだけ、確かなことと言えば……。%K%P
+Only one thing was sure...
+
+殴ったのはオレの目の前にいる人物――黛鈴だということぐらいだった。%K%P
+The person who had hit me was in front of my eyes――Mayuzumi Lin.
+
+ぼやけていた焦点が、やがて像を結んだ。%K%P
+My blurring vision soon focused on an image.
+
+床にひざまずいていたオレは、高々と鈴の顔を見上げた。%K%P
+Kneeling on the ground, I raised my eyes towards a very tall Lin.
+
+彼女は顔面を紅潮させながら、仁王立ちでオレのことを見下ろしていた。%K%P
+With a flushed face, she looked down on me in an imposing stance.
+
+黛「ふざけないでよ……」%K%P
+Stop joking around...
+
+声が震えているのは怒りのためか……。%K%P
+Her voice was shaking with anger...
+
+全身から立ち昇る異様な気配に、背後の景色はかすんで見えた。%K%P
+Because there was odd aura being emanated from her, the background was a blur.
+
+黛「どういうつもりなの……？」%K%P
+What exactly are you plotting...?
+
+黛「なんで、優希堂悟なんて……」%K%P
+Why, why Yukidoh Satoru...
+
+オレは唇の端を拭いながら立ち上がった。%K%P
+I stood up while wiping the edges of my lips.
+
+親指の腹に赤いものが付着していた。%K%P
+Something red was sticking to the base of my thumb.
+
+悟「変わってないな、おまえ……」%K%P
+It hasn't changed, has it...
+
+黛「えっ？」%K%P
+Eh?
+
+悟「カッとなるとすぐに手をあげる癖だよ」%K%P
+Your habit of immediately flaring up and raising your hands.
+
+悟「それから、わけのわからないことで突然怒り出すところも相変わらずだ」%K%P
+And also lashing out at things you don’t understand.
+
+黛「あんた、殺されたいの？」%K%P
+You want to die?
+
+黛「それって、悟のふりをしてるつもりなのよねぇ？」%K%P
+Moreover, do you plan to pretend to be Satoru?
+
+悟「ふり？」%K%P
+Pretend?
+
+黛「ふりじゃなくて、なんだって言うのよ！」%K%P
+If you're not pretending, what is this!
+
+黛「その品のない言葉づかいも、私の名前を呼び捨てにしたことも……」%K%P
+Talking to me so casually, calling me by my first name too...
+
+黛「全部、今までのすべてが私を陥れるための演技だったんでしょう？」%K%P
+Everything, wasn't everything up until now an act to trick me?
+
+悟「…………」%K%P
+...
+
+黛「まあ、もっとも、演技と呼べるほどのものでもないけどね」%K%P
+Well, although all that is really not even worth being called an act.
+ 
+黛「猿芝居、幼稚なお遊戯、愚にもつかない滑稽な茶番としか言いようがないわ」%K%P
+This can't be described as nothing but a poor masquerade, a childish play, a ridiculous and laughable farce.
+
+悟「鈴……どうしちまったんだよ、ほんとに……」%K%P
+Lin...what happened, really...
+
+悟「オレは……悟だよ……」%K%P
+I am...Satoru...
+
+悟「ふりも演技もしてない」%K%P
+I'm not acting or pretending.
+
+悟「オレこそが正真正銘の優希堂悟なんだ」%K%P
+I am, for sure, the real Yukidoh Satoru!
+
+黛「はぁ……この期に及んで、まだ続けるつもりなわけ？」%K%P
+Ah...do you still intend to go on, even now?
+
+黛「あきれたわ」%K%P
+I'm amazed.
+
+黛「なんなのよ、それ……」%K%P
+Seriously...
+
+黛「あんたは、なにを、どうしたいっていうの？」%K%P
+What do you want from me?
+
+黛「私をからかってるだけ？」%K%P
+Just to make fun of me?
+
+黛「それとも、悪徳商法かなんかの勧誘でもするつもりなの？」%K%P
+Or do you want to con me or something like that?
+
+黛「どっちにしろ、私をだまそうとしても無駄よ」%K%P
+Whatever you want, it's useless trying to trick me!
+
+黛「私と悟の過去について、ある程度調べてきたみたいだけど、そんなものは何の役にも立たないわ」%K%P
+Looks like you investigated me and Satoru's past to some extent, but that was of no use whatsoever.
+
+黛「残念だったわね」%K%P
+What a shame.
+
+黛「今度誰かをだますときは、相手を慎重に選んだ方がいいわよ？」%K%P
+Next time you try and trick someone, choose an easier target alright?
+
+ここまで言われると、戸惑いも困惑も通り越して絶句する以外なかった。%K%P
+Confused and bewildered, Lin left me speechless.
+//old:Because of the feelings of confusion and bewilderment, being told that left me speechless.
+
+オレと鈴とのやり取りは、どこかで致命的な食い違いを見せている。%K%P
+The exchange between me and Lin was showing a fatal discrepancy somewhere.
+
+ふたりの歯車は噛みあわず、カタカタと不毛な回転を続けているようだった。%K%P
+Like gears that keep on fumbling, clattering and turning unproductively.
+
+オレはオレ――優希堂悟だ。間違いない。%K%P
+I am me――Yukidoh Satoru. No doubt about it.
+
+にもかかわらず鈴は、オレをオレとして、優希堂悟として、認識していない。%K%P
+Nevertheless, Lin isn't recognizing me as me, as Yukidoh Satoru.
+
+オレは自分の存在のすべてを否定されたような気がして恐ろしくなった。%K%P
+I had the terrible feeling my entire existence was being denied.
+
+黛「ふぅ……それにしても寒いわねぇ……」%K%P
+Umpf...anyway, it's cold...
+
+黛「このポンコツストーブ、火力弱いんじゃないの？」%K%P
+This piece of junk, it's so weak, can’t it heat the place better?
+
+黛「ねえ、黄泉木ぃー、なんとかしてくれない？」%K%P
+Hey, Yomogii-, can't you do something?
+
+寒さに腕を抱きながら、鈴はストーブの前に腰を下ろした。%K%P
+Lin sat in front of the stove, arms crossed because of the cold.
+
+黄泉木はタバコをくちにくわえたまま、固まったように立ち尽くしている。%K%P
+Yomogi stood still as if frozen, with a cigarette in his mouth.
+
+そのタバコの火は、すでに根元まで達して消えてしまっていた。%K%P
+The flame had already reached the base of the cigarette and had gone out.
+
+黛「ちょっと、聞こえないの！？」%K%P
+Hey, didn't you hear me!?
+
+黛「なんとかしてって言ってるでしょう！」%K%P
+I said do something!
+
+鈴が振り返って怒鳴りつける。%K%P
+Lin shouted as she looked over her shoulder.
+
+黄泉木の唇から、タバコのフィルターがぽとりと落ちた。%K%P
+The cigarette bud fell down from Yomogi's mouth.
+
+黄泉木「あ、ああ、わかったよ……」%K%P
+Y, Yeah, got it...
+
+彼はベッドから数枚の毛布をかき集めてきて、それを一枚ずつ鈴の肩にかけてやった。%K%P
+He gathered several blankets from the beds, then put each one on Lin's shoulders.
+
+鈴はしがみつくようにそれらの毛布にくるまった。%K%P
+Lin covered herself in those blankets tightly as if clinging on them.
+
+黛「コーヒー」%K%P
+Coffee.
+
+黄泉木「……えっ？」%K%P
+...Eh?
+
+黛「コーヒー淹れてくれって言ってんの！」%K%P
+I said make me some coffee!
+
+黛「さっさと動きなさいよ！」%K%P
+Move it already!
+
+黛「ったく、とろいんだから……」%K%P
+Good grief, so so slow...
+
+黄泉木「はぁ、やれやれ……」%K%P
+Ah, my my...
+
+黄泉木「世話の焼けるお姫様だ」%K%P
+Such a troublesome princess.
+
+黄泉木はぶつぶつと文句を言いながら、手際よく１杯のコーヒーを作り、それを鈴のもとへと運んだ。%K%P
+He skillfully brewed a cup of coffee as he grumbled a complaint and then carried it to Lin.
+
+鈴は礼も言わずにそれを受け取ると、ふーふーと息を吹きかけて、カップのふちに唇をつけた。%K%P
+She took it without thanks, blew on it and put her lips on the edge of the cup.
+
+黛「ちょっと、なに見てんのよ」%K%P
+Hey, what are you looking at?
+
+黛「目障りだからどっか行ってくれない？」%K%P
+You're an eyesore, so why don't you go somewhere else?
+
+その冷たい言葉はオレに向かって投げられたものだった。%K%P
+Those cold words were directed at me.
+
+胸が絞めつけられるように痛んだ。%K%P
+My chest felt like it was being crushed.
+
+オレは……。%K%p
+I...
+
+自分の姿を確かめる
+Check my own figure
+
+黙っている
+Stay silent
+
+ここにきて、初めて気がついた。%K%N
+I noticed it for the first time since coming here.
+
+鈴がオレのことを『優希堂悟』として認識してくれないのは……%K%N
+The fact that Lin didn't recognize me as "Yukidoh Satoru"...
+
+オレの姿形に『優希堂悟が優希堂悟であるべき要素』が備わっていないからだ。%K%N
+Is because my appearance doesn't possess the "factor for which Yukidoh Satoru must be Yukidoh Satoru".
+
+もしも犬が喋れたとして『俺は猫だ』と言ったとしても誰も信用しないだろう。%K%P
+Supposing a dog could talk, even if he said "I'm a cat" no one would believe him.
+
+なぜなら犬の姿形は、猫のそれとは明らかに異なるからだ。%K%N
+Because the form of a dog is clearly different from that of a cat.
+
+犬には『猫が猫であるべき要素』が備わっていない。%K%N
+The dog doesn't possess the "factor for which a cat must be a cat".
+
+では『猫が猫であるべき要素』とは何なのか？%K%N
+Then what is the “factor for which a cat must be a cat”?
+
+そんなことはとてもひとことでは言い表わせない。%K%P
+That can't be expressed so simply in a single word.
+
+口蓋の形状、ひげ、耳、牙、舌、瞳孔の形、足の爪、体毛の質感、身体の模様、骨格、歩き方、鳴き声……。%K%N
+The mouth, whiskers, ears, fangs, shape of the pupils, claws, feel of the fur, figure of the body, physique, way of walking, cry...
+
+それらのすべてを包括した『猫らしさ』としか言いようがないのである。%K%N
+It expresses nothing but "cat-ness" with all those things.
+
+そして恐らく、今オレの陥っている状況も、この憐れな『犬らしい猫』と同じようなものなのだろう。%K%N
+Then, perhaps the situation that I have fallen into now too, is similar to this miserable "dog-like cat".
+
+今のオレはたぶん、優希堂悟らしくないのだ。%K%N
+The me now, maybe, doesn't appear Yukidoh Satoru-like.
+
+だから鈴はオレをオレとして認めてくれないのだ。%K%P
+Therefore Lin doesn't recognize me as me.
+
+これらの推論を一瞬のうちに導き出したオレは、恐る恐る自分の姿を確かめてみた。%K%P
+Having deduced this within an instant, I timidly checked my figure.
+
+胸元のリボン、薄桃色のスカート、編み上げのロングブーツ……。%K%P
+A ribbon, light pink skirt, high laced boots...
+
+手の甲は透き通るように白く、すらりと伸びた２本の足はみずみずしく潤いをまとっていた。%K%P
+The back of my hand was white and pale, and from my abdomen two young and slender legs stretched out.
+
+悟「そんな、バカな……」%K%P
+This...can't be...
+
+くちに出さずにはいられなかった。%K%P
+I spoke out loud without meaning to.
+
+自分の姿が普通じゃないことだけは予想していたが、まさかスカートを履いているとは……。%K%P
+I was expecting that my form wouldn't be so normal, but never a skirt...
+
+スカートを履いている……。%K%P
+I'm wearing a skirt...
+
+ということはつまり……。%K%P
+In short, this means...
+
+オレはあわてふためきながら、両手で胸元をまさぐってみた。%K%P
+In a panic, I tried touching my chest.
+
+小ぶりながらも、確かにそこにはふたつの膨らみがあった。%K%P
+Though small, there certainly were two bulges there.
+
+黙っていた。%K%P
+I stayed silent.
+
+突如襲ってきた無力感は、オレの中から言葉どころか、意識や思考さえも奪おうとしていた。%K%P
+Struck by a sudden sense of helplessness that snatched away my awareness and thoughts, for the moment, my head was blank.
+
+黄泉木「なあ？　そろそろ仲直りしたらどうなんだ？」%K%P
+Say, why don't you try to make up?
+
+くちを開いたのは黄泉木だった。%K%P
+It was Yomogi that spoke.
+
+黄泉木「こういうの、なんと言うか、あまり好きじゃないんだよな」%K%P
+The situation as it is, how do you say it, isn’t very good.
+
+黛「余計なお世話よ！　あんたには関係ないじゃない！」%K%P
+This is none of your business! You have nothing to do with this!
+
+黄泉木「関係ない、か……」%K%P
+Nothing to do you say...
+
+黄泉木「じゃあ彼女とは、関係があるっていうのかい？」%K%P
+Then, you say she has something to do with it?
+
+彼女……？%K%P
+She...?
+
+聞き間違いだろうか、いま黄泉木は『彼女』と言ったような気がする。%K%P
+I didn't mishear it, right? It sounded like Yomogi said "she" just now.
+
+黛「あんた、脳みそ発酵してるでしょ！？」%K%P
+You, did your brain rot!?
+
+黛「何度言わせれば気が済むのよ！？」%K%P
+How many times do I have to say it until your satisfied!?
+
+黛「私は、こんな女に会ったことは一度もないの！」%K%P
+I never met this woman, not once!
+
+黛「私と！　この女は！　一切！　関係ないの！　わかる！？」%K%P
+I! Don't! Have! Anything to do! With this woman! Get it!?
+
+――この女！？　――女！？%K%P
+――This woman!? ――Woman!?
+
+これはもはや聞き間違いだの錯覚だのと言っている状況ではない。%K%P
+This time I really didn't mishear, hallucinate or anything.
+
+オレはハッとして自分の姿を確かめてみた。%K%P
+Taken aback, I tried to check my body.
+
+胸元のリボン、薄桃色のスカート、編み上げのロングブーツ……。%K%P
+A ribbon, light pink skirt, high laced boots...
+
+手の甲は透き通るように白く、すらりと伸びた２本の足はみずみずしく潤いをまとっていた。%K%P
+The back of my hand was white and pale, two young and slender legs stretched out.
+
+悟「そんな、バカな……」%K%P
+This...can't be...
+
+くちに出さずにはいられなかった。%K%P
+I spoke out loud without meaning to.
+
+オレはあわてふためきながら、両手で胸元をまさぐってみた。%K%P
+While in a panic, I tried touching my chest.
+
+小ぶりながらも、確かにそこにはふたつの膨らみがあった。%K%P
+Though small, there certainly were two bulges there.
+
+悟「女……」%K%P
+Woman...
+
+悟「女だ……」%K%P
+A woman…
+
+どうして今まで、この可能性について吟味することをしなかったのだろう？%K%N
+Why didn't I consider this possibility until now?
+
+きっと、オレはオレであることを当然のごとく感じていたのだ。%K%N
+Undoubtedly, I was feeling like myself and the same as usual.
+
+だから自分の肉体の一部が視界に入ったとしても、それはある種の記号としてしか認識されなかった。%K%N
+That's why, even if a part of my body had entered my field of vision, it wasn't recognized as anything other than a certain symbol.
+
+指ならユビ、腕ならウデ、足ならアシ、といった具合に、単なる『意味としての情報』だけしか脳内に入力されなかったということだ。%K%P
+A finger as a "finger", an arm as an "arm", a foot as a "foot", everything was just processed as nothing but mere "data".
+
+ひとは目の前にある物、その%TS048物自体%TEを見ているわけではないという。%K%N
+A person doesn't see the %TS048thing-in-itself%TE.
+
+通り過ぎていく風景、景色、その中に存在する数々の物体を見るとき、%K%N
+Whenever we see an object, a passing scenery, a scene, and everything belonging to it,
+
+我々はそれらの物体の一つひとつを正確に捉えているわけではなく、%K%N
+We're not perceiving them accurately.
+
+それらの物体の一つひとつに内包される『概念』だけを抽出して、脳内の思考回路で処理しているに過ぎないらしい。%K%P
+Drawing out just the “general idea” from objects, we do no more than processing them through our patterns of thinking.
+
+オレはこれまで、自分が自分であることを当たり前に思っていた。%K%N
+Until now, I just naturally thought of myself as myself.
+
+人間の心理には、自己同一性を求める志向性があり、%K%N
+In the human mind, there exists a pursuit for an identity.
+
+『１０年前の自分も今の自分も同じ自分だ』と自然に思うようにプログラムされている。%K%N
+We are programmed to naturally think that "the myself of 10 years ago and the myself now are the same".
+
+実際には、物質的に見ても、脳の記憶内容を比べてみても、それらは完全に異なるのに、だ。%K%P
+Yet in practice, both physically and mentally, they differ almost completely.
+
+同じようにオレも、目覚める前の自分と、今の自分が、同一のものであると思い込んでいた。%K%N
+In a similar manner, I too was convinced that the me now and the me before waking up were identical.
+
+だから手足や服装を垣間見ても、それは『自分というものを構成する要素のうちのひとつだ』としか認識されなかったのだろう。%K%N
+When I had caught a glimpse of my feet or my garments, those weren't recognized as anything other than "an element that composes what is called myself”.
+
+つまりオレは、自分の姿を特殊なものとして見ていたわけではなく、%K%N
+In short, I didn't see my appearance as something worthy of notice,
+
+そこに含まれる一般的な概念のみを抽出して、その情報を脳に入力していたに過ぎないということになる。%K%P
+I drew out only the general concept and decided to only input that information in my brain.
+
+けれど今一度、自らの姿をよくよく注視してみれば、オレはいつもとは違う、普段どおりではない、特殊な自分だった。%K%N
+However, when consciously observing my own appearance, I notice that I'm different than usual, especially different.
+
+ここで初めてオレは、自分の肉体に異変が起きていることに気づいた。%K%N
+For the first time, I became aware that something had occurred to my body.
+
+気づいたということはすなわち『異常である』という信号が、意識の表層レベルにまで昇ってきたということでもある。%K%P
+The signs of the fact that I noticed "it is abnormal", rose to the surface level of my consciousness.
+
+黄泉木「なんだか難しそうな顔をしてるね？」%K%P
+You're making a somewhat troubled face.
+
+黄泉木「想いをめぐらせている、といった感じの顔だ」%K%P
+A face of one feeling surrounded by troubles.
+
+黄泉木「ひとりで抱え込んでないで、打ち明けてみたらどうだい？」%K%P
+Don't bear it all by yourself, why don’t you share it?
+
+オレは黄泉木の前へと駆け寄って、その両肩をガッシリとつかんだ。%K%P
+I ran up to Yomogi and grabbed his shoulders firmly.
+
+悟「鏡！　鏡はどこだ！」%K%P
+Mirror! Where is a mirror?!
+
+黄泉木「か、鏡……？」%K%P
+Mi-mirror..?
+
+黄泉木「あいにく、僕は持ちあわせていないが……」%K%P
+Sorry but I don't have one...
+
+悟「ちっ」%K%P
+Tch!
+
+黄泉木の肩から手を放し、ぐるりと室内を見まわす。%K%P
+I released Yomogi's shoulders and looked around the room.
+
+何か……何か……鏡の替わりになりそうなものは……。%K%P
+Something...something...that can be used as a mirror...
+
+悟「はっ！」%K%P
+Ah!
+
+オレの視界に飛び込んで来たものは、正方形の小さな窓だった。%K%P
+What jumped into my field of vision was a small square window.
+
+窓の向こうは闇に塗り込められている。%K%P
+The other side of the window was dark.
+
+ランタンの細々とした灯りが、ガラスの表面に映えていた。%K%P
+The light of a lantern was shining on the surface of the glass.
+
+オレは喰らいつくように、窓の前へと駆け寄った。%K%P
+I rushed in front of the window like a moth to a flame.
+
+見覚えのない顔――。%K%P
+A face that I don't remember――
+
+若い女の子の姿がそこには映し出されていた。%K%P
+The image of a young girl was being reflected there.
+
+悟「誰なんだ、こいつは……」%K%P
+Who is this...
+
+オレは愕然とした。%K%P
+I was aghast.
+
+ゆっくりとゆっくりと、ガラスに浮かんだ顔に向かって手を伸ばしていく。%K%P
+Very slowly, I extended an hand towards the face floating on the glass.
+
+慎重に、指先から腕の付け根に至るまで、細心の注意を払って……。%K%P
+With great care, from my fingertips to the base of my hand, paying rigorous attention...
+
+壊れてしまわないように……。%K%P
+To not break it...
+
+息を殺して、瞳を見開いて、そっと……。%K%P
+I stopped breathing, widened my eyes, and quietly...
+
+オレは窓ガラスの表面に……触れた……。%K%P
+I touched...the surface of the windowpane...
+
+この女は誰なんだ……。%K%P
+Who is this woman...
+
+この女がオレなのか……。%K%P
+Is this woman me...
+
+だとするならオレの知っているオレはどこへ行ってしまったんだ……。%K%P
+If this is so, where did the me I know go...?
+
+オレは誰なんだ……。どちらが本当のオレなんだ……。%K%P
+Who am I...which is my real self...
+
+わからない……わからない……わからない……。%K%P
+I don't understand...I don't understand...I don't understand...
+
+何かが狂っている。この世界はオレの知っている世界ではない。%K%P
+Something collapsed. This world isn't the world I know.
+
+圧倒的な孤独感、疎外感にさいなまれ、自分自身の存在がとても稀薄なもののように思えてくる。%K%P
+Overwhelming loneliness, feelings of alienation tormented me; making the existence of my own self appeared so thin.
+
+不安で不安でたまらなくなった。%K%P
+The anxiety became more and more unbearable.
+
+叫び出したいほどの恐怖に理性を失いかけていた。%K%P
+I lost my reason to a fear so powerful I wanted to let out a cry.
+
+悟「助けてくれ……」%K%P
+Help me...
+
+悟「誰かオレを……助けて……くれ……」%K%P
+Someone...help...me...
+
+オレの意識は、そこでぷつりと途絶えた。%K%P
+My consciousness stopped there. 

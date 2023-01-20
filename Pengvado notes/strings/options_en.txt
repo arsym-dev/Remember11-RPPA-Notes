@@ -1,0 +1,60 @@
+-Screen location-%NＸ：%NＹ：
+Move the screen with the cursor keys.
+-Window location-%NＸ：%NＹ：
+Move the message window with the cursor keys.
+-Window color-%NBlue%NGreen%NRed%NBlack
+You can change the windowframe's color.
+-Window opacity-%N　２５％%N　５０％%N　７５％%N１００％
+You can change the window opacity.%N(100％ is fully opaque)
+-Voice volume-%NSilent%NQuiet%NNormal%NLoud%NLouder%NLoudest
+You can change the volume of character voices. (□ button to preview)
+-Effect volume-%NSilent%NQuiet%NNormal%NLoud%NLouder%NLoudest
+You can change the volume of sound effects. (□ button to preview)
+-BGM volume-%NSilent%NQuiet%NNormal%NLoud%NLouder%NLoudest
+You can change the volume of the music.
+-System volume-%NSilent%NQuiet%NNormal%NLoud%NLouder%NLoudest
+You can change the volume of the user interface.
+-Sound channels-%NStereo%NMono
+Select the number of channels.
+-Spoken message display-%NDisplay all%NHide all%NHide if the character is visible%NHide for event CG
+You can change the behavior of messages that have audio output.
+-Text speed-%NSlow%NMedium%NFast%NInstant
+Select the speed at which to draw text.
+-Text speed-%N
+Select the speed at which to draw text.%N(Larger bar is faster. Far right is no wait.)
+-Sync voice and text-%NNo%NNo
+(This option does nothing, since the translation%Ndoesn't preserve the synchronization metadata.)
+-Auto mode speed-%NSlow%NMedium%NFast%NFastest
+Select the speed at which to draw text in auto mode.
+-Auto mode speed-%N
+Select the speed at which to draw text in auto mode.%N(A larger bar decreases the delay before automatic%Npage turning.)
+-Color code previous choices-%NNo%NYes
+Whether to mark any choices you've already taken%Nin a different color.%N(Also affects the backlog.)
+-Skip mode-%NAlready read messages%NAll messages
+Conditions for when skip mode can take effect.
+-Skip animation-%NNormal%NHigh speed
+Select the method of drawing characters in skip mode.
+-Skip scrolling-%NNormal%NHigh speed
+Select the method of scrolling the screen in skip mode.
+-Initial mode-%NNormal%NAuto%NSkip
+Select the page turning mode to be active when you%Nstart the game.%N(Also affects loading of savedgames.)
+-Automatic quicksave-%NNever%NAt each choice%NAt each scene title%NBoth
+Conditions to trigger an automatic quicksave.
+−操作設定のカスタマイズ−%NＴｙｐｅ  Ａ  %NＴｙｐｅ  Ｂ
+操作設定を変更することができます。%NＴｙｐｅ  Ａ：ＳＴＡＲＴボタンでシステムメニュー呼出し、%N　　　　　□ボタンでスキップＯＮ／ＯＦＦ切り替え。%N〔『Ｔｙｐｅ  Ｂ』はこれらの操作が逆になります〕%N
+-Vibration-%NYes%NNo
+振動によるゲーム演出の切り替えができます。
+-Scene title-%NShow%NHide
+Whether to display scene titles.
+-Hints-%NShow%NHide
+ノベルパートの選択肢やルームパートのポインタ、%N場所移動パートのエリアシンボルに出現する、%Nナビゲーションキャラクターの表示設定を%N変更する事ができます。
+-Flicker adjustment-%N
+Tune the screen's flicker with the direction keys.
+-Volume control-%NＣＨＲ%NＳＦＸ%NＢＧＭ%NＳＹＳ
+Modify the volume of each type of sound.%N(Test the voice and effects settings with right-Ctrl.)%N
+-Startup settings-%NShow%NHide
+ゲーム起動時にプログレッシブ出力設定を変更する%Nオプションを必ず表示するようにします。%N〔起動時にＳＥＬＥＣＴボタンを押し続けてた場合も%Nオプションが表示されます〕
+-Defaults-%NReturn all settings to their defaults.%NAre you sure?%NYes%NNo
+Return all settings to their defaults.
+-Undo-%NDiscard all option changes you have made so far and%Nleave the options screen?%NYes%NNo
+Discard all option changes you have made so far.

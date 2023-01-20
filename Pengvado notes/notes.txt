@@ -1,0 +1,251 @@
+/* this file is just a scratchpad for stuff discovered while disassembling */
+
+441C90 displays text
+441CB9-441CC1: ascii
+441CC3-441CE9: 2byte shift_jis
+calls [esi+24]. the first several times this is 441B20=nybble-swap. after that it's 47B730=nop.
+
+display decision text: 43C2F5
+display other text: 41BF75
+display other text: 41A8E5
+
+decision text: E9BE88+0x40*n
+written: 41D2B2
+called from: 43AA34
+called from: 43C2CD
+offending op: 43C2EB: add esi, 2
+patching this fixes which characters get displayed, but their spacing is still wrong. in pure ascii, char n is spaced according to the width of char 2*n, and only the first half of the line is displayed.
+
+441A20: decide between 1byte and 2byte char. though there isn't space for this function call where I'd want to use it.
+
+first access to the decision text (in place in the script E868C5) is at 481376 (strcmp).
+repeat 481376 with a different comparison string.
+then 41D2B0 (strcpy to E9BE88)
+E868C5 isn't accessed again.
+next for E9BE88 is 41D2D2->43C2CD->43AA34->441C98.
+next then E9BE89 is read by 441C98, and so on for the rest of the string.
+next for E9BE88 is 41D2E1->43BCA0, which handles % metachars. ebp=E9BE88. ecx=E9C188. esi=E9C198.
+
+43BCAB-43BCBC: check for %N. afaict this runs only at init-time, not normal text rendering.
+43BCBC-43BCD1: check for line length(?) if length arg provided. afaict the arg is never provided.
+43BCD1-43BD4B: handle misc chars, call 441C90
+43BD56-43BD78: handle %N
+43BD78-43BD93: handle line length
+43BD4E: offending add ebp, 2. patching this fixes spacing.
+
+crash (41AEA8 esi=1B033300) on PR_02 line 56 (i.e. after clicking next from line 55 and before displaying enything new).
+line 55 is "This was witnessed by an on-duty nurse from the window on the third floor."
+line 81 also crashes.
+this appears to be related to the total amount of text on screen at once. but I don't know exactly what it is; kanji use up less of the limit than an equal byte-count of ascii; spaces at the end of a rendered line don't count at all.
+struct is E91888
+[A5D8F8] = E91898
+decoded char buffer is at E974B4-E97834 (struct+5C2C). some references are 5C2E.
+change it to E97988 which has more space available. afaict this area is memset(0) but not otherwise accessed. (struct+6100)
+... no, that didn't fix the crash.
+offending write is 41BF5D writing to E97340.
+the buffer that's overflowing is the rendered(?) text, which is supposed to fit in (struct+80)-(struct+59E0) at 0x34 bytes per char (440 chars total).
+and another buffer at (struct+5C2C)-(struct+5F9C) at 2 bytes per char.
+there's other stuff at (struct+A500), which isn't moved by patch_render_buffer.
+
+longest lines in the translation (may be revised):
+CO3_06:61 is 801 chars
+CO6_01:38 is 738 chars
+
+tips are blue-colored, marked with %TS###...%TE
+tip markings are not in the translated text I'm using, and so they aren't included after translation. that's ok, most of the tips just explain english words.
+
+menu collisions (limit of 32 chars):
+first collided in E9BE88+0x40*n (shift_jis)
+try changing the shift at 41D20A. this doesn't appear to have any effect, even though I can verify in ollydbg that the buffers at E9BE88 no longer run into eachother.
+also collided in 22445C0+0x40*n (decoded char number, int16_t)
+break on 43AA4E
+rendering struct is initialized at 441850
+[esi+0x78] (offset into 22445C0) initialized at 43AA2E
+next shift: 41D2CC. ok, now it works.
+
+[4BF344] == E7E660
+[E7E648] == E7E660
+40BA5C-40BA75: check for %P, %p, %N.
+%N: [[E7E648]+28D4] = 1;
+%N doesn't do anything else here that isn't shared with normal chars.
+40BE87: if([[E7E648]+28D4]) [[E7E648]+28D0]=0. either way, [[E7E648]+28D4]=0.
+40BEEC: if([[E7E648]+28D0]==0) [[E7E648]+28CC] = word [edi+6] (== FFFF) (edi = [struct+44]). either way, [[E7E648]+28D0]++
+[[E7E648]+28D0] is always either 0 or 1.
+41C49D: use [[E7E648]+28D0], as the 3rd arg of 41B800.
+
+byte [E80FA2] ('s'he in "hair;  she  was  as  silent") accessed at 41C3F2, 41BA9D, 41BF1F, 41BF34
+at breakpoint 41C3F2, eax is: 1FA, 205, 20B, 214, 21B, 21F, 223, 22D, 238, 00B, 00F, 013, 020, 02B, 035, 039, 03D, 048, 052, 056, 05A, 064, 06A, 070, 07B, 086, 08E
+eax appears to be horizontal pixel position; its deltas match the width of the letters, and the negative delta matches the linebreak. (or not quite? the linebreak is after 's', but the negative delta is after 'h')
+41BFB2 is the branch on line length.
+41BFB8-41C2D8: handle newline
+41BFC6-41BFF0: check for punctuation, end-quotes, or small kana vowels. (array: 4B16AB-4B16EA, zero terminated)
+41C115-41C280: handle said chars
+41BFF4: back up by one char
+41B750: check for begin-quotes. (array: 4B16EC-4B16FA, zero terminated)
+41C00E-41C115: handle begin-quotes.
+41C280-41C2D8: didn't find any begin-quotes.
+41C2D8: the common case. here we rejoin the flow of not having overrun line length.
+
+after the struct patch, history buffer is empty except for particularly long texts, which are overlapped and otherwise garbaged.
+41EB10-41EB93 is involved in history.
+
+revert struct patch for now.  history still borks long lines.
+history text is at [E7E648]+209AA+[[E7E648]+2099C]*0x238 = E9F00A+n*0x238 (n = rendered line number, i.e. counting line length overflows too. n starts at 1 (?).)
+format: 2byte, space-padded. each line is truncated to 54 chars. there is data between lines, though most of it is zero.
+lines are added to this buffer as they're displayed, not just when you look at history.
+E9F242 is written by 41E135.
+struct (size 0x238) {
+    int32 a; // = arg6 = 0xA
+    int8  b; // = arg3 = 3
+    int8 empty;
+    int16 c; // = arg4 = 0x1856
+    int16 d; // = arg5 = 1
+    wchar text[0x36];
+    // 6 bytes empty
+    // 0x1BC bytes copied from 2B5A860
+}
+converted the struct to shift_jis. now the first long line prints correctly, but chars 55+ get drawn again at the beginning of the next line, using spacing from the next line.
+read byte 55: 41E3BA->43C2FA->43AA36->441C98, 43BE21->43BCDC->441DDE->441C98
+43BD0E writes 19A3D30 (rendered char posistions?)
+43C084 reads 19A3D30, calls 43BA00
+441C90 called from 43AA34 and 441DDC
+nybble-swap to C7CC88, ignored
+43BA00's arg1 seems to be some sort of index (in 16.16 fixed point) which displays the behaviour I'd expect of one line buffer overwriting the next.
+
+41E2F0:
+    [4B187C] == 199EAB0
+    [E7E648] == E7E660
+    eax = [[4B187C]+0x10] + [[4B187C]+4] + 9 (= 0+4+9)
+    edi = eax % 0x3E8 (= 0xD) // index of the text line in the history buffer
+    eax = [[4B187C]+8] + 9 (= 0x11)
+    esi = eax % 0xC (= 5) // has to be the index of the history line on screen, though there's 10 not 12 lines on screen
+    p1 = [E7E648] + edi*0x238
+    p2 = [4B187C] + esi*0x238
+    uint32 p2.4500 = uint32 p1.209A0
+    uint32 p2.4504 = uint8  p1.209A4
+    uint16 p2.4508 = uint16 p1.209A6
+    uint16 p2.450A = uint16 p1.209A8
+    uint32 p2.450C = &p1.209AA
+    // p2.4512 is 43BA00's arg1
+    43C280( &p2.450C, 0x13, uint16 p2.4512, 0x1A )
+    43BDF0( &p2.451C, &p2.450C, 0x1000 )
+    ret
+
+p2.4512 (19A3ADA) seems to be initialized equal to itself. it's never computed in the history display loop.
+push edi; (pushx2); 41E9DF call 43C280; edi+=eax;
+41E960 allocates an array of 0x37 wchars on the stack (initially filled with cjk-spaces). history printing goes into this array (and nicely refuses to overflow), and increments the pointer by the amount actually printed, which is thus limited to 0x37.
+increased buffer size. works.
+choices show up in the history with odd letters missing. artifact of repacking the history buffer.
+
+probably irrelevent:
+p2.4512 initted at 442486
+[E7E648] is assigned a literal value, not malloced, so there's nowhere to report the updated size
+
+bringing back struct patch.
+with small negative offsets, the history lines are truncated (not necessarily to the beginning of a line).
+with positive offsets, history_copy is called with length 0 (but my replacement copies 1 char anyway).
+the offending struct offset is one of the following (reverting these and keeping the rest of the struct pach fixes history):
+  41A5CF  lea edi, [ebp+59E8]
+  41AB6E  lea eax, [edx+59E4]
+  41B022  lea esi, [edi+59E0]
+  41B2BF  lea esi, [edi+59E0]
+  41B3CE  lea ecx, [edi+59E0]
+  41B851  lea edi, [esi+edi*4+59E0]
+  41C530  mov [eax+59E0], esi
+  41C539  mov [eax+59E4], edx
+  41C545  mov [eax+59E8], esi
+  41C54B  mov [eax+59F4], esi
+  41C551  mov [eax+59F8], esi
+
+in idle loop, 41B022 and 41AB6E trigger repeatedly, with edi == E918B4
+on new dialogue, 41C530
+on history: nothing
+length read 41C977 from esi+4 == E972D4
+zeroed 41C1AF
+incremented 41C3CF
+patched: 41C977 still reads from esi+4 == E972D4
+offending add: 41C873
+
+with struct patch, game hangs when setting an option.
+fix: don't change offset [[4BF344]+590C], even though it's the same struct as [[E7E648]+...]
+
+name translation:
+481240 is strstr
+41B91F loops over a list of names ([[2B55E90]]==[2216F3C]==222CC98 .. [[2B55E90]+([2B55E94]-1)*4+strlen]==[2216F3C+0x16*4+strlen]==222CFBA)
+foreach name, strstr it in the text, and if we find a match followed by a begin-cjk-(quote|blockquote|paren) then report that as the dialogue attribution.
+
+text speed:
+the rate of drawing letters on screen was optimized for japanese. english has more letters per word, so the per-letter delay should be less. you can set the text speed option to "no wait", which is fine for narration, but dialogues ignore that option and always go at the slowest speed.
+possible angle of attack: find the point in the options file that stores text speed; find where it's loaded into memory; find the code that reads it from memory; assume the same code handles dialogue and non-dialogue and just has special case or argument; remove the special case.
+position in options file: 24F0, 1 byte, values 0=slowest 3=fastest
+btw, offsets 590C+2 and 5BFC+2 change every time I save the options file, regardless of whether I changed any options.
+offset 24F0 of options file loaded in memory at [2238BB0]
+[2238BB0] is not accessed during play, but is accessed when I load a savedgame. first something that looks like a checksum, then copied by 431EC7 to [2B5CF0C]. looks like it's actually offset 24EC in a struct.
+4012F9 initializes [2B5CF0C] to 1 (along with many nearby variables). presumably this is the "revert to defaults" option. edit: changed default is "no wait".
+42AC7A copies [2B5CF0C] to [4BF100]
+42AD7B copies [2B5CF0C] to [4BF118]
+42DB20 calls 42BA40 with [2B5CF0C] as an arg
+42EF80 calls 42BCF0 with [2B5CF0C] as an arg
+41B800 computes delays:
+  if 4th arg is nonzero, then case 41B8B3: delay = 4th arg. (runs for dialogue lines)
+  else if [E91898+4] != -1, then case 41B8C1: delay = [E91898+4]*16. (dunno when this runs)
+  else case 41B8CA: delay = [4B171C+4*[2B5CF0C]]. (runs for non-dialogue lines)
+no other code references [4B171C].
+[4B171C] = {0x80, 0x40, 0x20, 0}. looks like per-letter delay in millisec. edit: reduced the values.
+41C410 calls 41B800 (for both dialogue and non-). there's a bunch of logic I haven't deciphered, but seems that byte[2B5CF0E] selects whether to use the global speed for dialogue (value 1), or to use some values that differ per line (anything other than 1) (presumably timed to match the original japanese to the length of the spoken text?). however, there is no code to modify [2B5CF0E], other than the default initialization function which sets it to 0. edit: removed the check, so it always uses the "text speed" option.
+
+options:
+an option explanation is loaded at 4A068C
+[4BE4B8] = 4A068C (and is in a big array of other string addresses, with stride 16. 4BE488..4BE847)
+42CACB calls 43D220 with 4BE4B8 as an arg
+replacing the strings with ascii works (they aren't pre-parsed). but it doesn't automatically line-break.
+FIXME: "volume control" and "window location" have excessively wide spacing. ("opacity" too, but it isn't a problem there)
+Volume control:  [4BE7C8]  42E994: 43D220(edi+15788, 4BE7C8,   2, ebx, -1, 1000)
+Window location: [4BE4A8]  42CA85: 43D220(eax+15788, 4BE4A8, edi, ebp, -1, 1000)
+Window opacity:  [4BE4E8]  42CD67: 43D220(esi+15788, 4BE4E8,   2,   0, -1, 1000)
+Text speed:      [4BE5E8]  42BFB4: 43D220(edi+15788, esi*32+4BE488, 2, 0, -1, 1000)
+Auto mode speed: [4BE648]  42BFB4
+Sync voice:      [4BE608]  42BC44: 43D220(edi+15788, esi*32+4BE488, 2, 0, -1, 1000)
+Color code:      [4BE668]  42BC44
+Skip mode:       [4BE688]  42BC44
+Initial mode:    [4BE6E8]  42BC44
+Autoquicksave:   [4BE708]  42BC44
+Scene title:     [4BE768]  42BC44
+Defaults:        [4BE808]  42EC6E: 43D220(esi+15788, 4BE808, 2, 0, -1, 1000)
+Undo:            [4BE828]  42EECA: 43D220(esi+15788, 4BE828, 2, 0, -1, 1000)
+arg1 (reg+15788) = E93DE8
+bah, I can't find the code that handles the broken spacing. I'll just redo the labels in 3 letter abbreviations so it fits.
+
+scene titles: (this paragraph is probably redundant)
+[222E2B8] "tengoku wa koko ni aru"
+[222E2B8] is read by 419CE0: [[2B55E88]+[[E7E648]+2856]*8+4] = [22173EC+0*8+4]
+[222E2B8] is initted by 442486 (loop: 442450..442528), which decompresses it from [E8C63D]
+[22173F0] first initted by 442486 to the value of 17C18, which was derived from [E7ED07] (which is part of "init.bin" at E7E660). then modified by 4019C3 by adding 22166A0 to get 222E2B8.
+17C18 is at init.dec offset D50. [222E2B8] is at init.dec offset 17C18.
+
+4656A0 reads init.bin and etc.afs into E7E660 among other addrs. init.bin is then decompressed to 22166A0
+init.dec:
+59E4..15E8C are the TIPS (with some junk in beween)
+165F8..1D50B are strings.
+89C..36C0 are pointers to those strings. (with a few nulls in the middle, to separate groups)
+(there are more strings and more pointers, but they are interspersed with junk)
+
+formatting escape codes:
+%K  wait for keypress
+%N  newline
+%P  pagebreak
+%L[LCR]  align (left/center/right)
+%C[0-9A-F]{4}  color. 4 bits each of RGBA (in that order). A is the opacity of the black shadow behind the letters. applies to the rest of the line; use %CFFFF to switch back to normal.
+%TS...%TE  link to TIPS
+%FS...%FE  dunno, but it appears around "infinity loop" (game over)
+%O  dunno, but it appears after "infinity loop" (game over)
+%T[36]0  dunno
+%X[0-9A-F]+  dunno what the number does, but %X starts the text in the middle of the screen (horizontally)
+%V  dunno
+
+bug in CO1_12: after you pick the choice where you don't take the pills, text turns into gibberish.
+cause: engine doesn't support scripts >64KB (string offsets within a script are uint16_t)
+40BEA6 reads the string offset
+but fixing the offsets isn't sufficient, as the game also only loads the first 64KB of script into memory in the first place.
+4860BF copies the script from somewhere full-size to the final destination, and is invoked with a truncated size to copy.
+40A9E7 is the size to copy. can't increase it, because all this is happening in .data, i.e. it's statically allocated.

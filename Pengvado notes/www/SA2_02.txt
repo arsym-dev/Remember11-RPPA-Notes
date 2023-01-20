@@ -1,0 +1,844 @@
+
+ポケットの中から腕時計を取り出す。%K%P
+I take my wristwatch from out of my pocket.
+
+１１時０３分。昼まだ前だった。%K%P
+It's 11:08. It's still before noon.
+
+オレはさっそく行動を開始することにした。%K%P
+I decided to start acting without delay.
+
+まずは、この部屋の調査から始めよう。%K%P
+First of all, let's begin with investigating this room.
+
+自分の部屋を調べれば、オレの記憶障害に関する何らかの手がかりが得られるかも知れないと思ったのだ。%K%P
+If I examine my own room, I may gain some clues about my memory loss.
+
+オレは……。%K
+I will...
+
+%p
+机を調べる
+Examine the desk.
+
+棚を調べる
+Examine the shelves.
+
+冷蔵庫を調べる
+Examine the refrigerator.
+
+ベッドを調べる
+Examine the bed.
+
+机を調べてみることにした。%K%P
+I decided look at the things in the desk.
+
+すぐに目についたものがある。%K%P
+At once many things appear in my eyes. 
+
+メモ用紙とサインペンだ。%K%P
+There's a blank notepad and a felt-tip pen.
+
+悟「そうだ……」%K%P
+That's right
+
+悟「こころと連絡を取るためには、これを使えばいいんだ……」%K%P
+I can use this to contact Kokoro...
+
+この用紙メモにメッセージを残しておけば、転移が起きたときに、彼女はそれを読んでくれるはずだ。%K%P
+If I leave a message in this blank notepad, she will read it when the transition occurs.
+
+彼女からの返信も同じ。%K%P
+Same for her replies.
+
+ここに書き残しておいてくれさえすれば、オレがスフィアに戻って来たときに読むことができる。%K%P
+As long as she leaves a note behind, then I'll be able to read it after I come back to SPHIA.
+
+ここはオレの部屋……。%K%P
+This is my room...
+
+いや、オレとこころの部屋と言うべきか……？%K%P
+No,  should I say mine and Kokoro's room...?
+
+ともかく、ここはオレ達にとってのプライベートスペースなのだから、%K%P
+Anyway, this is our private space.
+
+転移時に彼女が施設内のどこにいたとしても、最終的には必ずこの部屋に戻ってきてくれるだろう。%K%P
+At the time of the transition, wherever she is in the facility, she will always return here in the end.
+
+通信手段としてはいささか古めかしいが、贅沢は言っていられない。%K%P
+This somewhat old-fashioned means of communication doesn't exactly give an air of luxury.
+
+これ以上に最適な方法は、今のところ見当たらないし……。%K%P
+At present, I can't find any better method...
+
+オレはサインペンを手に取って、早速メッセージを書こうとした。%K%P
+I took the pen in my hand and tried to write a message without further ado.
+
+だが、何て書けばいい……？%K%P
+Although... what kind of things should I write about?
+
+しばらく逡巡したあげくペンを置いた。%K%P
+After some hesitation, I lay down the pen.
+
+まだスフィアの３人から詳しい話を聞いていない。%K%P
+I haven't heard any details from those three in SPHIA yet.
+
+メッセージを書くのはその後でも遅くはないだろう。%K%P
+It probably won't be too late to write a message afterwards.
+
+あまり不確かな情報を書いても、彼女を混乱させるだけだと思った。%K%P
+If I write unreliable info, it will confuse her even more I think.
+
+白紙のメモ用紙をその場に残し、机の前を離れる。%K%P
+After leaving the blank note, I moved away from the desk
+
+次にオレは……。%K
+Next, I should...
+
+棚を調べてみることにした。%K%P.
+I decided to examine the shelves.
+
+ベッドの足元の方にある棚……。%K%P
+The shelf at the foot of the bed...
+
+目覚まし時計の隣に、ふたつの何かが置かれている。%K%P
+There were two "things" left next to the alarm clock 
+
+ひとつはカードのようなもので、もうひとつは金属製の小さな物体だった。%K%P
+The first was something like a card, the other a small object made of metal.
+
+先にカードの方から手に取った。%K%P
+I picked up the card first.
+
+『ＳＡＴＯＲＵ　ＹＵＫＩＤＯＨ』%K%P
+SATORU YUKIDOH
+
+『１３３１　２２２３　９８０１』%K%P
+1331 2223 9801
+
+プラスチック製のカードの表面には、そのような文字が刻まれていた。%K%P
+Those characters were carved on the front side of the plastic card.
+
+悟「優希堂悟……」%K%P
+Satoru Yukidoh...
+
+悟「オレの名前……」%K%P
+My name...
+
+どうやらこれはＩＤカードのようだ。%K%P
+Looks like it's some kind of ID card.
+
+裏返してみたが、それ以外の記述は見当たらなかった。%K%P
+The rear side of the card had nothing else resembling description.
+
+オレのＩＤカード……。%K%P
+My ID card...
+
+用途は何だ……？　いつ、どこで、なにをするためのものなんだ……？%K%P
+Where is it used...? When, where, what was it meant to be used for...? 
+
+そう言えば、ゆうべ内海は言っていた。%K%P
+Come to think of it, last night Utsumi said:
+
+内海「あなたはここのスタッフだったはずよ」%K%P
+Probably, you are a staff member of this place
+
+内海「でも、今は確信が持てなくなってしまったわ」%K%P
+But now I'm starting to lose confidence
+
+内海「もしかしたら、あなたは最初から、ここの患者だったのかも知れない」%K%P
+Maybe you were a patient of this place from the start.
+
+結局どっちなんだよ……。%K%P
+So, which one is correct...
+
+スタッフなのか、患者なのか……。%K%P
+Staff member or patient?...
+
+もしもスタッフなのだとしたら、このＩＤカードはスフィア内で職員が使用するためのものなのかも知れない。%K%P
+If I was a staff member, this ID card could be used by the personnel inside of SPHIA.
+
+患者なのだとしたら……なんだろう……？%K%P
+If I was a patient... I wonder, where...?
+
+患者がＩＤカードを持っていたとしても、別におかしくはないし……。%K%P
+It's not like it's strange for patients to have an ID card...
+
+ここでは、患者全員にＩＤカードの所持が義務づけられているのかも知れないし……。%K%P
+Maybe this place obligates all patients to have a ID cards...
+
+わからない。%K%P
+I don't understand
+
+とりあえずオレは、そのカードをポケットにねじ込んで……。%K%P
+I decided to put this card in my pocket for now...
+
+次に『金属製の小さな物体』の方をつかみ取った。%K%P
+Next, I grasped a "small metallic object". 
+
+それは極普通のシンプルな『鍵』だった。%K%P
+This was a quite usual,  simple "key."
+
+中央に２本の溝が彫られていて、両サイドには複雑な形の鍵山がある。%K%P
+Two grooves were carved at the center, and both sides had the lock pile of a complicated form.
+
+一見して自動車やバイクのそれとは異なることがわかった。%K%P
+From the first glance I understood that it was different from automobile and bike keys.
+
+ひきだしの鍵でも、金庫の鍵でもなさそうだ。%K%P
+It didn't seemed to be a drawer key or vault key either. 
+
+住居のドアを施錠するような感じの、本当にありふれた、よく見かけるタイプの鍵……。%K%P
+I felt that this was a common type of key often used to lock the doors of  a residence.
+
+『鍵』としか言いようのない『鍵』だった。%K%P
+It was a "key" that can't be described except by the word "key" itself.
+
+オレはそれを手にしたまま、あたりを見まわしてみた。%K%P
+After picking it up, I looked at my surroundings.
+
+まずまっさきに思い浮かんだのが、この部屋のドアの鍵ではないか、ということだった。%K%P
+First thing that I thought of was that it may have been the key to this room. 
+
+さっそくドアを開き、外側から鍵穴にあてがってみる。%K%P
+Without further ado, I opened the door and tried to insert it into the lock on the other side.
+
+しかし差し込むことすらできなかった。%K%P
+However, it didn't fit in.
+
+これはドアの鍵ではないようだ。%K%P
+That meant that this wasn't a key for this door.
+
+他には鍵穴と思しき場所はどこにも見当たらない。%K%P
+I didn't notice any other places with keyholes.
+
+悟「なんの鍵なんだ……？」%K%P
+What is this key for...?
+
+これもまた、用途が不明だった。%K%P
+Thus, the use of this too remained a mystery.
+
+わけがわからなかったが、これ以上考えてもしかたがない。%K%P
+I didn't understood what those items were for, but I decided to stop thinking about them for now.
+
+その鍵も、ＩＤカードと同じようにポケットの中にしまい込んだ。%K%P
+I put this key in the same pocket as the ID card.
+
+引き続きオレは……。%K
+Next I..
+
+冷蔵庫を調べてみることにした。%K%P
+I decided to examine the refrigerator.
+
+扉を開ける。%K%P
+I opened the door.
+
+ここにもミネラルウォーターのペットボトルが収納されていた。%K%P
+There was a bottle of mineral water stowed inside.
+
+５００ｍｌサイズの小型ペットボトルだ。%K%P
+A small 500ml bottle.
+
+３本あるうちの１本は、すでに開栓済みだった。%K%P
+Of three bottles, one was already open.
+
+中身が３分の１ほど失われている。%K%P
+1/3 of it was already empty.
+
+オレが昨日ミネラルウォーターを飲んだのはキッチンで、ここのボトルにはまったく触れていない。%K%P
+Yesterday, I drank mineral water in the kitchen and haven't touched this bottle at all.
+
+ということは……。%K%P
+This means that...
+
+悟「こころか……？」%K%P
+Kokoro...?
+
+こころの意識がオレの肉体に転移しているとき、飲んだのかも知れない。%K%P
+Kokoro's consciousness moved my body and may have drank the water.
+
+もちろん、昨日時計台から落ちる前に、オレがふたを開けて飲んだという可能性もあるのだけれど……。%K%P
+Of course there is a possibility that I opened that bottle and took a couple of gulps yesterday, before falling from the clock tower.
+
+まあ、水のことなんてどうでもいい。誰だって水ぐらい飲むだろう。%K%P
+Well, enough about the water. Everyone drinks water.
+
+冷蔵庫の中にはそれ以外は何も入っていなかった。%K%P
+There was nothing else in the refrigerator.
+
+オレは扉を閉めた。%K%P
+I closed the door.
+
+一応、冷蔵庫の上も調べておこう。%K%P
+Just in case, let's check on top of the refrigerator.
+
+いくつか並べられたグラスの中に、ひとつだけ上向きに置かれたものがあった。%K%P
+From all the glasses that were lined up, only one was sitting upright.
+
+中には数ｃｍ程度、飲みかけの水が残っていた。%K%P
+Just a few cms of water were left inside.
+
+先程のミネラルウォーターをこのグラスに注いで飲んだのだろうが、まあ、これもどうでもいいことだ。%K%P
+I was drinking mineral water from this glass just now. Well, who cares about this.
+
+しかし、グラスの隣に置かれた小さな銀色のカケラは、見過ごすわけにはいかなかった。%K%P
+But I couldn't miss the small silver fragment next to the  glass.
+
+つまんでみる……。%K%P
+I try to pick it up.
+
+薬のパッケージであることは一目瞭然だった。%K%P
+It was obvious that it was a medicine package.
+
+２錠分だけ切り離されたパッケージのカケラ……。%K%P
+A fragment of a two-pill package that was cut open.
+
+肝心の薬自体はなくなっていた。%K%P
+The medicine itself was gone.
+
+それでもパッケージの形状から、ある程度のことはうかがえる。%K%P
+Still, it is possible to understand something just from checking the package.
+
+ひと粒の直径は７～８ｍｍ程度。円形の錠剤らしい。%K%P
+The diameter of one tablet is around 7~8mm. Looks like the tablet has circular form.
+
+言うまでもなく飲み薬だ。%K%P
+Needless to say this is an internal medicine. 
+
+裏返してみる。%K%P
+I decided to look at the opposite side.
+
+破れた銀紙の部分を再生すると、製薬会社のマークとともに次のような文字が読み取れた。%K%P
+When the parts of the torn silver paper were put in order, besides the name of the pharmaceutical company, the following letters could be read.
+
+『ＺＥＧＴＡＭＩＮ』%K%P
+ZEGTAMIN
+
+悟「ゼグタミン？」%K%P
+ZEGTAMIN?
+
+聞いたことのない名前だった。%K%P
+An unfamiliar name. 
+
+なんの薬なのだろう？%K%P
+What kind of medicine could it be?
+
+効能も組成もわからなかったが、とにかく、ここで誰かがこの薬を飲んだのは間違いなさそうだ。%K%P
+Even if I don't understand the effect and constitution of this medicine, there is no mistake that someone was taking it here.
+
+ミネラルウォーターは、そのときに用いたものと思われる。%K%P
+I think that the mineral water was used for that.
+
+さて、ではいったい誰が飲んだのか……？%K%P
+Now, who in the world was drinking it....?
+
+悟「オレ、なのか……？」%K%P
+I was...?
+
+無論、オレにはそんなことをした覚えはない。%K%P
+Of course, I don't remember doing anything like that.
+
+けれど、オレではない何者かが、オレの肉体を操って飲んだのかも知れなかった。%K%P
+But, if it wasn't me, maybe someone who manipulated my body was drinking it. 
+
+そして、それが可能なのはたったひとりしか存在しない。%K%P
+And that could only be one being.
+
+悟「こころだ……」%K%P
+It's Kokoro...
+
+こころが飲んだのだ、きっと……。%K%P
+Probably, Kokoro drank it...
+
+あとでこのことも彼女に訊いておかなければならない。%K%P
+I should definitely ask her about this later.
+
+それにしても……。%K%P
+Nevertheless...
+
+悟「ひとの身体を使って、勝手にわけのわからないものをくちにしないで欲しいよな……」%K%P
+I'd like her to stop drinking strange things while borrowing the body of someone else.
+
+悟「まったく……」%K%P
+Seriously now...
+
+ぶつぶつとこぼしながら、銀色のパッケージを冷蔵庫の上に戻す。%K%P
+I return the silver-colored package on top of the refrigerator while mumbling something quietly.
+
+とりあえず『ゼグタミン』という薬品名だけは頭の中に刻みつけておくことにした。%K%P
+For now, I decide to stuff the medicine's name-ZEGTAMIN-in the corner of my mind.
+
+続いてオレは……。%K
+Next, I...
+
+ベッドを調べてみることにした。%K%P
+I decided to search the bed.
+
+枕と掛け布団を取り払う。%K%P
+I removed the pillow and bed covers.
+
+白いシーツには一点の染みもなく、清潔感にあふれていた。%K%P
+The white sheets felt like they were absolutely clean - there wasn't even a single strain. //stain?
+
+
+身を屈めてベッドの下をのぞき込んだ。%K%P
+I bent my body and looked under the bed.
+
+なにもない……。塵ひとつ落ちていなかった。%K%P
+There was nothing... not even garbage.
+
+念の為、マットレスの下も確かめておくことにする。%K%P
+Just in case, I decided to check under the mattress.
+
+ふちをつかんで、勢いよく持ち上げた。%K%P
+I grabbed the edge and forcibly lifted it up.
+
+悟「ん……？」%K%P
+Hm...?
+
+悟「雑誌……？」%K%P
+A magazine...?
+
+マットレスの下にこっそりと隠されていたその雑誌……。%K%P
+The magazine that was secretly hidden under the mattress...
+
+一瞬、いかがわしい内容のそれではないかと思い、うろたえてしまった。%K%P
+At first I thought that it had an indecent content and became flustered.
+
+（というか、ほのかに期待してしまった）%K%P
+(Or perhaps, I should say I was faintly expecting it.)
+
+しかし（惜しいことに）その雑誌はそういった部類に属するようなものではなかった。%K%P
+But(though it is regrettable), this magazine didn't belonged to "that" category.
+
+政治、経済、社会、文化、芸能、それらの時事ネタを独自の切り口で取材、報道、評論する、いわゆる出版社系の週刊誌。%K%P
+Politics, economics, society, culture, entertainment, the separate section with events and gossips of that day, reports, critique, in other words - a weekly magazine.
+
+表紙には『週刊新時評』と書かれていた。%K%P
+"Weekly Fresh Events Review" was written on the cover.
+
+そのすぐ下にはこうある。%K%P
+And right above it:
+
+『７月２１日号　３２０円』%K%P
+"Magazine July 21 - 320 YEN."
+
+あとは１枚のイラストが描かれているだけで、活字は見当たらなかった。%K%P
+There was one more image, but it didn't contain any characters.
+
+何年の、７月２１日号なのだろうか？%K%P
+What year was this issue from?
+
+オレは雑誌を手に取った。%K%P
+I picked the magazine up. 
+
+マットレスを元に戻して、その上に座る。%K%P
+After putting the mattress back down, I sat on it.
+
+裏表紙を確かめてみた。%K%P
+I decided to check the back cover.
+
+発行人、編集人、その他の名前とともに、次のような記述が見つかった。%K%P
+Along with the publisher, editor, and some other names I found the following description: 
+
+『２０１１年７月２１日発行』%K%P
+"Issue of 7/21/2011"
+
+悟「去年のだ……」%K%P
+This is from last year...
+
+それは今からおよそ半年前の日付を示していた。%K%P
+It is about a half year from now.
+
+ペラペラとページをめくってみる。%K%P
+I tried flipping through the pages.
+
+記事のひとつに、目がとまった。%K%P
+My eyes stopped on a certain article.
+
+『ＨＡＬ墜落事故の不明者、遂に発見』%K%N
+"Survivor from HAL Airplane Crash were Finally Found"
+
+『彼らの過ごした凄絶な７日間に迫る』%K%P
+"Their violently passed seven days draw near"
+
+それ自体には、さほど驚きはしなかった。%K%P
+That in itself wasn't particularly astonishing.
+
+その見出しの示す内容は、すでにオレの知っていたことだったからだ。%K%P
+I already knew what the headline was about.
+
+中身はどうだろうか？　なにか役に立つ情報が書かれているかも知れない。%K%P
+How about the contents? Some useful information might be written there.
+
+そう思ったオレは、記事にひと通り目を通してみた。%K%P
+So I thought, and tried to take a quick look over the article.
+
+概要は次の通り――。%K%P
+Summarized――.
+
+管制塔がレーダーから機影を見失ったのは２０１１年１月１１日午後３時半過ぎだった。%K%N
+The control tower lost the signal of the airplane at 3:30pm on January 11 2011.
+
+場所は青森県南部に位置する山岳地帯の上空。%K%N
+The place is  the skies above the mountainous region in the southern part of Aomori Prefecture.
+
+警察や関係各局は臨時対策本部を設置、すぐさま機体と乗客の捜索を開始した。%K%N
+The police and related bureaus assembled a temporary rescue team and immediately began the search for the fuselage and passengers.
+//check... all this article:)
+
+だが、数日間にもわたって捜索や調査を継続したにもかかわらず、残骸の一部さえ発見することができなかった。%K%N
+However, despite the continuous investigations and searches that spanned several days, not even part of the wreckage could be found.
+
+具体的にいうと６日間である。%K%N
+Precisely, six days.
+
+約１週間ものあいだ『機体の行方は依然として不明』という状態が続いていたのだ。%K%P
+For about one week, the situation remained unchanged. "The whereabouts of the airframe are as of yet unknown."
+
+これは我が国に於ける航空機墜落事故の中では、異例中の異例、前代未聞の出来事だった。%K%N
+Among plane crashes in our country, this was an exception among exceptions, an unprecedented event.
+
+『忽然と姿を消してしまったＨＡＬ１８便』――機体が見つかるまでのその１週間、日本国中が騒然となった。%K%N
+"Flight Hal18 that had suddenly vanished"―― during that one week until the fuselage was found, Japan was in an uproar.
+
+オカルトまがいの解釈も含めて、あれやこれやと憶測が飛び交った。%K%P
+Including even occult-like explanations, speculations flied about left and right.
+
+日本海に墜落したのではないか、某国の戦闘機に撃墜されたのではないか、地対空ミサイルの誤射だったのではないか、%K%N
+It's likely to have crashed into the sea of Japan! Shot down by a fighter of a certain country! Accidentally hit by a ground-to-air missile!
+
+ＵＦＯに連れ去られたのではないか、異次元空間に呑み込まれたのではないか、１８便なんて最初から存在しなかったのではないか、等々。%K%N
+Kidnapped by an UFO! Swallowed in a different dimension! Flight 18 never existed in the first place! Etc etc.
+
+もちろん、これらの憶測はすべて誤りであった。%K%P
+Of course, All these speculations were wrong.
+
+当局は、のちに『機体発見の遅れ』について、次のような原因を挙げて説明した。%K%N
+The authorities would later explain the "delay in the discovery of the fuselage" with the following:
+
+１：管制塔が機影を見失ってから墜落までのあいだに３０分以上もの空白時間があったこと。%K%N
+1:There were thirty blank  minutes after the control tower lost sight of the aircraft until the crash.
+
+この間に１８便は、山間部を縫うように低空飛行を続けていたものと思われる。%K%N
+During this time, Flight 18 appears to have flied at low-altitude weaving its way through the mountainous region.
+
+これにより、当局の予想していた墜落地点とは遠くかけ離れた場所から機体は発見されることとなった。%K%P
+Herewith, the wreckage was so found in a place far apart from the crash point the authorities predicted.
+
+２：低空をさまよう１８便を目撃した者が皆無だったこと。%K%N
+2: Nobody observed Flight 18 roaming about at low-altitude.
+
+１８便が異常飛行を続けていたのは、真冬の山岳地帯である。%K%N
+The abnormal flight was in a mountain area in midwinter.
+
+付近に民家はなく、墜落の衝撃音を聞いた者もいなかった。%K%N
+There were no private houses in the surroundings, there was also nobody to hear the sound of the impact.
+
+３：悪天候。%K%N
+3:Bad weather.
+
+当時朱倉岳一帯は悪天候が続いていた。%K%N
+In those days the whole zone of Mount Akakura was surrounded by a persistently bad weather.
+
+ゆえに上空からの捜索は困難であった。%K%N
+Therefore, the search from the air was difficult.
+
+４：太陽風の影響。%K%N
+4:The effects of the solar storm.
+
+観測史上最大級の規模となった太陽風……。%K%P
+Solar wind with the highest intensity ever registered in history...
+
+この影響により偵察衛星に不具合が生じ、衛星写真の利用もできない状態にあった。%K%N
+A failure in spy satellites resulting from this influence, satellite photographs couldn't be used as well.
+
+以上４点が、当局の発表した『失われた１週間』に関する公式見解だ。%K%P
+The above was the official statement concerning "the lost week" released by the authorities.
+
+では逆に、１７日の午後になってから、救助隊が現場に到達できたのはなぜだろう？%K%N
+Then conversely, how could the rescue team reach the site in the afternoon on the 17th?
+
+ひとことで言ってしまうと『電話がかかってきたから』である。%K%N
+Said simply, "We got a phone call."
+
+１６日の早朝、当局は１８便の生存者と名乗る男性から１本の電話を受けた。%K%N
+In the early morning of the 16th, the authorities received a phone call from a man claiming to be a survivor of Flight 18.
+
+朱倉岳の避難小屋に４人がいる、助けて欲しい、というような主旨の内容だった。%K%N
+The substance of it was that there were four people in the cabin shelter at Mount Akakura and a request for help.
+
+その後、電話はすぐに切れてしまった。%K%P
+After that, the phone disconnected.
+
+発信元をたどると、衛星回線を利用していることがわかった。%K%N
+After tracing its origin, they understood they had made use of a satellite line.
+
+しかし衛星電話に使われていた通信用のそれは、当時、やはりこれも太陽風の影響により正常には機能していなかった。%K%N
+But that line used by the satellite phone, at the time, was of course also malfunctioning due to the effects of the solar storm.
+
+２０１１年に入ってからの有効接続率は１００万分の１程度。%K%N
+The chances of getting a proper connection after entering the year 2011 is 1 in 1,000,000.
+
+従って、このとき生存者からの電話が通じたのは、まったくの偶然、奇蹟としか言いようのない出来事だったことになる。%K%P
+Therefore, receiving a call from the survivor was an event that couldn't be described but as a pure chance, a miracle.
+
+ちなみに、この１本の電話がなければ、当局はその後しばらくのあいだ、墜落地点を特定できなかっただろうと言われている。%K%N
+Incidentally, if not for this call, it's said the authorities wouldn't have been able to specify the exact point of the crash for a while yet.
+
+さて、この一報を受けて当局は、すぐさま現場にヘリを飛ばそうとした。%K%N
+Anyway, receiving the information, the authorities promptly tried to search the area with an helicopter.
+
+ところが、１５日から１７日の明け方にかけて、朱倉岳周辺は悪天候に見舞われていた。%K%P
+Even so, from the 15th until the dawn the 17th, it was storming in the whole zone of Mount Akakura.
+
+ヘリを向かわせることはできなかった。%K%N
+The helicopter couldn't be used.
+
+麓から山岳救助隊を徒歩で……というのも難しかった。%K%N
+For the mountain rescue team going on foot from the base... was also difficult.
+
+避難小屋は真冬の朱倉岳、その山頂付近にある。%K%N
+The cabin shelter is near the peak of Mount Akakura.
+
+いくら登山のエキスパートである山岳救助隊とは言え、そこまでたどりつくには最速でも１週間はかかるだろうと予想された。%K%P
+No matter how much the rescue team members were experts in climbing, it was predicted it would have taken at the least a week to reach the cabin.
+
+結局、天候の回復を待つより他なかった。%K%N
+Eventually, there was no other way bu to wait for the weather to improve.
+
+朱倉岳に晴れ間がのぞいたのは１７日の午後のことだ。%K%N
+An interval of clear weather occurred in the afternoon on the 17th.
+
+こうしてようやく、救助隊は現場に到着することになった。%K%P
+Thus, the rescue unit at last managed to arrive on the scene.
+
+ここで大事なことは――。%K%N
+This is important stuff――.
+
+『１６日に衛星電話の接続に成功した』という歴史的事実が、もしも仮になかったとしたら、%K%N
+If there hadn't been the historical fact of "success in getting a connection on the 16th"
+
+『１７日に救助隊が到着することは絶対にあり得なかった』というところにある。%K%N
+then "the rescue would have never arrived on the 17th"
+
+そうなれば当然『朱倉岳にて残骸を発見！』というような報道も、遅れることになっただろう。%K%P
+And if that was so, naturally the report "discovery of the wreckage at Mount Akakura!" too, would have been delayed.
+
+まとめると、こういうことになる。%K%N
+In conclusion, it's like this.
+
+『１６日に衛星電話が通じなければ、１７日に救助隊が到着することはなく、報道も遅れていた』%K%N
+If the phone hadn't connected on the 16th, the rescue wouldn't have arrived on the 17th and the report would have been made later".
+
+まあ、だから何だと言われてしまえばそれまでだが……。%K%N
+Well... if you now say "so what?"... I'd answer that's about it, but...
+//check
+
+とにかくオレは、なんとなくこのことが気にかかったのだ。%K%N
+Anyway, that thing somehow weighed on my mind.
+
+頭の片隅にとどめておくことにした。%K%P
+I decided to put it in a corner of my mind.
+
+記事は続く……。%K%N
+The article goes on...
+
+２０１１年１月１７日、事故現場の一帯から、乗員乗客３１名のうち２７人分の遺体が収容されることになった。%K%N
+On January 17 2011, from the region of the crash site, were discovered 27 corpses out of the total 31 including passengers and crew.
+
+時おなじくして、ひとりの生存者も発見された。%K%N
+At the same time, the only survivor was found.
+
+――楠田ゆに。%K%N
+――Kusuda Yuni.
+
+さて、残り３人はどうなったのか……？%K%N
+Now, what about the other three...?
+
+衛星電話をかけてきた男性は『生存者は４人いる』と伝えてきた。%K%N
+The man on the phone had said that "there are four. urvivors."
+
+ゆにを含めれば、ぴたりと人数は合致する。%K%P
+If you include Yuni, the number of people fits.
+
+避難小屋の内部にも、複数の人間が数日間、生活を共にしていた痕跡が残されていた。%K%N
+In the cabin shelter too, had been left traces of people spending several days together.
+
+当局はゆにに事情を訊いた。%K%N
+The authorities interrogated Yuni about the circumstances.
+
+しかしゆにの精神状態は不安定で、頑なにくちを閉ざしたままだったという。%K%N
+But Yuni's mental condition was unstable, he stubbornly remained silent.
+
+数日後、搭乗者リストから３人の名前が判明した。%K%N
+Days later, the three were identified through the passenger list.
+
+黄泉木聖司、冬川こころ、黛鈴……。%K%N
+Yomogi Seiji, Fuyukawa Kokoro, Mayuzumi Lin...
+
+だが３人の行方は依然として不明のままであり……。%K%P
+But their whereabouts were still unknown...
+
+『忽然と姿を消してしまった３人』――マスコミにとっての格好のネタとなった。%K%N
+"The three that suddenly vanished"―― became a convenient material for the mass media.
+//check
+
+またしても、人々のあいだであれやこれやと憶測が飛び交うことになった。%K%N
+Again, among people theories began to fly left and right.
+
+中には『食糧の奪いあいによって、ゆにが他の３人を殺して、どこかに埋めたのでは！？』というようなものまであった。%K%N
+Among them was even, "In a scramble for food, Yuni killed the others, and buried them somewhere!?"
+
+このような醜聞にさらされ、ますますゆには寡黙になっていった。%K%N
+Exposed to this kind of scandals, Yuni kept staying unyieldingly silent.
+
+人の噂も七十五日……。%K%N
+Gossip lasts just one season...
+
+世間の関心もしだいに薄れていった。%K%P
+The interest of the people gradually faded as well.
+
+時は過ぎ、２０１１年７月３日。%K%N
+Time passed, it was July 3 2011.
+
+雪解け後の山肌から、男女３人の腐乱死体が発見された。%K%N
+From the mountain surface after the thaw, the decomposed corpses of three people were found.
+
+ここから先は、避難小屋で読んだ新聞と同じ内容だった。%K%N
+From here on, it was just like in the newspaper I read in the shelter cabin.
+
+『２０１１年１月１７日午前６時５３分、彼ら３人は雪崩に巻き込まれて命を失った』%K%N
+"At 6:53 on January 17 2011, the three were caught in an avalanche and lost their lives."
+
+唯一異なるのは、次のような疑問形の文章が挿入されていたこと。%K%P
+The only difference was in the shape of the following questions:
+
+『この７日間、彼らはいかにして厳寒の朱倉岳を生き延びたのか？』%K%N
+"These seven days, how did they survive Mount Akakura in that severe cold?"
+
+『いずれ救助隊が来るとわかっているのに、なぜ、なんのために、避難小屋を離れなければならなかったのか？』%K%N
+"Even though they knew rescue was coming soon, why, what for, did they leave the cabin shelter?"
+
+『楠田ゆにくんは、この７日間に何を見たのか？　何を体験したのか？』%K%P
+"Kusuda Yuni-kun, what did he see in these seven days? What did he experience?"
+
+『今に至るまでくちを閉ざし続けているのはなぜなのか？』%K%N
+"Why is he staying silent even now?"
+
+『何か知られたくない真相が隠されているのではないか？』%K%N
+"Is he hiding some truth he doesn't want to be known?"
+
+『本誌はこの核心をつかんだ。――以下次週。乞うご期待！』%K%P
+"This magazine will dig into the core. ――Next week. Look forward to the inquiry!"
+
+雑誌はそのような思わせぶりな言葉で記事を結んでいた。%K%P
+The periodical ended the article with those kind of impressive words.
+
+悟「なんだよ！　これで終わりかよ！」%K%P
+What! It ends here!?
+
+思わず叫ばずにはいられなかった。%K%P
+I had instinctively felt compelled to shout.
+
+悟「ちっ……」%K%P
+Tsk...
+
+舌打ちをひとつ。%K%P
+I clicked my tongue.
+
+もう一度、読み洩らしたところはないかと思い、ペラペラとページをめくってみる。%K%P
+Thinking I may have missed something there, I flipped through the pages once more.
+//check
+
+はらり……何かが落ちた。%K%P
+... Something fell.
+
+悟「ん？」%K%P
+Hm?
+
+オレは身をかがめてそれを拾いあげた。%K%P
+I bent over and picked it up.
+
+航空機のチケットだった。%K%P
+A plane ticket.
+
+正確にいうと、引換券のようなものだが……。%K%P
+Accurately said, similar to a coupon but...
+//check 引換券
+
+行き先は、オーストラリアのシドニー国際空港。%K%P
+The destination, Sydney Airport, Australia.
+
+出発日は２０１１年１月１８日となっていた。%K%P
+Day of departure, January 18 2011.
+
+予約者の名前は『ＳＡＴＯＲＵ　ＹＵＫＩＤＯＨ』……。%K%P
+Subscriber, "ＳＡＴＯＲＵ　ＹＵＫＩＤＯＨ"...
+
+悟「どういうことだ……？」%K%P
+What does it mean...?
+
+悟「オレは、１年前に、オーストラリアに行こうとしていたのか……？」%K%P
+I, one year ago, wanted to go to Australia...? 
+
+まったく身に覚えのないことだった。%K%P
+I don't remember it at all.
+
+考えても答えは出そうもない。%K%P
+Even if I think about it, it’s unlikely I’ll come up with an answer.
+
+オレはチケットを雑誌のあいだに挟んだ。%K%P
+I slip the ticket inside the magazine.
+
+その雑誌も、元の場所、マットレスの下に戻す。%K%P
+I put the periodical back in its original place as well.
+
+なにがなんだか、さっぱりわからなかった。%K%P
+I had no idea what's what.
+
+どうして半年前の週刊誌と１年前のチケットが、こんなところに保管されていたのだろう……？%K%P
+Why did I keep a ticket from one year ago and a weekly publication in this sort of place...?
+
+何者かの見えざる意図のようなものを感じた。%K%P
+I felt as if it was the intention of someone I can't see.
+
+その何者かは、オレがこのマットレスの下を調べることを、あらかじめ知っていたかのような、そんな気さえする。%K%P
+I actually felt that "that" someone knew beforehand I would have examined under this mattress.
+
+いや、もしかしたらその『何者か』とは、記憶を失う前のオレ自身なのかも知れなかった。%K%P
+No, perhaps that "someone" was the me before losing my memory.  
+
+チケットには、オレの名前が印刷されていたわけだし……。%K%P
+On the ticket, my name is printed...
+
+ますます謎は深まるばかりだった。%K%P
+The mystery keeps getting more and more complex.
+
+だがこのことだけに、いつまでも固執し続けていても仕方がない。%K%P
+But even if I keep insisting on only this thing, it won't be of any use.
+//check
+
+雑誌とチケットのことは、おいおい考えていくことにしよう。%K%P
+Let's solve the matters of the ticket and the magazine little by little.
+
+そう思ったオレは、次に……。%K
+So I thought. Next...
+
+%P
+いや、もう調べるべきものは残っていないみたいだった。%K%P
+No, it seems there's nothing left to examine.
+
+気になるところは、ひと通り確かめた。%K%P
+I took a look at all the places I had in mind.
+
+物が大量にあるわけではないから、見落としもないだろう。%K%P
+It’s not as if there are many things, so I don't think I overlooked something.
+//check
+
+次にやるべきことは、このスフィアにいる３人から話を聞くことだ。%K%P
+Next thing I should do is to speak with the 3 people in SPHIA.
+
+オレは部屋を後にした。%K%P
+I left the room.

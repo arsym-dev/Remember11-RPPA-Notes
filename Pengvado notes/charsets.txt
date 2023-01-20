@@ -1,0 +1,5 @@
+shift_jis 8753, which R11 renders as a full-width space but all my other software renders as "(20)", has no unicode equivalent. But that's ok, we can change them all to shift_jis 8140 / unicode \x{3000}, which is also a full-width space.
+
+shift_jis 8754, which is a numeral "I", has no unicode equivalent according to perl's Encode. Likewise for 8755 "II".
+Unicode \x{2160} and \x{2161} seem to do it. Encode doesn't translate them the other direction either.
+http://support.microsoft.com/kb/170559 says that there are issues with inexact roundtripping of duplicate character codes, which "I" is one of. But it still shouldn't completely fail to translate.

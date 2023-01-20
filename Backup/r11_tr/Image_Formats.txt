@@ -1,0 +1,30 @@
+
+Bytes   0-  3: DWORD  5  (number of dwords in preheader)
+Bytes   4-  7: DWORD Address of the start of the subtable (= 0x80)
+Bytes   8- 11: DWORD Header length (file start through end of subtable)
+Bytes  12- 15: DWORD start of subimage files  (FilesStart)
+Bytes  16- 19: (same as previous)
+Bytes  20- 23: total length of file
+(zero bytes until start of subtable)
+
+Subtable:
+Bytes Subtable_starts +    0 -  3: DWORD number of subimages  (NSubimages)
+Bytes ......          +    4 -  7: DWORD 0
+Bytes ......          +    8 - 11: x resolution A
+Bytes ......          +   12 - 15: y resolution B
+Subimage table:   (NSubimages records of size 28 bytes)
+Each record is:
+    DWORD 7 (number of dwords in record?)
+    DWORD unk_1
+    WORD sub_x_offset
+    WORD sub_y_offset  (where this subimage appears within full image)
+    WORD sub_xres
+    WORD sub_yres      (dimensions of subimage)
+    WORD full_xres_1
+    WORD full_yres_1   (one resolution)   
+    WORD full_xres_2
+    WORD full_yres_2   (another resolution)
+    DWORD sub_offset   (where image data starts in file)
+
+
+Each 

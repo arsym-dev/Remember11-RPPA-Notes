@@ -1,0 +1,394 @@
+# "\"" is 34 (0x22) in ascii, and 753 (0x2f1) in alt-ascii
+At 441ca8, load eax = 0034; cl = 14
+
+Cyrillic lowercase reverse R (я) is 0x8491 in SJIS and 44F in unicode.
+
+# at 441ca8, eax == 8491, ecx = 8491, cl = 71
+# it exchanges ah and al to set eax == 9184, then stores that eax
+# cl is compared against 5e, is greadter, so it jumps to 441cc3
+
+
+
+		push	offset aGsInit	; "gs init\n"
+		call	nullsub_2
+		call	nullsub_2
+		push	1
+		call	sub_45E4E0
+		push	0
+		push	2
+		push	1
+		push	0
+		call	sub_447F20
+		call	sub_405F70
+		call	sub_4063B0
+		push	offset aSysfontInit ; "sysfont init\n"
+		call	nullsub_2
+		call	sub_440F40
+		push	1Ah
+		push	4Bh
+		push	7300h
+		push	6D00h
+		call	sub_4410C0
+		push	eax
+		mov	dword_2B603B8, eax
+		call	sub_440F60
+		push	offset aCdInit	; "cd init\n"
+
+//nullsub_2 ("gs init\n");
+//nullsub_2 ();
+//sub_45e4e0 (1);
+//sub_447f20 (0, 1, 2, 0);
+//sub_405f70 ();
+//sub_4063b0();
+nullsub_2 ("sysfont init\n");
+sub_440f40();
+sub_440f60 (dword_2b60eb8 = sub_4410c0 (0x6d00, 0x7300, 0x4b, 0x1a));
+//nullsub_2 ("cd init");
+
+
+		call	nullsub_2
+		call	sub_401680
+		call	sub_4016C0
+		push	offset aFontLoad ; "font load\n"
+		call	nullsub_2
+		push	offset dword_E7E660
+		push	offset dword_2245B60
+		push	0
+		push	7
+		call	sub_405E30
+		push	offset loc_441C90
+		push	offset dword_2245B60
+		push	offset dword_2245B20
+		call	sub_43AA50
+		push	offset aSseLoad	; "sse load\n"
+nullsub_2 ("game data init");
+sub_401680();
+sub_4016c0();
+nullsub_2 ("font load\n");
+sub_405e30 (7, 0, &g_2245b60, &g_e7e660);
+sub_43aa50 (&g_2245b20, &g_2245b60, &loc_441c90);   
+// loc_441c90 == display_text function
+nullsub_2 ("sse load");
+
+sub_43aa50 (arg_0, arg_4, arg_8) {
+    *((dword[9] *) arg_0) = *((dword[9] *) arg_4); /* 0x24 bytes */
+    arg_0->field_0 += arg_4;
+    arg_0->field_8 += arg_4;
+    arg_0->field_10 += arg_4;
+    arg_0->field_20 = arg_8;
+}
+
+
+
+sub_405e30 (int arg_0, int arg_4, void *arg_8, void *arg_c) {
+  edi = sub_405c80 (arg_0, arg_4, arg_8, arg_c);
+
+  while (sub_405bd0 (edi)) {
+    //for (esi = &dword_2b697c4; esi < &dword_2b697c4[0x16c*10]; esi += 0x16c) {
+    for (i = 0; i < 10; ++ i) {
+      //if (esi->field_0) {
+      if (g_2b696b8[0x16c*i]->field_10c && 
+          g_2b696b8[0x16c*i]->byte_field_12 = esi->field_10c (esi))
+          g_2b696b8[0x16c*i]->field_10c = 0;
+      }
+    }
+  }
+  return edi;
+}
+
+
+/* Find an open slot in resource table */
+sub_405c80 (int arg_0, int arg_4, void *arg_8, void *arg_c) {
+
+  esi = -1;
+  //for (eax = &g_2b697c4, ecx = 0;  ecx < 10;  ecx ++, eax += 0x16c) {
+  for (ecx = 0; ecx < 10; ++ ecx) {
+    //if (eax->field_0 == 0 && eax->byte_field_d == 0) {
+    if (g_2b696b8[0x16c*ecx]->field_10c == 0 &&
+        g_2b696b8[0x16c*ecx]->byte_field_119 == 0) {
+      esi = ecx;
+      break;
+    }
+  }
+
+  g_2b696b8 [ 0x16c * esi ]->field_108 = arg_4; // small num
+  g_2b696b8 [ 0x16c * esi ]->field_15 = arg_8; // pointer
+  g_2b696b8 [ 0x16c * esi ]->field_0 = &g_2b68268[0x208*arg_0]; 
+  g_2b696b8 [ 0x16c * esi ]->byte_field_5 = 1; 
+  g_2b696b8 [ 0x16c * esi ]->field_160 = arg_c; // pointer
+  sub_405af0 (&g_2b68268[0x208*arg_0], &g_2b696b8 [0x16c * esi]);
+  return esi;
+}
+
+
+
+
+
+
+sub_405af0 (arg_0, arg_4) {
+  arg_4->word_field_11c = 0;
+  arg_4->word_field_11e = 0;
+  arg_4->byte_field_4 = 0;
+  arg_4->field_150 = arg_4;
+  arg_4->field_10c = sub_44f840;
+  arg_4->byte_field_119 = 1;
+
+  switch (*arg_0) {
+    case 0: arg_4->field_10c = sub_44f840; return; /* constantly 1 */
+    case 1: arg_4->field_10c = sub_4051a0; return; /* constantly 0 */
+    case 2: arg_4->field_10c = sub_405440; return; /* */
+    case 3: arg_4->field_10c = sub_4056f0; return; /* */
+    default: return;
+  }
+}
+sub_44f840() { return 1; }
+sub_4051a0() { return 0; }
+
+
+
+sub_405440 (arg_0) {
+  edi = arg_0;
+  esi = arg_0->field_44;
+  ecx = esi->field_0;
+  ebx = 1;
+  ebp = eax = 0;
+  old_field_10 = UNDEFINED;
+  if (esi->field_4 == 1) {
+    old_field_10 = eax = (signed dword) edi->word_field_10;
+    edi->word_field_10 = 0x64;
+  }
+  switch (edx = edi->word_field_10) {
+   case 0x00:
+    if (dword_2b68260 != 0) return 0;
+    dword_2b68260 = 1;
+    esi->field_158 = sub_44e4e0 (esi->field_0->field_4, esi->field_108);
+    esi->field_168 = sub_44cd70 (esi->field_158);
+    eax = sub_44cda0 (esi->field_158, esi->field_168, esi->field_160);
+    esi->field_168 <<= 0x0b;
+    edi->word_field_10 = 1;
+
+   case 0x01:
+    tmp = eax = sub_44c300 (esi->field_158);
+    if (tmp == 3) {
+      sub_44dce0(esi->field_158);
+      dword_2b68260 = ebp;
+      if (esi->byte_field_5 == 0) return 1;
+      if (sub_448390 (esi->field_160, esi->field_168) == 0 &&
+          sub_448750 (esi->field_160) == 0) {
+        edi->word_field_10 = 2;
+        return 0;
+      }
+      loc_480ea0 (esi->field_15c, esi->field_160, esi->field_168);
+      return 1;
+    }
+    if (tmp == 4) return 0;
+    sub_44dce0 (esi->field_158);
+    dword_2b68260 = 0;
+    edi->word_field_10 = 0;
+    return 0;
+
+
+   case 2:
+    if (dword_2b68264 != 0) return 0;
+    eax = esi;
+    dword_2b68264 = 1;
+    sub_405170 ();
+    sub_4423a0 (esi->field_160, esi->field_15c);
+    edi->word_field_10 = 3;
+
+
+   case 3:
+    while ((eax = sub_442400 (dword_c7bc20, 0x800)) != -1) {
+      dword_c7bc20 += (0x800 - eax);
+      if ((sub_448340 (off_4ca040)) >= 0xdc) return 0;
+    }
+    esi->field_168 = dword_c7bc28;
+    dword_2b68264 = ebp;
+    return 1;
+
+
+   case 0x64:
+    if (old_field_10 == 1) { 
+      sub_44ce50 (esi->field_158);
+      sub_44dce0 (esi->field_158);
+    }
+    dword_2b68260 = dword_2b68264 = 0;
+    esi->byte_field_4 = 0;
+    return 1;
+  }
+
+  return 0;
+}
+
+
+
+sub_405170 () { # Reads EAX
+  if (eax->field_15c == 0) {
+    eax->field_15c = (eax->field_168 + eax->field_160 + 0xf) & 0xfffffff0;
+  }
+}
+
+sub_4423a0 (arg_0, arg_4) {
+  dword_c7bc20 = arg_0;
+  dword_c7bc24 = arg_4;
+  dword_c7bc28 = edx = arg_0->field_0;
+  dword_c7bc2c = arg_4 + arg_0->field_0;
+  dword_c7bc30 = 0xfee;
+  dword_c7bc34 = 0;
+  dword_c7bc20 = &dword_c7bc20.field_4;
+
+  return sub_480cf0 (&c7bc38, 0, 0xfee);
+}
+
+
+/*
+  sub_442400 (dword_c7bc20, 0x800));
+  sub_448340 (off_4ca040);
+  sub_448390 (esi->field_160, esi->field_168);
+  sub_448750 (esi->field_160);
+  sub_44c300 (esi->field_158);
+  sub_44cd70 (esi->field_158);
+  sub_44cda0 (esi->field_158, esi->field_168, esi->field_160);
+  sub_44ce50 (esi->field_158);
+  sub_44dce0 (esi->field_158);
+  sub_44e4e0 (esi->field_0->field_4, esi->field_108);
+  loc_480ea0 (esi->field_15c, esi->field_160, esi->field_168);
+*/
+
+
+
+
+sub_4056f0 (arg_0) {
+  var_104		= dword	ptr -104h
+  var_4		= dword	ptr -4
+  arg_0		= dword	ptr  4
+  var_4 = &var_104 ^ 0x4cba90;
+  edi = arg_0;
+  esi = arg_0->field_44;
+  ebp = esi->field_0;
+  ebx = 1;
+  eax = 0;
+  if (esi->field_4 == 1) {
+    eax = (signed dword) edi->word_field_10;
+    edi->word_field_10 = 0x64;
+  }
+  loc_40572A:				; CODE XREF: sub_4056F0+2Ej
+
+  switch (edi->word_field_10) {
+    case 0:
+    loc_405745:				; DATA XREF: .text:off_405950o
+    if (g_2b68260) goto func_end;
+ 
+    g_2b68260 = 1;
+    sub_480b92 (&var_104, "%s%s", ebp+8, esi+6);
+    sub_407710 (&g_2b603c0, ebp += 0x108, &var_104);
+    esi->field_164 = esi->field_160;
+    edi->field_10 = 1;
+    /* flow through */
+
+    loc_405798:				; CODE XREF: sub_4056F0+4Ej
+    case 1:
+					; DATA XREF: .text:00405954o
+    ebp = sub_407570 (&g_2b603c0);
+    eax = loc_480ea0 (esi+0x164, &g_2b68234, &g_2b68238);
+    ecx = &g_2b68238[esi->field_164];
+
+    while (ebp != 1) {
+      loc_4057D1:				; CODE XREF: sub_4056F0+12Cj
+      if ((eax = sub_448340 (0x4ca040)) >= 0xdc) goto func_end;
+      ebp = sub_407570 (&g_2b603c0);
+      sub_480ea0 (esi->field_164, &g_2b68234, &g_2b68238);
+      esi->field_164 += &g_2b68238;
+    }
+    loc_40581E:				; CODE XREF: sub_4056F0+DFj
+    sub_407670 (&g_2b603c0);
+    esi->field_168 = ecx = esi->field_164 - esi->field_160;
+    g_2b68260 = 0;
+    if (esi->byte_field_5 == 0) goto loc_405915;
+    edi->word_field_10 = 2;
+    goto func_end;
+
+
+    loc_405872:				; CODE XREF: sub_4056F0+4Ej
+    case 2:
+    if (dword_2b68264) goto func_end;
+    eax = esi;
+    dword_2b68264 = 1;
+    sub_405170();
+    sub_4423a0 (esi->field_160, esi->field_15c);
+    edi->word_field_10 = 3;
+    /* flow through */
+
+    loc_4058A4:				; CODE XREF: sub_4056F0+4Ej
+    case 3:
+    eax = sub_442400 (dword_c7bc20, 0x800)
+    if (eax != -1) { 
+      loc_4058C0:				; CODE XREF: sub_4056F0+20Dj
+      do {
+        edx = 0x800 - eax;
+        dword_c7bc20 += edx;
+        eax = sub_448340 (off_4ca040);
+        if (eax < 0xdc) {
+          ecx = dword_c7bc20;
+        }
+      } while (sub_442400 (dword_cb7c20, 0x800) != -1);
+    }
+    loc_4058FF:				; CODE XREF: sub_4056F0+1CBj
+    esi->field_168 = dword_c7bc28;
+    dword_2b68264 = 0;
+    loc_405915:				; CODE XREF: sub_4056F0+15Bj
+    eax = 1;
+    goto func_end_2;
+
+
+    loc_40591C:				; CODE XREF: sub_4056F0+4Ej
+    case 0x64:
+    if (eax == 1) {
+      sub_4076c0 (&dword_2b60c30);
+      sub_407670 (&dword_2b603c0);
+    }
+    loc_405937:				; CODE XREF: sub_4056F0+22Ej
+    dword_2b68260 = dword_2b68264 = 0;
+    esi->byte_field_4 = 0;
+    eax = 1;
+    goto func_end_2;
+  }
+  loc_405857:				; CODE XREF: sub_4056F0+41j
+  func_end:
+  eax = 0;
+  loc_405859:				; CODE XREF: sub_4056F0+227j
+  func_end_2:
+  ecx = var_4 ^ &var_104; /* ?? 0x4cba90 */
+  return ecx->sub_480cd2();
+}
+
+
+sub_405bd0 (arg_0) {
+  ebx = 0;
+  if ((edx = arg_0) == -1) {
+    edx = arg_0 = 0;
+    ecx = 0x0a;
+  } else {
+    ecx = arg_0 + 1;
+  }
+  esi = 0;
+  if (arg_0 >= ecx) return 1;
+  for (ecx -= arg_0, eax = &g_2b696b8[0x16c*arg_0].field_130;  ecx > 0;
+               -- ecx, eax += 0x16c) {
+    if ( ((eax - 0x16)->field_4 == ebx && eax->word_field_0 != 0) ||
+         eax->word_field_0 != 0) {
+      (eax - 0x16)->byte_field_11 = 0;
+    } else {
+      ++ esi;
+    }
+  }
+  if (esi != 0) return 0;
+  return 1;
+}
+
+/* ReadFile used in
+465560 (44f2a0?, 45d440, 45d4d0)
+4656a0 
+49663b
+499279
+*/

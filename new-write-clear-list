@@ -1,0 +1,1249 @@
+; XXXXXXXXXXXXXXX S U B	R O U T	I N E XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+mem_shove<T> (T *&edi, T *&esi, int &count) {
+	  memcpy (edi, esi, count * sizeof(T));
+	  edi += count;
+	  esi += count;
+	  count = 0;
+}
+
+sub_42F860	proc near		; CODE XREF: sub_4312A0+1Dp
+
+var_420		= dword	ptr -420h
+var_410		= dword	ptr -410h
+var_40C		= dword	ptr -40Ch
+var_408		= dword	ptr -408h
+var_404		= dword	ptr -404h
+var_4		= dword	ptr -4
+
+#		sub	esp, 410h
+#		mov	eax, dword_4CBA90
+#		xor	eax, esp
+var_4 = eax = g_4cba90 ^ &var_0;
+#		mov	[esp+410h+var_4], eax
+#		mov	eax, ds:dword_4A0860
+#		mov	ecx, dword_A5DD08
+#		mov	[ecx+48DC98h], eax
+g_48dc98[ecx = g_a5dd08] =  eax = g_4a0860;
+g_48dc9c[ecx] = edx = g_4a0864;
+#		mov	edx, ds:dword_4A0864
+#		mov	dword ptr ds:loc_48DC9C[ecx], edx
+g_48dca0[ecx] = eax = g_4a0868
+#		mov	eax, ds:dword_4A0868
+#		mov	dword ptr ds:loc_48DCA0[ecx], eax
+g_4d8ca4[ecx] = edx = g_4a086c;
+#		mov	edx, ds:dword_4A086C
+#		mov	dword ptr ds:loc_48DCA4[ecx], edx
+#		mov	al, ds:byte_4A0870
+#		mov	[ecx+48DCA8h], al
+g_48dca8->byte_field[ecx] = al = gb_4a0870;
+#		mov	edx, ds:dword_4A0858
+#		lea	eax, loc_48EC98[ecx]
+#		mov	[eax], edx
+eax = &g_48ec98[ecx];
+eax->dword_field_0 = edx = g_4a0858;
+eax->byte_field_4 = dl = gb_4a085c;
+-- eax;
+#		mov	dl, ds:byte_4A085C
+#		mov	[eax+4], dl
+#		add	eax, 0FFFFFFFFh
+#		lea	ecx, [ecx+0]
+
+loc_42F8D0:				; CODE XREF: sub_42F860+78j
+dl = eax->byte_field_1;
+++ eax;
+if (dl) goto loc_42f8d0;
+#		mov	dl, [eax+1]
+#		add	eax, 1
+#		test	dl, dl
+#		jnz	short loc_42F8D0
+#		mov	dx, ds:word_49F494
+#		push	ebx
+#		push	ebp
+eax->word_field_0 = dx = gw_49f494;
+#		mov	[eax], dx
+#		mov	dl, ds:byte_49F496
+#		push	esi
+esi = 0;
+#		xor	esi, esi
+eax->byte_field_2 = dl = gb_49f496;
+#		mov	[eax+2], dl
+ebp = 0;
+#		xor	ebp, ebp
+if (g_2b55ef8 <= esi) goto loc_42f92a;
+#		cmp	dword_2B55EF8, esi
+#		push	edi
+#		jbe	short loc_42F92A
+#		lea	ecx, [ecx+0]
+
+loc_42F900:				; CODE XREF: sub_42F860+C2j
+eax = g_2b55ef4;
+#		mov	eax, dword_2B55EF4
+#		movzx	ecx, word ptr [eax+esi*2]
+
+#		push	ecx
+#		call	sub_401E00
+#		add	esp, 4
+if (sub_401e00 (ecx = eax->word_field_0[2*esi]) == 0) goto loc_42f919;
+#		test	eax, eax
+#		jz	short loc_42F919
+#		add	ebp, 1
+++ ebp;
+loc_42F919:				; CODE XREF: sub_42F860+B4j
+++ esi;
+if (esi < g_2b55ef8) goto loc_42f900;
+ecx = g_a5dd08;
+#		add	esi, 1
+#		cmp	esi, dword_2B55EF8
+#		jb	short loc_42F900
+#		mov	ecx, dword_A5DD08
+
+loc_42F92A:				; CODE XREF: sub_42F860+9Bj
+#ebx = &g_48fc98[ecx];
+#ecx += 6;
+#esi = "エンディング達成数　　　";
+#edi = ebx;
+#		lea	ebx, loc_48FC98[ecx]
+#		mov	ecx, 6
+#		mov	esi, offset aGggugfgbgugotb ; "エンディング達成数　　　"
+#		mov	edi, ebx
+#		rep movsd
+edi = ebx = &g_48fc98[ecx];
+mem_shove_d (edi, esi = "エンディング達成数　　　", ecx + 6);
+edx = &var_404;
+mem_shove_b (edi, esi, 1);
+sub_4414c0 (ebp, edx = &var_404, g_49ed6c);
+#		push	offset off_49ED6C
+#		lea	edx, [esp+424h+var_404]
+#		push	edx
+#		push	ebp
+#		movsb
+#		call	sub_4414C0
+esi = eax = &var_404;
+#		lea	eax, [esp+42Ch+var_404]
+#		add	esp, 0Ch
+#		mov	esi, eax
+
+loc_42F958:				; CODE XREF: sub_42F860+FFj
+cl = eax->byte_field_0;
+++ eax;
+if (cl) goto loc_42f958;
+#		mov	cl, [eax]
+#		add	eax, 1
+#		test	cl, cl
+#		jnz	short loc_42F958
+edi = ebx;
+eax -= esi;
+-- edi;
+#		mov	edi, ebx
+#		sub	eax, esi
+#		add	edi, 0FFFFFFFFh
+
+loc_42F968:				; CODE XREF: sub_42F860+110j
+do {
+  ++ edi;
+} while (edi->byte_field_0);
+
+ecx = eax << 2;
+#		mov	cl, [edi+1]
+#		add	edi, 1
+#		test	cl, cl
+#		jnz	short loc_42F968
+#		mov	ecx, eax
+#		shr	ecx, 2
+mem_shove (edi, esi, eax * sizeof(dword));
+#		rep movsd
+ecx = eax & 3;
+eax = ebx;
+mem_shove (edi, esi, ecx);
+#		mov	ecx, eax
+#		and	ecx, 3
+#		mov	eax, ebx
+#		rep movsb
+-- eax;
+#		add	eax, 0FFFFFFFFh
+
+loc_42F985:				; CODE XREF: sub_42F860+12Dj
+		mov	cl, [eax+1]
+cl = eax->byte_field_1;
+++ eax;
+if (cl) goto loc_42f985;
+cx = gw_49ed24;
+eax->word_field_0 = cx;
+dl = gb_49ed26;
+eax->byte_field_2 = dl;
+ecx = g_2b55ef8;
+#		add	eax, 1
+#		test	cl, cl
+#		jnz	short loc_42F985
+#		mov	cx, ds:word_49ED24
+#		mov	[eax], cx
+#		mov	dl, ds:byte_49ED26
+#		mov	[eax+2], dl
+#		mov	ecx, dword_2B55EF8
+#		push	offset off_49ED6C
+#		lea	eax, [esp+424h+var_404]
+#		push	eax
+#		push	ecx
+#		call	sub_4414C0
+sub_4414c0 (ecx, &var_404, g_49ed6c);
+esi = eax = &var_404;
+#		lea	eax, [esp+42Ch+var_404]
+#		add	esp, 0Ch
+#		mov	esi, eax
+
+loc_42F9C1:				; CODE XREF: sub_42F860+168j
+cl = eax->byte_field_0;
+++ eax;
+if (cl) goto loc_42f9c1;
+eax -= esi;
+ebx --;
+edi = ebx;
+#		mov	cl, [eax]
+#		add	eax, 1
+#		test	cl, cl
+#		jnz	short loc_42F9C1
+#		sub	eax, esi
+#		add	ebx, 0FFFFFFFFh
+#		mov	edi, ebx
+
+loc_42F9D1:				; CODE XREF: sub_42F860+179j
+cl = edi->byte_field_1;
+++ edi;
+if (cl) goto loc_42f9d1;
+#		mov	cl, [edi+1]
+#		add	edi, 1
+#		test	cl, cl
+#		jnz	short loc_42F9D1
+ecx = eax << 2;
+mem_shove (edi, esi, ecx);
+#		mov	ecx, eax
+#		shr	ecx, 2
+#		rep movsd
+mem_shove (edi, esi, eax & 3);
+#		mov	ecx, eax
+#		and	ecx, 3
+#		rep movsb
+esi = 0;
+ebp = 0;
+if (g_2b55e8c <= esi) goto loc_42fa10;
+#		xor	esi, esi
+#		xor	ebp, ebp
+#		cmp	dword_2B55E8C, esi
+#		jbe	short loc_42FA10
+
+loc_42F9F5:				; CODE XREF: sub_42F860+1AEj
+sub_4020f0 (esi);
+#		push	esi
+#		call	sub_4020F0
+#		add	esp, 4
+#		test	eax, eax
+#		jz	short loc_42FA05
+#		add	ebp, 1
+if (eax == 0) goto loc_42fa05;
+++ ebp;
+
+loc_42FA05:				; CODE XREF: sub_42F860+1A0j
+++ esi;
+if (esi < g_2b55e8c) goto loc_42f9f5;
+#		add	esi, 1
+#		cmp	esi, dword_2B55E8C
+#		jb	short loc_42F9F5
+
+loc_42FA10:				; CODE XREF: sub_42F860+193j
+ebx = g_a5dd08 + 0x490098;
+ecx = 6;
+#		mov	ebx, dword_A5DD08
+#		add	ebx, offset loc_490098
+#		mov	ecx, 6
+esi = "シーンタイトル達成数　　";
+#		mov	esi, offset aGvbGugGcgggltb ; "シーンタイトル達成数　　"
+#		mov	edi, ebx
+edi = ebx;
+mem_shove (edi, esi, 6);
+#		rep movsd
+#		push	offset off_49ED6C
+#		lea	edx, [esp+424h+var_404]
+#		push	edx
+#		push	ebp
+#		movsb
+mem_shove (edi, esi, 1);
+sub_4414c0 (ebp, &var_404, 0x49ed6c);
+#		call	sub_4414C0
+esi = eax = &var_404;
+#		lea	eax, [esp+42Ch+var_404]
+#		add	esp, 0Ch
+#		mov	esi, eax
+
+loc_42FA44:				; CODE XREF: sub_42F860+1EBj
+cl = eax->byte_field_0;
+++ eax;
+if (cl) goto loc_42fa44;
+#		mov	cl, [eax]
+#		add	eax, 1
+#		test	cl, cl
+#		jnz	short loc_42FA44
+edi = ebx;
+eax -= esi;
+edi --;
+#		mov	edi, ebx
+#		sub	eax, esi
+#		add	edi, 0FFFFFFFFh
+
+loc_42FA54:				; CODE XREF: sub_42F860+1FCj
+cl = edi->byte_field_1;
+++ edi;
+if (cl == 0) goto loc_42fa54;
+#ecx = eax << 2;
+mem_shove (edi, esi, eax << 2);
+#		mov	cl, [edi+1]
+#		add	edi, 1
+#		test	cl, cl
+#		jnz	short loc_42FA54
+#		mov	ecx, eax
+#		shr	ecx, 2
+#		rep movsd
+mem_shove (edi, esi, eax & 3);
+eax = ebx - 1;
+#		mov	ecx, eax
+#		and	ecx, 3
+#		mov	eax, ebx
+#		rep movsb
+#		add	eax, 0FFFFFFFFh
+
+loc_42FA71:				; CODE XREF: sub_42F860+219j
+cl = eax->byte_field_1;
+++ eax;
+if (cl) goto loc_42fa71;
+#		mov	cl, [eax+1]
+#		add	eax, 1
+#		test	cl, cl
+#		jnz	short loc_42FA71
+eax->word_field_0 = cx = gw_49ed24;
+eax->byte_field_2 = dl = gb_49ed26;
+#		mov	cx, ds:word_49ED24
+#		mov	[eax], cx
+#		mov	dl, ds:byte_49ED26
+#		mov	[eax+2], dl
+ecx = g_2b55e8c;
+#		mov	ecx, dword_2B55E8C
+#		push	offset off_49ED6C
+#		lea	eax, [esp+424h+var_404]
+#		push	eax
+#		push	ecx
+#		call	sub_4414C0
+sub_4414c0 (ecx, &var_404, 0x49ed6c);
+esi = eax = &var_404;
+#		lea	eax, [esp+42Ch+var_404]
+#		add	esp, 0Ch
+#		mov	esi, eax
+#		lea	ecx, [ecx+0]
+
+loc_42FAB0:				; CODE XREF: sub_42F860+257j
+cl = eax->byte_field_0;
+++ eax;
+if (cl) goto loc_42fab0;
+#		mov	cl, [eax]
+#		add	eax, 1
+#		test	cl, cl
+#		jnz	short loc_42FAB0
+eax -= esi;
+edi = -- ebx;
+#		sub	eax, esi
+#		add	ebx, 0FFFFFFFFh
+#		mov	edi, ebx
+
+loc_42FAC0:				; CODE XREF: sub_42F860+268j
+cl = edi->byte_field_1;
+++ edi;
+if (cl) goto loc_42fac0;
+mem_shove (edi, esi, eax << 2);
+#		mov	cl, [edi+1]
+#		add	edi, 1
+#		test	cl, cl
+#		jnz	short loc_42FAC0
+#		mov	ecx, eax
+#		shr	ecx, 2
+#		rep movsd
+mem_shove (edi, esi, eax & 3);
+#		mov	ecx, eax
+#		and	ecx, 3
+#		rep movsb
+esi = 0;
+ebp = 0;
+if (g_2b5a740 <= esi) goto loc_42faff;
+#		xor	esi, esi
+#		xor	ebp, ebp
+#		cmp	dword_2B5A740, esi
+#		jbe	short loc_42FAFF
+
+loc_42FAE4:				; CODE XREF: sub_42F860+29Dj
+if (sub_4021b0 (esi) == 0) goto loc_42faf4;
+++ ebp;
+#		push	esi
+#		call	sub_4021B0
+#		add	esp, 4
+#		test	eax, eax
+#		jz	short loc_42FAF4
+#		add	ebp, 1
+
+loc_42FAF4:				; CODE XREF: sub_42F860+28Fj
+if (++ esi < g_2b5a740) goto loc_42fae4;
+#		add	esi, 1
+#		cmp	esi, dword_2B5A740
+#		jb	short loc_42FAE4
+
+loc_42FAFF:				; CODE XREF: sub_42F860+282j
+		mov	ebx, dword_A5DD08
+		add	ebx, (offset loc_490497+1)
+		mov	ecx, 6
+		mov	esi, offset aVsvhvovrtbrmrf ; "ＴＩＰＳ達成数　　　　　"
+		mov	edi, ebx
+		rep movsd
+		push	offset off_49ED6C
+		lea	edx, [esp+424h+var_404]
+		push	edx
+		push	ebp
+		movsb
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+
+loc_42FB33:				; CODE XREF: sub_42F860+2DAj
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FB33
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_42FB43:				; CODE XREF: sub_42F860+2EBj
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_42FB43
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		mov	eax, ebx
+		rep movsb
+		add	eax, 0FFFFFFFFh
+
+loc_42FB60:				; CODE XREF: sub_42F860+308j
+		mov	cl, [eax+1]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FB60
+		mov	cx, ds:word_49ED24
+		mov	[eax], cx
+		mov	dl, ds:byte_49ED26
+		mov	[eax+2], dl
+		mov	ecx, dword_2B5A740
+		push	offset off_49ED6C
+		lea	eax, [esp+424h+var_404]
+		push	eax
+		push	ecx
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+		lea	esp, [esp+0]
+
+loc_42FBA0:				; CODE XREF: sub_42F860+347j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FBA0
+		sub	eax, esi
+		add	ebx, 0FFFFFFFFh
+		mov	edi, ebx
+
+loc_42FBB0:				; CODE XREF: sub_42F860+358j
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_42FBB0
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		xor	eax, eax
+		rep movsb
+		xor	ebp, ebp
+		cmp	dword_2B5A728, eax
+		mov	[esp+420h+var_410], eax
+		mov	[esp+420h+var_408], eax
+		jbe	loc_42FC73
+
+loc_42FBE0:				; CODE XREF: sub_42F860+403j
+		mov	edx, dword_2B5A724
+		mov	ebx, [edx+eax*4]
+		mov	[esp+420h+var_40C], 14h
+
+loc_42FBF1:				; CODE XREF: sub_42F860+3F0j
+		movzx	eax, word ptr [ebx+4]
+		test	ax, ax
+		lea	esi, [ebx+4]
+		jz	short loc_42FC48
+		cmp	word ptr [ebx],	0
+		jz	short loc_42FC14
+		movzx	eax, ax
+		push	eax
+		call	sub_401FF0
+		add	esp, 4
+		cmp	eax, 1
+		jnz	short loc_42FC48
+
+loc_42FC14:				; CODE XREF: sub_42F860+3A1j
+		mov	edi, 0Ah
+		lea	esp, [esp+0]
+
+loc_42FC20:				; CODE XREF: sub_42F860+3E6j
+		movzx	eax, word ptr [esi]
+		test	ax, ax
+		jz	short loc_42FC40
+		add	[esp+420h+var_410], 1
+		movzx	ecx, ax
+		push	ecx
+		call	sub_401FF0
+		add	esp, 4
+		test	eax, eax
+		jz	short loc_42FC40
+		add	ebp, 1
+
+loc_42FC40:				; CODE XREF: sub_42F860+3C6j
+					; sub_42F860+3DBj
+		add	esi, 2
+		sub	edi, 1
+		jnz	short loc_42FC20
+
+loc_42FC48:				; CODE XREF: sub_42F860+39Bj
+					; sub_42F860+3B2j
+		add	ebx, 20h
+		sub	[esp+420h+var_40C], 1
+		jnz	short loc_42FBF1
+		mov	eax, [esp+420h+var_408]
+		add	eax, 1
+		cmp	eax, dword_2B5A728
+		mov	[esp+420h+var_408], eax
+		jb	loc_42FBE0
+		mov	eax, [esp+420h+var_410]
+		cmp	ebp, eax
+		jle	short loc_42FC73
+		mov	ebp, eax
+
+loc_42FC73:				; CODE XREF: sub_42F860+37Aj
+					; sub_42F860+40Fj
+		mov	ebx, dword_A5DD08
+		add	ebx, 490898h
+		mov	ecx, 6
+		mov	esi, offset aVVmvvvxvntbrmr ; "Ａｌｂｕｍ達成数　　　　"
+		mov	edi, ebx
+		rep movsd
+		push	offset off_49ED6C
+		lea	edx, [esp+424h+var_404]
+		push	edx
+		push	ebp
+		movsb
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+
+loc_42FCA7:				; CODE XREF: sub_42F860+44Ej
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FCA7
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_42FCB7:				; CODE XREF: sub_42F860+45Fj
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_42FCB7
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		mov	eax, ebx
+		rep movsb
+		add	eax, 0FFFFFFFFh
+
+loc_42FCD4:				; CODE XREF: sub_42F860+47Cj
+		mov	cl, [eax+1]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FCD4
+		mov	cx, ds:word_49ED24
+		mov	[eax], cx
+		mov	dl, ds:byte_49ED26
+		mov	ecx, [esp+420h+var_410]
+		mov	[eax+2], dl
+		push	offset off_49ED6C
+		lea	eax, [esp+424h+var_404]
+		push	eax
+		push	ecx
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+		mov	edi, edi
+
+loc_42FD10:				; CODE XREF: sub_42F860+4B7j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FD10
+		sub	eax, esi
+		add	ebx, 0FFFFFFFFh
+		mov	edi, ebx
+
+loc_42FD20:				; CODE XREF: sub_42F860+4C8j
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_42FD20
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		rep movsb
+		mov	eax, dword_2B5A72C
+		xor	esi, esi
+		xor	ebp, ebp
+		cmp	dword_2B5A730, esi
+		jbe	short loc_42FD71
+		lea	edi, [eax+0Ch]
+		lea	esp, [esp+0]
+
+loc_42FD50:				; CODE XREF: sub_42F860+50Fj
+		movzx	edx, word ptr [edi]
+		push	edx
+		call	sub_402120
+		add	esp, 4
+		test	eax, eax
+		jz	short loc_42FD63
+		add	ebp, 1
+
+loc_42FD63:				; CODE XREF: sub_42F860+4FEj
+		add	esi, 1
+		add	edi, 18h
+		cmp	esi, dword_2B5A730
+		jb	short loc_42FD50
+
+loc_42FD71:				; CODE XREF: sub_42F860+4E7j
+		mov	ebx, dword_A5DD08
+		add	ebx, offset loc_490C98
+		mov	ecx, 6
+		mov	esi, offset aVivxvlvevavpvs ; "ＪｕｋｅＢｏｘ達成度　　"
+		mov	edi, ebx
+		rep movsd
+		push	offset off_49ED6C
+		lea	eax, [esp+424h+var_404]
+		push	eax
+		push	ebp
+		movsb
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+
+loc_42FDA5:				; CODE XREF: sub_42F860+54Cj
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FDA5
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_42FDB5:				; CODE XREF: sub_42F860+55Dj
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_42FDB5
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		mov	eax, ebx
+		rep movsb
+		add	eax, 0FFFFFFFFh
+
+loc_42FDD2:				; CODE XREF: sub_42F860+57Aj
+		mov	cl, [eax+1]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FDD2
+		mov	cx, ds:word_49ED24
+		mov	[eax], cx
+		mov	dl, ds:byte_49ED26
+		mov	[eax+2], dl
+		mov	ecx, dword_2B5A730
+		push	offset off_49ED6C
+		lea	eax, [esp+424h+var_404]
+		push	eax
+		push	ecx
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+		mov	edi, edi
+
+loc_42FE10:				; CODE XREF: sub_42F860+5B7j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FE10
+		sub	eax, esi
+		add	ebx, 0FFFFFFFFh
+		mov	edi, ebx
+
+loc_42FE20:				; CODE XREF: sub_42F860+5C8j
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_42FE20
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		rep movsb
+		xor	edi, edi
+		xor	eax, eax
+		lea	esp, [esp+0]
+
+loc_42FE40:				; CODE XREF: sub_42F860+65Ej
+		mov	edx, eax
+		shr	edx, 3
+		mov	dl, byte_2B5AB71[edx]
+		mov	cl, al
+		and	cl, 7
+		shr	dl, cl
+		test	dl, 1
+		jz	short loc_42FE5A
+		add	edi, 1
+
+loc_42FE5A:				; CODE XREF: sub_42F860+5F5j
+		lea	esi, [eax+2]
+		lea	edx, [esi-1]
+		shr	edx, 3
+		mov	dl, byte_2B5AB71[edx]
+		mov	cl, al
+		add	cl, 1
+		and	cl, 7
+		shr	dl, cl
+		test	dl, 1
+		jz	short loc_42FE7B
+		add	edi, 1
+
+loc_42FE7B:				; CODE XREF: sub_42F860+616j
+		mov	edx, esi
+		shr	edx, 3
+		mov	dl, byte_2B5AB71[edx]
+		mov	cl, al
+		add	cl, 2
+		and	cl, 7
+		shr	dl, cl
+		test	dl, 1
+		jz	short loc_42FE98
+		add	edi, 1
+
+loc_42FE98:				; CODE XREF: sub_42F860+633j
+		add	esi, 1
+		mov	cl, al
+		shr	esi, 3
+		mov	dl, byte_2B5AB71[esi]
+		add	cl, 3
+		and	cl, 7
+		shr	dl, cl
+		test	dl, 1
+		jz	short loc_42FEB6
+		add	edi, 1
+
+loc_42FEB6:				; CODE XREF: sub_42F860+651j
+		add	eax, 4
+		cmp	eax, 10000h
+		jl	short loc_42FE40
+		mov	eax, dword_2B55E84
+		mov	ebx, dword_A5DD08
+		mov	ebp, [eax+804h]
+		add	ebx, 491098h
+		test	ebp, ebp
+		mov	[esp+420h+var_410], edi
+		jg	short loc_42FEE4
+		mov	ebp, 1
+
+loc_42FEE4:				; CODE XREF: sub_42F860+67Dj
+		mov	eax, [esp+420h+var_410]
+		cmp	eax, ebp
+		jle	short loc_42FEF2
+		mov	eax, ebp
+		mov	[esp+420h+var_410], eax
+
+loc_42FEF2:				; CODE XREF: sub_42F860+68Aj
+		mov	ecx, ds:dword_4A07B8
+		mov	[ebx], ecx
+		mov	edx, ds:dword_4A07BC
+		mov	[ebx+4], edx
+		mov	ecx, ds:dword_4A07C0
+		mov	[ebx+8], ecx
+		mov	edx, ds:dword_4A07C4
+		mov	[ebx+0Ch], edx
+		mov	cx, ds:word_4A07C8
+		mov	[ebx+10h], cx
+		mov	dl, ds:byte_4A07CA
+		push	offset off_4A07B4
+		lea	ecx, [esp+424h+var_404]
+		push	ecx
+		push	eax
+		mov	[ebx+12h], dl
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+
+loc_42FF42:				; CODE XREF: sub_42F860+6E9j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FF42
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_42FF52:				; CODE XREF: sub_42F860+6FAj
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_42FF52
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		mov	eax, ebx
+		rep movsb
+		add	eax, 0FFFFFFFFh
+		nop
+
+loc_42FF70:				; CODE XREF: sub_42F860+718j
+		mov	cl, [eax+1]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FF70
+		mov	dx, ds:word_4A07B0
+		mov	[eax], dx
+		mov	cl, ds:byte_4A07B2
+		mov	[eax+2], cl
+		mov	eax, [esp+420h+var_410]
+		imul	eax, 64h
+		push	offset off_49ED6C
+		lea	edx, [esp+424h+var_404]
+		push	edx
+		cdq
+		idiv	ebp
+		push	eax
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+
+loc_42FFB0:				; CODE XREF: sub_42F860+757j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_42FFB0
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_42FFC0:				; CODE XREF: sub_42F860+768j
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_42FFC0
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		rep movsb
+		add	ebx, 0FFFFFFFFh
+		jmp	short loc_42FFE0
+; ---------------------------------------------------------------------------
+		align 10h
+
+loc_42FFE0:				; CODE XREF: sub_42F860+77Bj
+					; sub_42F860+788j
+		mov	al, [ebx+1]
+		add	ebx, 1
+		test	al, al
+		jnz	short loc_42FFE0
+		mov	eax, ds:dword_4A07A8
+		mov	[ebx], eax
+		mov	cl, ds:byte_4A07AC
+		xor	edi, edi
+		mov	[ebx+4], cl
+		xor	eax, eax
+		mov	edi, edi
+
+loc_430000:				; CODE XREF: sub_42F860+81Ej
+		mov	edx, eax
+		shr	edx, 3
+		mov	dl, byte_2B5CD71[edx]
+		mov	cl, al
+		and	cl, 7
+		shr	dl, cl
+		test	dl, 1
+		jz	short loc_43001A
+		add	edi, 1
+
+loc_43001A:				; CODE XREF: sub_42F860+7B5j
+		lea	esi, [eax+2]
+		lea	edx, [esi-1]
+		shr	edx, 3
+		mov	dl, byte_2B5CD71[edx]
+		mov	cl, al
+		add	cl, 1
+		and	cl, 7
+		shr	dl, cl
+		test	dl, 1
+		jz	short loc_43003B
+		add	edi, 1
+
+loc_43003B:				; CODE XREF: sub_42F860+7D6j
+		mov	edx, esi
+		shr	edx, 3
+
+loc_430040:				; DATA XREF: .rdata:004A313Co
+		mov	dl, byte_2B5CD71[edx]
+		mov	cl, al
+		add	cl, 2
+
+loc_43004B:				; DATA XREF: .rdata:004A2FB0o
+		and	cl, 7
+		shr	dl, cl
+
+loc_430050:				; DATA XREF: .rdata:004A2F9Co
+		test	dl, 1
+		jz	short loc_430058
+		add	edi, 1
+
+loc_430058:				; CODE XREF: sub_42F860+7F3j
+		add	esi, 1
+		mov	cl, al
+		shr	esi, 3
+		mov	dl, byte_2B5CD71[esi]
+		add	cl, 3
+		and	cl, 7
+		shr	dl, cl
+		test	dl, 1
+		jz	short loc_430076
+		add	edi, 1
+
+loc_430076:				; CODE XREF: sub_42F860+811j
+		add	eax, 4
+		cmp	eax, 800h
+		jl	short loc_430000
+		mov	eax, dword_2B55E84
+		mov	ebx, dword_A5DD08
+		mov	ebp, [eax+808h]
+		add	ebx, offset loc_491498
+		test	ebp, ebp
+		mov	[esp+420h+var_410], edi
+		jg	short loc_4300A4
+		mov	ebp, 1
+
+loc_4300A4:				; CODE XREF: sub_42F860+83Dj
+		mov	eax, [esp+420h+var_410]
+		cmp	eax, ebp
+		jle	short loc_4300B2
+		mov	eax, ebp
+		mov	[esp+420h+var_410], eax
+
+loc_4300B2:				; CODE XREF: sub_42F860+84Aj
+		mov	ecx, ds:dword_4A0794
+		mov	[ebx], ecx
+		mov	edx, ds:dword_4A0798
+		mov	[ebx+4], edx
+		mov	ecx, ds:dword_4A079C
+		mov	[ebx+8], ecx
+		mov	edx, ds:dword_4A07A0
+		mov	[ebx+0Ch], edx
+		mov	cx, ds:word_4A07A4
+		mov	[ebx+10h], cx
+		mov	dl, ds:byte_4A07A6
+		push	offset off_4A07B4
+		lea	ecx, [esp+424h+var_404]
+		push	ecx
+		push	eax
+		mov	[ebx+12h], dl
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+
+loc_430102:				; CODE XREF: sub_42F860+8A9j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_430102
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_430112:				; CODE XREF: sub_42F860+8BAj
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_430112
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		mov	eax, ebx
+		rep movsb
+		add	eax, 0FFFFFFFFh
+		nop
+
+loc_430130:				; CODE XREF: sub_42F860+8D8j
+		mov	cl, [eax+1]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_430130
+		mov	dx, ds:word_4A07B0
+		mov	[eax], dx
+		mov	cl, ds:byte_4A07B2
+		mov	[eax+2], cl
+		mov	eax, [esp+420h+var_410]
+		imul	eax, 64h
+		push	offset off_49ED6C
+		lea	edx, [esp+424h+var_404]
+		push	edx
+		cdq
+		idiv	ebp
+		push	eax
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+
+loc_430170:				; CODE XREF: sub_42F860+917j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_430170
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_430180:				; CODE XREF: sub_42F860+928j
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_430180
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		rep movsb
+		add	ebx, 0FFFFFFFFh
+		jmp	short loc_4301A0
+; ---------------------------------------------------------------------------
+		align 10h
+
+loc_4301A0:				; CODE XREF: sub_42F860+93Bj
+					; sub_42F860+948j
+		mov	al, [ebx+1]
+		add	ebx, 1
+		test	al, al
+		jnz	short loc_4301A0
+		mov	eax, ds:dword_4A07A8
+		mov	[ebx], eax
+		mov	cl, ds:byte_4A07AC
+		mov	[ebx+4], cl
+		mov	ebp, dword_2B60328
+		mov	ebx, dword_A5DD08
+		push	offset off_49ED10
+		lea	edx, [esp+424h+var_404]
+		push	edx
+		mov	eax, 9B583739h
+		imul	ebp
+		add	edx, ebp
+		sar	edx, 11h
+		mov	eax, edx
+		shr	eax, 1Fh
+		add	ebx, offset loc_491898
+		add	eax, edx
+		mov	ecx, 6
+		mov	esi, offset aSngvgmgcoukB@b ; "総プレイ時間　　　　　　"
+		mov	edi, ebx
+		rep movsd
+		cdq
+		mov	ecx, 64h
+		idiv	ecx
+		movsb
+		push	edx
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+		nop
+
+loc_430210:				; CODE XREF: sub_42F860+9B7j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_430210
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_430220:				; CODE XREF: sub_42F860+9C8j
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_430220
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		mov	eax, ebx
+		rep movsb
+		add	eax, 0FFFFFFFFh
+		lea	ecx, [ecx+0]
+
+loc_430240:				; CODE XREF: sub_42F860+9E8j
+		mov	cl, [eax+1]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_430240
+		mov	edx, ds:dword_4A0770
+		mov	[eax], edx
+		mov	cl, ds:byte_4A0774
+		mov	[eax+4], cl
+		push	offset a02d	; "%02d"
+		lea	edx, [esp+424h+var_404]
+		push	edx
+		mov	eax, 91A2B3C5h
+		imul	ebp
+		add	edx, ebp
+		sar	edx, 0Bh
+		mov	eax, edx
+		shr	eax, 1Fh
+		add	eax, edx
+		cdq
+		mov	ecx, 3Ch
+		idiv	ecx
+		push	edx
+		call	sub_4414C0
+		lea	eax, [esp+42Ch+var_404]
+		add	esp, 0Ch
+		mov	esi, eax
+		nop
+
+loc_430290:				; CODE XREF: sub_42F860+A37j
+		mov	cl, [eax]
+		add	eax, 1
+		test	cl, cl
+		jnz	short loc_430290
+		mov	edi, ebx
+		sub	eax, esi
+		add	edi, 0FFFFFFFFh
+
+loc_4302A0:				; CODE XREF: sub_42F860+A48j
+		mov	cl, [edi+1]
+		add	edi, 1
+		test	cl, cl
+		jnz	short loc_4302A0
+		mov	ecx, eax
+		shr	ecx, 2
+		rep movsd
+		mov	ecx, eax
+		and	ecx, 3
+		rep movsb
+		add	ebx, 0FFFFFFFFh
+		jmp	short loc_4302C0
+; ---------------------------------------------------------------------------
+		align 10h
+
+loc_4302C0:				; CODE XREF: sub_42F860+A5Bj
+					; sub_42F860+A68j
+do {
+  ++ ebx;
+} while (ebx->byte_field_0);
+#		mov	al, [ebx+1]
+#		add	ebx, 1
+#		test	al, al
+#		jnz	short loc_4302C0
+		mov	dx, ds:word_4A076C
+		mov	ecx, [esp+420h+var_4]
+		pop	edi
+		mov	[ebx], dx
+		mov	al, ds:byte_4A076E
+		pop	esi
+		pop	ebp
+		mov	[ebx+2], al
+		pop	ebx
+		xor	ecx, esp
+		call	sub_480CD2
+		add	esp, 410h
+		retn
+sub_42F860	endp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Read in null-terminated halfwidth string from arg_8
+ * Convert it to fullwidth and output it on arg_4;
+ */
+sub_4414c0 (arg_0, char *arg_4, const char *arg_8) {
+  var_4 = &arg_0 ^ g_4cba90;
+  ecx = arg_0;
+  eax = arg_8;
+  esi = arg_4;
+  edx = edi = &var_104;
+  sub_480b92 (&var_104, arg_8);
+
+  while (al = edi->byte_field_0) {
+    if (al != 0x20) {
+      esi->byte_field_0 = 0x82;
+      esi->byte_field_1 = al + 0x1f;
+    } else {
+      esi->byte_field_0 = 0x81;
+      esi->byte_field_1 = 0x40;
+    }
+    ++ edi;
+    esi += 2;
+  }
+
+  esi->byte_field_0 = 0;
+  ecx = var_4 ^ &var_0;
+  sub_480cd2();
+}

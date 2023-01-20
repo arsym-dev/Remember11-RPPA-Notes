@@ -1,0 +1,1028 @@
+/*
+In Ollydgb, an opcode usually starts with the following:
+* MOV EDI,DWORD_PTR_SS:[ARG.1]
+* MOV EAX,DWORD_PTR_SS:[EDI+44]
+* MOV ESI,DWORD_PTR_DS:[EAX+08]
+
+At this point, ESI has the address to the current opcode instruction.
+[ESI] = opcode
+[ESI+1] = first byte after opcode
+and so on
+
+* MOV EBX,DWORD_PTR_DS:[EAX+0C]
+
+This causes EBX to point to the start of the current script
+*/
+
+/* 
+ *  0: F_40e5c0 "nop"
+ *  1: F_40ab50 "end"
+ *  2: F_40abe0 "if"
+ *  3: F_40ada0 "int_goto"
+ *  4: F_40adc0 "int_call"
+ *  5: F_40ae20 "int_return"
+ *  6: F_40aeb0 "ext_goto"
+ *  7: F_40af00 "ext_call"
+ *  8: F_40af90 "ext_return"
+ *  9: F_40b010 "reg_calc"
+ *  a: F_40b330 "count_clear"
+ *  b: F_40b380 "count_wait"
+ *  c: F_40b480 "time_wait"
+ *  d: F_40b520 "pad_wait"
+ *  e: F_40b610 "pad_get"
+ *  f: F_40b640 "file_read"
+ * 10: F_40b680 "file_wait"
+ * 11: F_40b6b0 "msg_wind"
+ * 12: F_40b6e0 "msg_view"
+ * 13: F_40b770 "msg_mode"
+ * 14: F_40b7f0 "msg_pos"
+ * 15: F_40b820 "msg_size"
+ * 16: F_40b850 "msg_type"
+ * 17: F_40b880 "msg_cursor"
+ * 18: F_40b8b0 "msg_set"
+ * 19: F_40b8f0 "msg_wait"
+ * 1a: F_40b940 "msg_clear"
+ * 1b: F_40b960 "msg_line"
+ * 1c: F_40b990 "msg_speed"
+ * 1d: F_40b9c0 "msg_color"
+ * 1e: F_40b9f0 "msg_anim"
+ * 1f: F_40bce0 "msg_disp"
+ * 20: F_40c3c0 "sel_set"
+ * 21: F_40c3f0 "sel_entry"
+ * 22: F_40c430 "sel_view"
+ * 23: F_40c460 "sel_wait"
+ * 24: F_40c4e0 "sel_style"
+ * 25: F_40c510 "sel_disp"
+ * 26: F_40e420 "fade_start"
+ * 27: F_40e4a0 "fade_wait"
+ * 28: F_40c860 "graph_set"
+ * 29: F_40c8b0 "graph_del"
+ * 2a: F_40cbc0 "graph_copy"
+ * 2b: F_40c8e0 "graph_view"
+ * 2c: F_40c970 "graph_pos"
+ * 2d: F_40c9c0 "graph_move"
+ * 2e: F_40ca90 "graph_prio"
+ * 2f: F_40cac0 "graph_anim"
+ * 30: F_40caf0 "graph_pal"
+ * 31: F_40cb50 "graph_lay"
+ * 32: F_40cb80 "graph_wait"
+ * 33: F_40d9f0 "graph_disp"
+ * 34: F_40e3b0 "effect_start"
+ * 35: F_40e3f0 "effect_end"
+ * 36: F_40e5c0 "effect_wait"
+ * 37: F_40dc30 "bgm_set"
+ * 38: F_40dcc0 "bgm_del"
+ * 39: F_40dce0 "bgm_req"
+ * 3a: F_40dd10 "bgm_wait"
+ * 3b: F_40e0a0 "bgm_speed"
+ * 3c: F_40dd40 "bgm_vol"
+ * 3d: F_40dd80 "se_set"
+ * 3e: F_40ddc0 "se_del"
+ * 3f: F_40ddf0 "se_req"
+ * 40: F_40de20 "se_wait"
+ * 41: F_40df10 "se_speed"
+ * 42: F_40df50 "se_vol"
+ * 43: F_40dfb0 "voice_set"
+ * 44: F_40dfe0 "voice_del"
+ * 45: F_40e000 "voice_req"
+ * 46: F_40e030 "voice_wait"
+ * 47: F_40e0a0 "voice_speed"
+ * 48: F_40e0d0 "voice_vol"
+ * 49: F_40e160 "menu_lock"
+ * 4a: F_40e250 "save_lock"
+ * 4b: F_40e290 "save_check"
+ * 4c: F_40f4e0 "save_disp"
+ * 4d: F_40f690 "disk_change"
+ * 4e: F_40e2d0 "skip_start"
+ * 4f: F_40e310 "skip_end"
+ * 50: F_40e100 "task_entry"
+ * 51: F_40e140 "task_del"
+ * 52: F_40f0a0 "cal_disp"
+ * 53: F_40f420 "title_disp"
+ * 54: F_40e550 "vib_start"
+ * 55: F_40e590 "vib_end"
+ * 56: F_40e5c0 "vib_wait"
+ * 57: F_40ab10 "map_view"
+ * 58: F_40ab10 "map_entry"
+ * 59: F_40ab10 "map_disp"
+ * 5a: F_40ab10 "edit_view"
+ * 5b: F_40ab10 "chat_send"
+ * 5c: F_40ab10 "chat_msg"
+ * 5d: F_40ab10 "chat_entry"
+ * 5e: F_40ab10 "chat_exit"
+ * 5f: F_0 "null"
+ * 60: F_40e6f0 "movie_play"
+ * 61: F_40cbf0 "graph_pos_auto"
+ * 62: F_40cc70 "graph_pos_save"
+ * 63: F_40ccd0 "graph_uv_auto"
+ * 64: F_40cca0 "graph_uv_save"
+ * 65: F_40e870 "effect_ex"
+ * 66: F_40ec30 "fade_ex"
+ * 67: F_40ef80 "vib_ex"
+ * 68: F_40f000 "clock_disp"
+ * 69: F_40d9f0 "graph_disp_ex"
+ * 6a: F_40ab10 "map_init_ex"
+ * 6b: F_40ab10 "map_point_ex"
+ * 6c: F_40ab10 "map_route_ex"
+ * 6d: F_40e340 "quick_save"
+ * 6e: F_40c350 "trace_spc"
+ * 6f: F_40f550 "sys msg"
+ * 70: F_40e1c0 "skip lock"
+ * 71: F_40e190 "key lock"
+ * 72: F_40d9f0 "graph_disp2"
+ * 73: F_40bce0 "msg_disp2"
+ * 74: F_40c510 "sel_disp2"
+ * 75: F_40f050 "date_disp"
+ * 76: F_40ab10 "vr_disp"
+ * 77: F_40ab10 "vr_select"
+ * 78: F_40ab10 "vr_reg_calc"
+ * 79: F_40ab10 "vr_msg_disp"
+ * 7a: F_40ab10 "map_select"
+ * 7b: F_40ab10 "ecg_set"
+ * 7c: F_40ab10 "ev_init"
+ * 7d: F_40ab10 "ev_disp"
+ * 7e: F_40ab10 "ev_anim"
+ * 7f: F_40e1f0 "eye_lock"
+ * 80: F_40c3a0 "msg_log"
+ * 81: F_40ccd0 "graph_scale_auto"
+ * 82: F_40e5e0 "movie_start"
+ * 83: F_40e6d0 "movie_end"
+ * 84: F_40edc0 "fade_ex_start"
+ * 85: F_40eef0 "fade_ex_wait"
+ * 86: F_40e220 "breath_lock"
+ */
+
+
+sub_40B6E0(arg_0) {
+  esi = arg_0;
+  eax = arg_0->field_44;
+  ecx = arg_0->field_44->field_8;
+  eax = (dword) arg_0->swfield_10
+
+  if (arg_0->swfield_10 == 0) {
+    switch (eax = arg_0->field_44->field_8.byte_field_0[1]) {
+     case 0:
+     case 1:
+      eax = sub_41C690 (eax);
+      break;
+
+     case 2:
+      if (sub_41c6c0() == 0) sub_41c690 (2);
+      break;
+
+     case 3:
+      if (sub_41c6c0() == 1) sub_41c690 (3);
+      break;
+    }
+
+    arg_0->field_10 = 1;
+  }
+  if (arg_0->swfield_10 == 1) {
+    if (sub_41b650() == 0) {
+      arg_0->field_44->field_8 += 2;
+      sub_40a8a0 (arg_0);
+      return 0;
+    }
+  }
+
+ loc_40B6F9:
+  arg_0->wfield_0e = 0;
+  arg_0->bfield_0d = 0;
+  return 0;
+}
+
+
+
+
+sub_41c6c0 () {
+  return g_a5d8f8[0x5e90 * go_a5d8f8.field_0].field_20;
+}
+
+sub_41C690 (arg_0) {
+  g_a5d8f8[0x5e90 * gd_a5d8f8]->field_20) = arg_0;
+  g_a5d8f8[0x5e90 * gd_a5d8f8]->field_30) = 0;
+}
+
+
+arg_0 = {
+  ...
+  field_44 = { // script data
+     field_0 = ?
+     field_4 = ?
+     field_8 = current place in script
+     field_c = start of current script
+     ...
+  }
+};
+
+/* switch to new opcode */
+
+sub_40a8a0 (arg_0) {
+  eax = arg_0;
+  edx = arg_0->field_44->field_8;
+  ecx = g_4b00f8 [0xc * (dword) (arg_0->field_44->field_8->byte_field_0)];
+  arg_0->byte_field_d = 1;
+  arg_0->word_field_10 = 0;
+  arg_0->field_0 = g_4b00f8[0xc * (arg_0->field_44->field_8->byte_field_0)]->field_0;
+  strcpy (&arg_0.field_14, ecx->field_4);
+}
+
+move_opcode_pointer (arg_0) {
+  arg_0->byte_field_0d = 1;
+  arg_0->word_field_10 = 0;
+  arg_0->field_0 = opcode_table[cur_byte].function;
+  strcpy (&arg_0.field_14, opcode_table[cur_byte].opcode_name;
+}
+
+
+
+
+sub_40ABE0 (arg_0) { # opcode_if
+  ebp = arg_0;
+  eax = arg_0->field_44;
+  edi = arg_0->field_44->field_8;
+  esi = arg_0->field_44->field_8 + 4;
+  arg_0->byte_field_0 = 0;
+  var_1 = 7;
+
+  for (;;) {
+    ebx = sub_414cf0 (ecx = (dword) esi->byte_field_0);
+    eax = sub_414cf0 (edx = (dword) esi->byte_field_2);
+    cl = 0;
+
+    switch (edx = esi->byte_field_4) {
+      case 0: cl = (ebx == eax); break;
+      case 1: cl = (ebx != eax); break;
+      case 2: cl = (ebx <= eax); break;
+      case 3: cl = (ebx >= eax); break;
+      case 4: cl = (ebx < eax); break;
+      case 5: cl = (ebx > eax); break;
+      case 6: cl = bl & al; break;
+      case 7: cl = bl | al; break;
+    }
+    eax = (dword) var_1;
+    if (var_1 == 0 || var_1 == 7) {
+      arg_0->byte_field_0 |= cl;
+    } else if (var_1 == 6) {
+      arg_0->byte_field_0 &= cl;
+    }
+    if ((al = esi->field_5) != 0) { 
+      var_1 = esi->field_5;
+      esi += 6;
+    } else
+      break;
+  }
+
+  if ((al = edi->byte_field_1) == 0xff) {
+    if (arg_0->byte_field_0 == 1) {
+      arg_0->field_44->field_8 = esi + 6;
+      sub_40a8a0 (arg_0);
+      return 0;
+    }
+    eax = arg_0->field_44->field_0c + edi->word_field_2;
+    cl = eax->byte_field_1;
+    for (eax = arg_0->field_44 + edi->word_field_2 + 1 + 4;
+         eax->byte_field_1 != cl;  eax += 4) {
+    }
+
+    arg_0->field_44->field_8 = arg_0->field_44->field_0c + eax->word_field_2;
+    sub_40a8a0 (arg_0);
+    return 0;
+  }
+
+  if (edi->byte_field_1 == 0xfe) {
+    eax = arg_0->field_44->field_0c + edi->word_field_2;
+    for (;;) {
+      if (arg_0->field_44->field_0c[1*(1+edi->word_field_2)] == esi->word_field_0) {
+	if (arg_0->field_44->byte_field_0c[edi->word_field_2] == 3) {
+          arg_0->field_44->field_8 = arg_0->field_44->field_0c + edi->word_field_2;
+          sub_40a8a0 (arg_0);
+          return 0;
+        }
+      }
+      eax += 4;
+    }
+  }
+
+  if (arg_0->field_0 == ((al = edi->byte_field_1) == 0)) {
+    ebp->field_44->field_8 = (esi += 6);
+    sub_40a8a0 (ebp);
+    return 0;
+  } else {
+    eax->field_8 = (dword) edi->word_field_2 + (eax = ebp->field_44)->field_0c;
+    sub_40a8a0 (ebp);
+    return 0;
+  }
+}
+
+
+# sub_414cf0 => evaluate opcode argument 
+#
+# arg_0 == FVGxxxxxxxxxxxxx (binary)
+# G determines whether it is global or not
+# if FV == 10b, return the xxxxx-th boolean flag
+# if FV == 01b, return the xxxxx-th variable
+# otherwise, return arg_0 intact.
+
+sub_414cf0(word_arg_0) {
+  eax = word_arg_0;
+  edx = ecx = word_arg_0 & 0xffff;
+  edx = sw_arg_0 & 0xc000;
+  esi = g_e7e648;
+  if (edx == 0x4000) {
+    loc_414D72:
+    if ((arg_0 & 0x2000) == 0) {
+      loc_414D91:
+      return (dword) esi->sw_field_0[2*(arg_0 & 0x1fff)];
+    }
+    if ((arg_0 & 0x2000) != 0x2000) {
+      /* How does this fall through? Can it? */
+      return arg_0;
+    }
+    return (dword) esi->sw_field_2636[2*(arg_0 & 0x1fff)];
+  }
+  if (edx == 0x8000) {
+    loc_414D1B:
+    if ((ecx & 0x2000) == 0) {
+      eax = esi->byte_field_200[(sword_eax >> 3) & 0x3ff];
+    } else if ((ecx & 0x2000) != 0x2000) {
+      /* how does this fall through ? can it? */
+      return arg_0;
+    } else {
+      eax = esi->byte_field_2836[(sword_arg_0 >> 3) & 0x3ff];
+    }
+    loc_414D58:
+    return (eax >> (arg_0 & 7)) & 1;
+  }
+  return (sdword) sw_arg_0;
+}
+
+
+
+sub_40ab50 (arg_0)
+{
+	esi = arg_0
+	eax = DWORD_PTR_DS[esi+0x44]
+  edi = DWORD_PTR_DS[esi+0x4C]
+	if (DWORD_PTR_DS[esi+0x10] != 0){
+	  DWORD_PTR_DS[esi+0x0E] = 0
+    BYTE_PTR_DS[esi+0x0D] = 0
+	  return;
+	}
+  
+	sub_415460();
+	
+	eax = BYTE_PTR_DS:[EDI+1] - 1
+	ecx = 2
+	
+	if (eax == 1)
+	{
+		DWORD_PTR_DS:[00E7E648+2899] = 3
+		DWORD_PTR_DS:[00E7E648+28C0] = cl
+		DWORD_PTR_DS:[00E7E648+2898] = DWORD_PTR_DS:[edi+1]
+	}
+		
+	if (eax == 2)
+	{
+		DWORD_PTR_DS:[00E7E648+2899] = 4
+		DWORD_PTR_DS:[00E7E648+28C0] = cl
+		DWORD_PTR_DS:[00E7E648+2898] = DWORD_PTR_DS:[edi+1]
+	}
+	
+	DWORD_PTR_DS:[esi+0D] = 0
+	eax = DWORD_PTR_DS:[esi+44]
+	DWORD_PTR_DS:[eax+44] += ecx
+}
+
+
+sub_415460()
+{
+	eax = DWORD_PTR_DS:[00E7E648]
+	if (DWORD_PTR_DS:[eax+289E] == 1)
+		DWORD_PTR_DS:[eax+289D] = 0x40
+		
+	DWORD_PTR_DS:[eax+289C] = 0
+	DWORD_PTR_DS:[eax+289E] = 0
+	DWORD_PTR_DS:[eax+289F] = 0
+	DWORD_PTR_DS:[eax+28A0] = 0
+}
+
+
+
+sub_40ab50 (arg_0) { # opcode_end
+  esi = arg_0;
+  eax = esi->field_44;
+  edi = esi->field_44->field_8;
+  if (esi->field_10 == 0) goto loc_40ab72;
+  esi->field_0e = esi->field_0d = 0;
+  return 0;
+
+loc_40AB72:
+  sub_415460();
+  eax = (dword) edi->byte_field_1;
+  -- eax;
+  ecx = 2;
+  if (edi->byte_field_1 == 1) goto loc_40ab99;
+  -- eax;
+  if (edi->byte_field_1 != 2) goto loc_40abbf;
+  (edx = dword_e7e648)->byte_field_2899 = 4;
+  goto loc_40aba6;
+
+loc_40AB99:
+  (edx = dword_e7e648)->byte_field_2899 = 3;
+
+loc_40ABA6:
+  (eax = dword_e7e648)->byte_field_28c0 = ecx & 0xff;
+  (eax = dword_e7e648)->byte_field_2898 = (dl = edi->byte_field_1);
+
+loc_40ABBF:
+  eax = esi->field_44;
+  esi->field_0d = 0;
+  eax->field_8 += ecx;
+  return 1;
+}
+
+
+
+
+
+
+sub_40d9f0 (arg_0) { # opcode graph_disp
+  ecx = arg_0;
+  esi = arg_0->field_44->field_8;
+  eax = arg_0->word_field_10;
+  edi = 0;
+
+  if (arg_0->word_field_10 == 0) {
+   loc_40DA1E:
+    edx = 1;
+    (eax = dword_e7e648)->field_0x303c = edx;
+    eax = esi->byte_field_1;
+    (ebx = dword_e7e648)->field_3038 = eax;
+    (eax = dword_e7e648)->field_3034 = 0;
+    dword_e7e648->field_2028 = 0;
+    dword_e7e648->field_3030 = 0;
+    dword_e7e648->field_3040 = 0;
+    al = esi->byte_field_0;
+
+    if (al == 0x33) {
+     loc_40DB3E:
+      edi = esi->byte_field_1 - edx;
+      if (edi >= 0) {
+        edx = edi * 3;
+        ebp = &object_2fe0 + 4*edi;
+        ebx = esi + 12*edi + 2;
+
+       loc_40DB54:
+        do {
+          *(dword_e7e648->field_2fe0[4*edi] = 
+            sub_446d10 (&object_4b0920[12*(???)], &esi->word_field_2 + 12*edi, 0, 2);
+          -- edi;
+          ebp -= 4;
+          ebx -= 0xc;
+        } while (edi);
+      } else {
+        ecx->field_10 = 1;
+      }      
+    } else if (al == 0x69) {
+     loc_40DAE1:
+      (eax = dword_e7e648)->field_3030 = edx;
+      edi = esi->byte_field_1 - edx;
+      if (edi >= 0) {
+        do {
+          dword_e7e648->field_2fe0[4*edi] = 
+             sub_446d10 (&object_4b0920[12*(esi->byte_field_2 != 0)], &esi->word_field_2 + 20*edi, 0, 2);
+        } while (--edi);
+      }
+      arg_0->field_10 = 1;
+      goto loc_40db97;
+    } else if (al != 0x72) {
+      arg_0->field_10 = 1;
+      goto loc_40db97;
+    } else {
+      (eax = dword_e7e648)->field_3040 = edx;
+      /*
+      if ((edi = esi->byte_field_1 - edx) < 0) {
+        ecx->field_10 = 1;
+        goto loc_40db97;
+      }
+      */
+      edi = esi->byte_field_1 - edx;
+
+      if (edi >= 0) {
+       loc_40DAA6:
+        do {
+          *(dword_e7e648->field_2fe0[4*edi]) = sub_446d10 (object_4b0920[12*(esi->byte_field_2 == 0)], &(esi->word_field_2) + 12*edi, 0, 2);
+        } while (-- edi);
+      }
+      arg_0->field_10 = 1;
+    }
+  } else if (eax->word_field_10 != 1) {
+    arg_0->word_field_0e = 0;
+    arg_0->byte_field_0d = 0;
+    return 0;
+  }
+
+loc_40DB97:#++++++++
+  edi = 0;
+  ecx = arg_0;
+  if (esi->byte_field_1 > 0) {
+    ebx = 0x2fe0;
+
+    loc_40DBA2:
+    for (; edi < edx; ) {
+      if ((eax = sub_446f90 (ecx = *(dword_e7e648 + ebx))) == 0) break;
+      edx = esi->byte_field_1;
+      ++ edi;
+      ebx += 4;
+    }
+    loc_40DBC5:
+    ecx = arg_0;
+  }
+  loc_40DBC9:
+  eax = esi->byte_field_1;
+  if (edi != eax) {
+    loc_40DC17:
+    edi = 0;
+    ecx->word_field_0e = di;
+    ecx->byte_field_0d = 0;
+    return 0;
+  }
+  (edx = dword_e7e648)->field_303c = 0;
+  al = esi->byte_field_0;
+  if (al == 0x33 || al == 0x72) {
+    edx = 3 * esi->byte_field_1;
+  } else {
+    edx = 5 * esi->byte_field_1;
+  }
+  loc_40DBF2:
+  eax = ecx->field_44;
+  edx = edx * 4 + 2;
+  eax->field_8 += edx;
+  sub_40a8a0 (ecx);
+  return 0;
+}
+
+
+
+
+# sub_40b010 => evaluate opcode 'reg_calc'
+#
+# Length: 6 bytes total
+# command = 1 byte  starting at position 0x01 of argument
+# mem_ptr = 2 bytes starting at position 0x02 of argument
+# val     = 2 bytes starting at position 0x04 of argument
+# 
+# switch(command):
+#   case 0x00: *mem_ptr  = val (overwrite existing value)
+#   case 0x01: *mem_ptr += val (add to existing value)
+#   case 0x02: *mem_ptr -= val (subtract from existing value)
+#   case 0x03: *mem_ptr *= val (multiply with existing value)
+#   case 0x04: *mem_ptr /= val (divide existing value)
+#   case 0x05: *mem_ptr %= val (modulus of existing value)
+#   case 0x06: *mem_ptr &= val (bitwise AND of existing value)
+#   case 0x07: *mem_ptr |= val (bitwise OR of existing value)
+#
+# 
+# arg_0 = Address of current instruction
+# edi = 2 bytes starting at position 0x02 (address)
+# ebx = 2 bytes starting at position 0x04 (value)
+#
+# sub_414db0(x, y) -> Place "y" into the memory at "x" ????
+# 
+
+sub_40b010 (arg_0) { #opcode reg_calc
+  ebp = arg_0;
+  eax = ebp->field_44;
+  esi = ebp->field_44->field_8;
+  ecx = ebp->field_44->field_8->word_field_2;
+  edi = sub_414cf0 (edi,ecx) & 0xffff;
+  ebx = sub_414cf0 (edx = esi->word_field_4) & 0xffff;
+  sub_414e90 (eax = esi->word_field_2);
+  sub_414e90 (ecx = esi->word_field_4);
+
+  switch (eax = esi->byte_field_1) {
+    
+    case 0x00: loc_40B063:
+      sub_414db0 (esi->word_field_2, ebx & 0xffff);
+      goto loc_40b2a9;
+; ---------------------------------------------------------------------------
+
+    case 0x01: case 0x0d: loc_40B071:
+      sub_414db0 (esi->word_field_2, ecx = (ebx + edi) & 0xffff);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x02:
+    loc_40B081:
+      sub_414db0 (esi->word_field_2, edi - ebx);
+; ---------------------------------------------------------------------------
+
+    case 0x03:
+    loc_40B08B:
+      sub_414db0 (esi->word_field_2, ebx * edi);
+      break;
+; ---------------------------------------------------------------------------
+    
+    case 0x04:  loc_40B09C:
+    
+#		movsx	eax, di		; case 0x4
+#		movsx	ecx, bx
+#		cdq
+#		idiv	ecx
+#		movsx	edx, ax
+#		push	edx
+#		push	eax
+#		jmp	loc_40B2A4
+      sub_414db0 (esi->word_field_2, (edi & 0xffff) / (ebx & 0xffff));
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x05: loc_40B0B3:
+      sub_414db0 (esi->word_field_2, (edi & 0xffff) % (ebx & 0xffff));
+      // check : which one's division & which is modulus?
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x06: loc_40B0CA:
+      sub_414db0 (esi->word_field_2, bx & di);
+      break;
+; ---------------------------------------------------------------------------
+      
+    case 0x07:
+    loc_40B0DD:	
+      sub_414db0 (esi->word_field_2, bx | di);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x08:
+    loc_40B0F0:
+      sub_414db0 (esi->word_field_2, esi->word_field_0[bx]);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x09:
+    loc_40B108:
+      sub_414db0 (esi->word_field_2, ecx->field_0c[bx] + ecx->field_0c[bc+1] << 8);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x0a:
+      ebp->field_44->field_0c[di] = bl;
+      break;
+; ---------------------------------------------------------------------------
+
+    loc_40B140:
+    case 0x0b:
+      ebp->field_44->field_0c[di] = bx & 0xff;
+      ebp->field_44->field_0c[di+1] = (bx >> 8) & 0xff;
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x0c:
+      sub_414db0 (esi->field_2, esi->field_4);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x0e:
+    loc_40B165:
+      ebp->field_44->field_8 = ebp->field_44->field_0c + di;
+      sub_40a8a0 (ebp);
+      return 0;
+; ---------------------------------------------------------------------------
+
+    case 0x0f: loc_40B181:
+      eax = ebp->field_44;
+      esi = ebp->field_44->field_0c[esi->word_field_2];
+      edx = esi + 2*bx;
+      eax->field_8 = esi->word_field_0c[edx->byte_field_1 << 8 + edx->byte_field_0];
+      sub_40a8a0 (ebp);
+      return 0;
+; ---------------------------------------------------------------------------
+
+    case 0x10:
+      //eax:edx = sub_448760();
+      sub_414db0 (esi->word_field_2, sub_448760() / bx); # div or modulus??
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x11:
+      if (bx + di <= 0xff) {
+				sub_414db0 (esi->word_field_2, edi + ebx);
+      }
+			
+			else {
+				sub_414db0 (esi->word_field_2, 0xff);
+      }
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x12: loc_40B1FE:
+      if (edi - ebx >= 0) { // sub eax, edx; jns   RE
+        sub_414db0 (esi->word_field_2, edi - ebx);
+      } else {
+        sub_414db0 (esi->word_field_2, 0); 
+      }
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x13: loc_40B225:
+      if (bx != 0) ++ edi;
+    loc_40B22D:
+      #goto loc_40b29e;
+      sub_414db0 (esi->word_field_2, (ebx == 0) ? edi : edi+1);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x14:  loc_40B232:
+      if ((esi->word_field_2 & 0x2000)
+        sub_41b2c0 (esi->word_field_2);
+      break;
+			
+		// OLLYDBG	
+		if (WORD_PTR_DS:[ESI+2] == 0x2000)
+			break;
+			
+		sub_4152c0(WORD_PTR_DS:[ESI+2])
+		
+		
+		
+; ---------------------------------------------------------------------------
+
+    case 0x15: loc_40B254:
+      dword_e7e648->field_2856 = esi->word_field_2;
+      sub_4166e0 (dword_e7e648->field_2856, 1);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x16:
+      sub_4167c0 (esi->word_field_2);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x17:
+      sub_4161d0 (esi->word_field_2);
+      break;
+; ---------------------------------------------------------------------------
+
+    case 0x18: loc_40B299:
+      sub_414db0 (esi->word_field_2, sub_414f10());
+      break;
+
+    loc_40B29E:
+      sub_414db0 (esi->word_field_2, eax);
+      break;
+
+    loc_40B2A4:
+      *** call sub_414db0(...);
+		#call	sub_414DB0
+  }
+
+  ebp->field_44->field_8 += 6;
+  sub_40a8a0 (ebp);
+  return 0;
+}
+
+
+
+sub_4152c0(arg)
+{
+  // arg0 = 2nd entry (ie. address)
+	// arg1 = 3rd entry (ie. value) ????
+
+	ecx = arg0 & 0x00ff
+	dl = 1 << cl
+	
+	if (arg1 == 0)
+		dl != dl //bitwise not
+	
+	DWORD_PTR_DS:[00E80B68] = dl
+}
+
+
+sub_414db0(arg0, arg1)
+{
+	ecx = WORD_PTR_SS:[arg1]
+	eax = DWORD_PTR_SS:[00E7E648]
+	edx = ecx + 0xC000
+	
+	if (edx == 0x4000)
+	  {
+		//todo
+		}
+	if (edx != 0x8000)
+	  return
+		
+	edx = ecx + 0x2000
+	if ()
+}
+
+
+
+
+
+
+
+# ROOT = arg_0
+# ROOT->field_44->field_08 == IP
+# ROOT->field_44->field_0c == SCENE
+
+
+sub_40C510	proc near		; DATA XREF: .data:004B02B4o
+					; .data:004B0668o
+sub_40c510 (arg_0) { // opcodes 0x25 and 0x74 (sel_disp and sel_disp2)
+
+edi = ROOT;
+eax = ROOT->field_44;
+esi = IP;
+if (*IP == 0x25) {
+  loc_40C52D:
+  var_4 = edi = IP + 6;
+} else {
+  var_4 = ecx = IP + 4;
+}
+
+loc_40C534:				; CODE XREF: sub_40C510+1Bj
+eax = ROOT->field_10;
+ebx = 0;
+if (ROOT->field_10 == 0) goto loc_40c668;
+if (ROOT->field_10 == 2) goto loc_40c82f;
+if (ROOT->field_10 != 3) goto loc_40c84d;
+ebp = var_4;
+edi = 0;
+if (IP->byte_field_1 <= 0) goto loc_40c5d0;
+
+loc_40C560:
+if ((eax = sub_414cf0 (var_4->field_4)) == 0) goto loc_40c585;
+if ((edx = dword_e7e648->field_1d74a) == 0) goto loc_40c595;
+++ ebx;
+
+loc_40C585:
+eax = IP->byte_field_1;
+++ edi;
+ebp += 8;
+if (edi < eax) goto loc_40c560; else goto loc_40c5d0;
+; ---------------------------------------------------------------------------
+
+loc_40C595:
+sub_414db0 (esi->word_field_2, edi);
+if ((eax = ebp->word_field_6) == 0xffff) goto loc_40c5d0;
+if (dword_e7e648->field_28ac == 1) goto loc_40c5d0;
+sub_415270 (eax = dword_e7e648->field_30b0, edx = ebp->word_field_6);
+
+loc_40C5D0:	
+		
+sub_41c7e0();
+sub_41c4d0();
+if (dword_e7e648->field_28ac == 1) goto loc_40c5ee;
+sub_41d330();
+
+loc_40C5EE:	
+sub_41d380();
+edx = var_4;
+if ( (edx + edi*8 + 2)->word_field_0 != 0xffff) goto loc_40c647;
+ecx = ROOT;
+edx = IP->byte_field_1;
+eax = ROOT->field_44;
+if (IP->byte_field_0 != 0x25) goto loc_40c62d;
+IP += 4 + 8*edx;
+sub_40a8a0(ROOT);
+return 0;
+; ---------------------------------------------------------------------------
+
+loc_40C62D:
+IP += 6 + 8*edx;
+sub_40a8a0 (ROOT);
+return 0;
+; ---------------------------------------------------------------------------
+
+loc_40C647:
+edx = ROOT;
+ecx = ROOT->field_44;
+eax = eax & 0xffff + SCENE;
+IP = SCENE + (eax & 0xffff);
+sub_40a8a0 (ROOT);
+return 0;
+; ---------------------------------------------------------------------------
+
+loc_40C668:
+if (dword_e7e648->byte_field_28f4 != bl) goto loc_40c687;
+if (dword_e7e648->byte_field_28c1 != bl) goto loc_40c687;
+sub_415550();
+
+loc_40C687:
+eax->byte_field_28f4 = bl;
+eax->field_28d0 = ebx;
+sub_414db0 (IP->word_field_2, 0xffffffff);
+ebp = 0;
+if (IP->byte_filed_1 <= bl) goto loc_40c735;
+edi = var_4 + 6;
+loc_40C6C0:
+if (sub_414cf0 ((edi - 2)->word_field_0) == 0) goto loc_40c723;
+if ((eax = edi->word_field_0) == 0xffff) goto loc_40c6f6;
+eax = sub_415230 (eax = dword_e7e648->word_field_30b0, edi->word_field_0);
+goto loc_40c6f8;
+; ---------------------------------------------------------------------------
+
+loc_40C6F6:	
+eax = 0;
+		xor	eax, eax
+
+loc_40C6F8:	
+sub_41d400 (0xffffffff, 0xffffffff, 1, (edi - 4)->word_field_0, eax);
+sub_41d310 ( edx = SCENE + (edi-6)->word_field_0);
+++ ebx;
+
+loc_40C723:				; CODE XREF: sub_40C510+1BFj
+edx = IP->byte_field_1;
+++ ebp;
+edi += 8;
+if (ebp < edx) goto loc_40c6c0;
+edi = ROOT;
+
+loc_40C735:				; CODE XREF: sub_40C510+19Dj
+dword_e7e648->field_28ac = ebx;
+if (ebx != 0) goto loc_40c7a1;
+sub_414db0 (IP->word_field_2, IP->byte_field_1);
+sub_41c7e0();
+sub_41c4d0();
+eax = ROOT->field_44;
+ecx = IP->byte_field_1;
+if (esi->byte_field_0 != 0x25) goto loc_40c787;
+IP += 4 + 8*(IP->byte_field_1);
+sub_40a8a0 (ROOT);
+return 0;
+#; ---------------------------------------------------------------------------
+
+loc_40C787:				; CODE XREF: sub_40C510+25Bj
+IP += 6 + 8*ecx;
+sub_40a8a0 (ROOT);
+return 0;
+; ---------------------------------------------------------------------------
+
+loc_40C7A1:				; CODE XREF: sub_40C510+232j
+ebp = 1;
+if (ebx != 1) goto loc_40c7bb;
+dword_e7e648->field_1d74a = 0;
+goto loc_40c847;
+; ---------------------------------------------------------------------------
+
+loc_40C7BB:				; CODE XREF: sub_40C510+298j
+if (dword_e7e648->byte_field_28c1 != 0) goto loc_40c7ef;
+sub_415520();
+if (byte_2b6cf11 == 1) goto loc_40c7dc;
+if (byte_2b6cf11 != 3) goto loc_40c7ef;
+
+loc_40C7DC:				; CODE XREF: sub_40C510+2C6j
+if (dword_e7e648->field_28ac == ebp) goto loc_40c7ef;
+sub_415a50();
+
+loc_40C7EF:				; CODE XREF: sub_40C510+2B8j
+dword_e7e648->field_1324 = 0;
+dword_e7e648->field_13250 = 2;
+dword_e7e648->field_28f0 = ebp;
+sub_4095a0 (5);
+sub_41d3c0 (2);
+edi->word_field_10 = 2;
+
+loc_40C82F:				; CODE XREF: sub_40C510+35j
+if (sub_41d1d0 ()) goto loc_40c84d;
+dword_e7e648->field_28f0 = 0;
+
+loc_40C847:				; CODE XREF: sub_40C510+2A6j
+edi->word_field_10 = 3;
+
+loc_40C84D:				; CODE XREF: sub_40C510+3Ej
+					; sub_40C510+326j
+edi->word_field_0e = 0;
+edi->byte_field_0d = 0;
+return 0;
+}
+
+
+
+
+# ext_goto
+sub_40aeb0(arg0)
+{
+	esi = arg0
+	
+	eax = DWORD_PTR_DS:[00E7E648]
+	ecx = DWORD_PTR_DS:[eax + 0BF0C0]
+	
+	edx = DWORD_PTR_DS:[esi+0x44]
+	eax = DWORD_PTR_DS:[edx+0x0c]
+	
+	sub_480EA0(eax, ecx, 0x10000)
+	
+	eax = DWORD_PTR_DS:[00E7E648]
+	WORD_PTR_DS:[eax + 30B0] = WORD_PTR_DS:[eax + 0BF0E0] & 0xffff
+	
+	eax = DWORD_PTR_DS:[esi+0x44]
+	edx = DWORD_PTR_DS:[eax+0x0c]
+	
+	DWORD_PTR_DS:[eax+8] = edx
+	
+	sub_40a8a0(esi)
+	esp += 0x10
+}
