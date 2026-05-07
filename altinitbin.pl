@@ -5204,7 +5204,7 @@ MAKE_BASE_DATA
             MAKE_ESCAPED("Baby Colic"),
             "Here is one of the theories about baby colic.%N%NWhy does \"baby colic\" occur in infants?%N%N\"Baby colic\" is a condition in which a baby becomes unsettled and irritable for no apparent reason, and cries frequently (e.g. at night). It is normally categorized as abnormal neuronal excitability resulting from dysautonomia in infants, but the exact reasons for its occurrence remain unclear.",
             "One explanation suggests that the contrast between the clear, vivid consciousness of an infant and the inability to properly control its body results in an intense stress for the baby, which could cause it to become irritated and cry.%N%NThat is why, from the point of view of an adult, it seems that they are just crying for no reason.",
-            "There are also medics professionals who suppose that if a baby was given a body which would properly obey its will, it would turn into a cold-blooded killer.%NThey argue that since babies have not yet learned human morals, their instincts would cause them to go on a bloody rampage.%N%NInfants often exhibit cruelty. They can calmly kill other living beings with no reservation, thinking it nothing more than part of a game.",
+            "There are also medical professionals who suppose that if a baby was given a body which would properly obey its will, it would turn into a cold-blooded killer.%NThey argue that since babies have not yet learned human morals, their instincts would cause them to go on a bloody rampage.%N%NInfants often exhibit cruelty. They can calmly kill other living beings with no reservation, thinking it nothing more than part of a game.",
             "As a person grows up, when they reach the age of about three, they become to be able to think from the perspective of other people and put themselves in their shoes; the ability to empathize is established.%NIt is at this age that they learn for the first time that things which one doesn't like being done to them must never be done to others as well.%N%NPerhaps this is the reason why human infants are so underdeveloped in physical strength compared with other mammals.",
             "This represents a considerable obstacle in the newborn's path to survival, but in fact, it is actually not so far-fetched a thought that it is rather the lives of adults that would be in danger if it was the other way around.%N%NIt is not impossible to imagine that, by realizing the need to protect each other from their unparalleled propensity for cruelty, humankind has evolved to create the civilization in which we live and establish culture as a means for spiritual growth.",
             "Additionally, it makes sense to think that the fact that as-of-yet mentally undeveloped newborns are deprived of physical strength lies in accordance with the principle of natural selection.%N%N\"Baby colic\", being a representation of instinctive desires, makes known the true nature of man.%N%NIt is the scream of madness, and at the same time, the pathetic lamentation of having been given life in this world. "
@@ -5434,10 +5434,10 @@ MAKE_BASE_DATA
             "Physical Strength: Extremely low%N".
             "Cooperativeness: Extremely low%N".
             "Personality:%N".
-            "    Personality: Aggressive, lives only for the moment,%N".
-            "    extreme cyclothymia, changes her evaluation of other%N".
-            "    people excessively, loves despair and fears hope (has%N".
-            "    a tendency toward borderline personality disorder)%N".
+            "    Aggressive, lives only for the moment, extreme%N".
+            "    cyclothymia, changes her evaluation of other people%N".
+            "    excessively, loves despair and fears hope (has a%N".
+            "    tendency toward borderline personality disorder)%N".
             "Hobbies:%N".
             "    Talking by phone, e-mail, and chat%N",
             
@@ -5601,7 +5601,7 @@ MAKE_BASE_DATA
             "——1991, April 30th%N".
             "Inubushi Keiko is born.%N",
             
-            "——1990, October 30th%N".
+            "——1991, October 30th%N".
             "Suzukage Hotori is born.%N".
             "%N".
             "——1998, Date Unknown%N".
@@ -5637,7 +5637,7 @@ MAKE_BASE_DATA
             "Satoru meets Enomoto in school, and they deepen the bonds of their friendship.%N".
             "%N".
             "——2008, Summer%N".
-            "Satoru and Mayazumi begin dating.%N".
+            "Satoru and Mayuzumi begin dating.%N".
             "%N".
             "——2008, Date Unknown%N".
             "DSM-VI is published. (Diagnostic and Statistical Manual of Mental Disorders, 6th Edition) %N",
@@ -5682,7 +5682,7 @@ MAKE_BASE_DATA
             "Using Leiblich's top secret molecular quantum teleportation equipment as a base, they start work on space-time transfer equipment.%N".
             "%N".
             "——2010, Summer%N".
-            "Satoru and Mayazumi break up.%N",
+            "Satoru and Mayuzumi break up.%N",
             
             "——2010, Date Unknown%N".
             "Trials surrounding a certain cloned human's birth are held in Japan. The accused, a single scientist, produced a clone of his own son. Soon, his secret was leaked, and he was put on trial.%N".
